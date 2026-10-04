@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useFilters } from '../../context/FilterContext';
 import { useLanguage } from '../../context/LanguageContext';
+import { LanguageDropdown } from '../../components/common/LanguageDropdown';
 import { LockKey, EnvelopeSimple, ArrowRight, ShieldCheck, ArrowLeft, Globe } from '@phosphor-icons/react';
 import { Button } from '../../components/common/Button';
 
@@ -35,14 +36,7 @@ export const SignInPage: React.FC = () => {
           <span>{t('header.backOverview')}</span>
         </Link>
         <div className="flex items-center gap-3">
-          <button
-            onClick={() => setLang(lang === 'EN' ? 'HI' : 'EN')}
-            className="flex items-center gap-1.5 px-2.5 py-1 rounded text-xs font-semibold bg-govt-50 hover:bg-govt-100 border border-govt-200 text-govt-800 transition-colors"
-            title={t('header.toggleLang')}
-          >
-            <Globe size={14} className="text-govt-500" />
-            <span>{lang === 'EN' ? 'हिन्दी' : 'English'}</span>
-          </button>
+          <LanguageDropdown />
           <span className="font-bold text-xs text-navy-900 tracking-wider">{t('brand.name')}</span>
         </div>
       </header>

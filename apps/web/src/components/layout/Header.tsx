@@ -9,6 +9,7 @@ import {
 } from '@phosphor-icons/react';
 import { useFilters } from '../../context/FilterContext';
 import { useLanguage } from '../../context/LanguageContext';
+import { LanguageDropdown } from '../common/LanguageDropdown';
 import { Link, useNavigate } from 'react-router-dom';
 
 interface HeaderProps {
@@ -64,15 +65,8 @@ export const Header: React.FC<HeaderProps> = ({
 
       {/* Right: Language, Notifications, Officer Profile */}
       <div className="flex items-center gap-3 text-xs">
-        {/* Language selector toggle */}
-        <button
-          onClick={() => setLang(lang === 'EN' ? 'HI' : 'EN')}
-          className="flex items-center gap-1.5 px-2.5 py-1 rounded text-xs font-semibold bg-govt-50 hover:bg-govt-100 border border-govt-200 text-govt-800 transition-colors"
-          title={t('header.toggleLang')}
-        >
-          <Globe size={14} className="text-govt-500" />
-          <span>{lang === 'EN' ? 'हिन्दी' : 'English'}</span>
-        </button>
+        {/* Language selector dropdown */}
+        <LanguageDropdown />
 
         {/* Notifications */}
         <Link

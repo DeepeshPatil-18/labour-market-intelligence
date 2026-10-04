@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, UserCircle, Globe } from '@phosphor-icons/react';
 import { plfsService } from '../../services/plfsService';
 import { useLanguage } from '../../context/LanguageContext';
+import { LanguageDropdown } from '../../components/common/LanguageDropdown';
 
 export const LandingPage: React.FC = () => {
   const plfsBaseline = plfsService.getNationalBaseline2025();
@@ -32,15 +33,8 @@ export const LandingPage: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-3">
-            {/* Language Toggle */}
-            <button
-              onClick={() => setLang(lang === 'EN' ? 'HI' : 'EN')}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-semibold bg-white/90 hover:bg-white border border-slate-300 text-slate-800 transition-colors shadow-sm"
-              title={t('header.toggleLang')}
-            >
-              <Globe size={14} className="text-slate-600" />
-              <span>{lang === 'EN' ? 'हिन्दी' : 'English'}</span>
-            </button>
+            {/* Language Selector Dropdown */}
+            <LanguageDropdown buttonClassName="bg-white/90 hover:bg-white border-slate-300 text-slate-800 shadow-sm py-1.5 px-3" />
 
             <Link
               to="/sign-in"
