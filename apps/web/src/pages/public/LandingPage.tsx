@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, UserCircle } from '@phosphor-icons/react';
+import { ArrowRight, UserCircle, Globe } from '@phosphor-icons/react';
 import { plfsService } from '../../services/plfsService';
+import { useLanguage } from '../../context/LanguageContext';
 
 export const LandingPage: React.FC = () => {
   const plfsBaseline = plfsService.getNationalBaseline2025();
+  const { lang, setLang, t } = useLanguage();
 
   return (
     <div className="bg-white text-slate-900 font-sans selection:bg-slate-200">
@@ -25,33 +27,45 @@ export const LandingPage: React.FC = () => {
         <header className="relative z-10 h-20 px-6 sm:px-12 lg:px-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <span className="font-bold text-sm tracking-widest uppercase text-slate-900">
-              KUSHAL
+              {t('brand.name')}
             </span>
           </div>
 
-          <Link
-            to="/sign-in"
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded text-xs font-semibold bg-slate-900 text-white hover:bg-slate-800 transition-colors shadow-sm"
-          >
-            <UserCircle size={15} />
-            <span>Government Sign In</span>
-          </Link>
+          <div className="flex items-center gap-3">
+            {/* Language Toggle */}
+            <button
+              onClick={() => setLang(lang === 'EN' ? 'HI' : 'EN')}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-semibold bg-white/90 hover:bg-white border border-slate-300 text-slate-800 transition-colors shadow-sm"
+              title={t('header.toggleLang')}
+            >
+              <Globe size={14} className="text-slate-600" />
+              <span>{lang === 'EN' ? 'हिन्दी' : 'English'}</span>
+            </button>
+
+            <Link
+              to="/sign-in"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded text-xs font-semibold bg-slate-900 text-white hover:bg-slate-800 transition-colors shadow-sm"
+            >
+              <UserCircle size={15} />
+              <span>{t('landing.heroCta')}</span>
+            </Link>
+          </div>
         </header>
 
         {/* Hero Content on Left */}
         <div className="relative z-10 max-w-7xl mx-auto w-full px-6 sm:px-12 lg:px-16 py-12 sm:py-16 my-auto">
           <div className="max-w-xl space-y-6 text-left">
             <span className="text-[11px] font-bold uppercase tracking-widest text-slate-500 block">
-              NATIONAL LABOUR MARKET INTELLIGENCE
+              {t('landing.eyebrow')}
             </span>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-950 tracking-tight leading-[1.12]">
-              Understand India's <br className="hidden sm:inline" />
-              changing workforce.
+              {t('landing.heroTitle1')} <br className="hidden sm:inline" />
+              {t('landing.heroTitle2')}
             </h1>
 
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
-              Identify skill shortages, anticipate emerging demand, and plan training priorities across India.
+              {t('landing.heroSubtitle')}
             </p>
 
             <div className="pt-3">
@@ -59,7 +73,7 @@ export const LandingPage: React.FC = () => {
                 to="/sign-in"
                 className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded text-xs sm:text-sm font-semibold bg-slate-900 text-white hover:bg-slate-800 transition-colors shadow-sm"
               >
-                <span>Government Sign In</span>
+                <span>{t('landing.heroCta')}</span>
                 <ArrowRight size={15} />
               </Link>
             </div>
@@ -146,8 +160,8 @@ export const LandingPage: React.FC = () => {
 
         {/* Bottom bar of hero */}
         <div className="relative z-10 px-6 sm:px-12 lg:px-16 pb-6 text-xs text-slate-400 flex items-center justify-between">
-          <span className="text-[11px]">Ministry of Skill Development & Entrepreneurship (MSDE)</span>
-          <span className="text-[11px] font-medium tracking-wide text-slate-400">SIH 2026 · Problem Statement 26246</span>
+          <span className="text-[11px]">{t('landing.ministry')}</span>
+          <span className="text-[11px] font-medium tracking-wide text-slate-400">{t('landing.sihTag')}</span>
         </div>
       </section>
 
@@ -156,10 +170,10 @@ export const LandingPage: React.FC = () => {
         <div className="max-w-6xl mx-auto px-6 sm:px-12 lg:px-16 space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 border-b border-slate-200/60 pb-3">
             <h2 className="text-base font-bold text-slate-900 tracking-tight">
-              India at a glance
+              {t('landing.glanceTitle')}
             </h2>
             <span className="text-xs text-slate-500 font-medium font-mono">
-              {plfsBaseline.provenance}
+              {t('landing.glanceSource')}
             </span>
           </div>
 
@@ -170,9 +184,9 @@ export const LandingPage: React.FC = () => {
                 {plfsBaseline.lfpr}%
               </div>
               <div className="text-xs text-slate-600 font-medium">
-                Labour Force Participation
+                {t('landing.lfpr')}
               </div>
-              <div className="text-[10px] text-slate-400">Usual status (15+ years)</div>
+              <div className="text-[10px] text-slate-400">{t('landing.usualStatus')}</div>
             </div>
 
             {/* Metric 2 */}
@@ -181,9 +195,9 @@ export const LandingPage: React.FC = () => {
                 {plfsBaseline.wpr}%
               </div>
               <div className="text-xs text-slate-600 font-medium">
-                Worker Population Ratio
+                {t('landing.wpr')}
               </div>
-              <div className="text-[10px] text-slate-400">Usual status (15+ years)</div>
+              <div className="text-[10px] text-slate-400">{t('landing.usualStatus')}</div>
             </div>
 
             {/* Metric 3 */}
@@ -192,9 +206,9 @@ export const LandingPage: React.FC = () => {
                 {plfsBaseline.unemploymentRate}%
               </div>
               <div className="text-xs text-slate-600 font-medium">
-                Unemployment Rate
+                {t('landing.ur')}
               </div>
-              <div className="text-[10px] text-slate-400">Usual status (15+ years)</div>
+              <div className="text-[10px] text-slate-400">{t('landing.usualStatus')}</div>
             </div>
 
             {/* Metric 4 */}
@@ -203,9 +217,9 @@ export const LandingPage: React.FC = () => {
                 {plfsBaseline.agricultureShare}%
               </div>
               <div className="text-xs text-slate-600 font-medium">
-                Employment in Agriculture
+                {t('landing.agriShare')}
               </div>
-              <div className="text-[10px] text-slate-400">National sector share</div>
+              <div className="text-[10px] text-slate-400">{t('landing.sectorShare')}</div>
             </div>
           </div>
         </div>
@@ -216,38 +230,38 @@ export const LandingPage: React.FC = () => {
         <div className="max-w-6xl mx-auto px-6 sm:px-12 lg:px-16 space-y-10">
           <div className="space-y-2 text-left">
             <div className="text-[11px] font-bold uppercase tracking-widest text-slate-500">
-              IDENTIFY → FORECAST → PLAN
+              {t('landing.workflowEyebrow')}
             </div>
             <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-              From labour-market signals to actionable workforce planning.
+              {t('landing.workflowTitle')}
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-2">
             <div className="space-y-2 bg-slate-50/50 p-6 rounded border border-slate-200/80">
               <div className="text-xs font-bold text-slate-900 uppercase tracking-wider">
-                01 / Identify
+                {t('landing.step1Title')}
               </div>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Detect skill shortages and emerging demand across regional industry clusters using employer requisitions and NCO 2015 standards.
+                {t('landing.step1Desc')}
               </p>
             </div>
 
             <div className="space-y-2 bg-slate-50/50 p-6 rounded border border-slate-200/80">
               <div className="text-xs font-bold text-slate-900 uppercase tracking-wider">
-                02 / Forecast
+                {t('landing.step2Title')}
               </div>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Anticipate future labour-market gaps across 3, 6, and 12-month horizons by joining macro PLFS baselines with hiring growth velocity.
+                {t('landing.step2Desc')}
               </p>
             </div>
 
             <div className="space-y-2 bg-slate-50/50 p-6 rounded border border-slate-200/80">
               <div className="text-xs font-bold text-slate-900 uppercase tracking-wider">
-                03 / Plan
+                {t('landing.step3Title')}
               </div>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Prioritize ITI seat capacity, accredited training sanctioning, and local skill development programs based on effective supply gaps.
+                {t('landing.step3Desc')}
               </p>
             </div>
           </div>
@@ -256,8 +270,8 @@ export const LandingPage: React.FC = () => {
 
       {/* RESTRAINED FOOTER */}
       <footer className="py-6 px-6 sm:px-12 lg:px-16 text-xs text-slate-400 bg-white flex flex-col sm:flex-row items-center justify-between gap-3">
-        <span>Smart India Hackathon 2026 · Problem Statement 26246</span>
-        <span className="text-[11px] text-slate-400">National Labour Market Intelligence Decision Support Platform</span>
+        <span>{t('landing.sihTag')}</span>
+        <span className="text-[11px] text-slate-400">{t('landing.footer')}</span>
       </footer>
     </div>
   );

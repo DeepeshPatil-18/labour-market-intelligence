@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { useFilters } from '../../context/FilterContext';
+import { useLanguage } from '../../context/LanguageContext';
 import { mapDataService, StateLabourMetric, DistrictLabourMetric } from '../../services/mapDataService';
 import { geoMercator, geoPath } from 'd3-geo';
 import { MapPin, ArrowLeft, CheckCircle, Info, SpinnerGap, ArrowSquareOut } from '@phosphor-icons/react';
@@ -20,6 +21,7 @@ interface TooltipInfo {
 
 export const IndiaChoroplethMap: React.FC = () => {
   const { filters, setGeography } = useFilters();
+  const { t } = useLanguage();
   const containerRef = useRef<HTMLDivElement>(null);
 
   // GeoJSON state
@@ -219,7 +221,7 @@ export const IndiaChoroplethMap: React.FC = () => {
       <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-govt-100">
         <div className="flex items-center gap-2">
           <MapPin size={16} className="text-govt-700" />
-          <span className="text-xs font-semibold text-govt-500 uppercase tracking-wider">Analysis Scope:</span>
+          <span className="text-xs font-semibold text-govt-500 uppercase tracking-wider">{t('header.scope')}:</span>
           
           {/* Breadcrumbs */}
           <div className="flex items-center gap-1.5 text-xs">
@@ -231,7 +233,7 @@ export const IndiaChoroplethMap: React.FC = () => {
                   : 'text-govt-600 hover:text-navy-900'
               }`}
             >
-              India
+              {t('header.scopeAllIndia')}
             </button>
             {filters.state !== 'ALL' && (
               <>
@@ -263,23 +265,23 @@ export const IndiaChoroplethMap: React.FC = () => {
         <div className="flex flex-wrap items-center gap-3 text-[11px] text-govt-600">
           <div className="flex items-center gap-1">
             <span className="w-2.5 h-2.5 rounded-sm bg-red-300 border border-red-600" />
-            <span>Critical shortage</span>
+            <span>{t('map.statusCriticalShortage')}</span>
           </div>
           <div className="flex items-center gap-1">
             <span className="w-2.5 h-2.5 rounded-sm bg-amber-200 border border-amber-500" />
-            <span>Shortage</span>
+            <span>{t('map.statusShortage')}</span>
           </div>
           <div className="flex items-center gap-1">
             <span className="w-2.5 h-2.5 rounded-sm bg-emerald-200 border border-emerald-600" />
-            <span>Balanced</span>
+            <span>{t('map.statusBalanced')}</span>
           </div>
           <div className="flex items-center gap-1">
             <span className="w-2.5 h-2.5 rounded-sm bg-sky-200 border border-sky-600" />
-            <span>Oversupply</span>
+            <span>{t('map.statusOversupply')}</span>
           </div>
           <div className="flex items-center gap-1">
             <span className="w-2.5 h-2.5 rounded-sm bg-slate-100 border border-slate-300" />
-            <span className="text-govt-400">Insufficient data</span>
+            <span className="text-govt-400">{t('map.statusInsufficient')}</span>
           </div>
         </div>
       </div>

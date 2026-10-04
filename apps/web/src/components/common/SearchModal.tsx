@@ -1,12 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { MagnifyingGlass, X, ArrowRight, Briefcase, IdentificationCard, MapPin, Tag } from '@phosphor-icons/react';
 import { useFilters } from '../../context/FilterContext';
+import { useLanguage } from '../../context/LanguageContext';
 import { occupationService } from '../../services/occupationService';
 import { skillService } from '../../services/skillService';
 import { useNavigate } from 'react-router-dom';
 
 export const SearchModal: React.FC = () => {
   const { isSearchOpen, setIsSearchOpen, setGeography, setSector } = useFilters();
+  const { t } = useLanguage();
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<{
     occupations: any[];
@@ -91,7 +93,7 @@ export const SearchModal: React.FC = () => {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search NCO codes (e.g. 1111.0100), skills, occupations, districts..."
+            placeholder={t('search.placeholder')}
             className="w-full bg-transparent px-3 text-sm text-govt-900 placeholder:text-govt-400 focus:outline-none"
           />
           <button
@@ -106,8 +108,8 @@ export const SearchModal: React.FC = () => {
         <div className="overflow-y-auto p-3 divide-y divide-govt-100 text-sm">
           {!query.trim() && (
             <div className="py-8 text-center text-xs text-govt-400">
-              <p className="font-medium text-govt-600 mb-1">Quick Search across Canonical Datasets</p>
-              <p>Type an NCO 2015 code, trade title, skill keyword, or district name</p>
+              <p className="font-medium text-govt-600 mb-1">{t('search.quickTitle')}</p>
+              <p>{t('search.quickSub')}</p>
               <div className="flex flex-wrap justify-center gap-1.5 mt-3">
                 {['React', 'CNC Operator', '1111.0100', 'Nashik', 'Manufacturing'].map(tag => (
                   <button
@@ -124,7 +126,7 @@ export const SearchModal: React.FC = () => {
 
           {query.trim() && !loading && totalResults === 0 && (
             <div className="py-8 text-center text-xs text-govt-400">
-              No matching occupations, skills, or districts found for "{query}".
+              {t('search.noResults').replace('{query}', query)}
             </div>
           )}
 
@@ -132,7 +134,7 @@ export const SearchModal: React.FC = () => {
           {results.occupations.length > 0 && (
             <div className="py-2">
               <span className="text-[11px] font-semibold uppercase tracking-wider text-govt-400 px-2 block mb-1">
-                Occupations (NCO 2015)
+                {t('search.occupations')}
               </span>
               {results.occupations.map(occ => (
                 <div
@@ -164,7 +166,7 @@ export const SearchModal: React.FC = () => {
           {results.skills.length > 0 && (
             <div className="py-2">
               <span className="text-[11px] font-semibold uppercase tracking-wider text-govt-400 px-2 block mb-1">
-                Skills
+                {t('search.skills')}
               </span>
               {results.skills.map(sk => (
                 <div
@@ -196,7 +198,7 @@ export const SearchModal: React.FC = () => {
           {results.districts.length > 0 && (
             <div className="py-2">
               <span className="text-[11px] font-semibold uppercase tracking-wider text-govt-400 px-2 block mb-1">
-                Geographic Districts
+                {t('search.districts')}
               </span>
               {results.districts.map(dist => (
                 <div
@@ -211,10 +213,10 @@ export const SearchModal: React.FC = () => {
                   <div className="flex items-center gap-2.5">
                     <MapPin size={18} className="text-amber-700 shrink-0" />
                     <span className="font-medium text-govt-900 group-hover:text-primary-800">
-                      {dist} District
+                      {dist}
                     </span>
                   </div>
-                  <span className="text-xs text-primary-700 font-medium">Filter Dashboard</span>
+                  <span className="text-xs text-primary-700 font-medium">{t('search.filterDashboard')}</span>
                 </div>
               ))}
             </div>
@@ -224,7 +226,7 @@ export const SearchModal: React.FC = () => {
           {results.sectors.length > 0 && (
             <div className="py-2">
               <span className="text-[11px] font-semibold uppercase tracking-wider text-govt-400 px-2 block mb-1">
-                Sectors
+                {t('search.sectors')}
               </span>
               {results.sectors.map(sec => (
                 <div
@@ -242,7 +244,7 @@ export const SearchModal: React.FC = () => {
                       {sec}
                     </span>
                   </div>
-                  <span className="text-xs text-primary-700 font-medium">Filter Sector</span>
+                  <span className="text-xs text-primary-700 font-medium">{t('search.filterSector')}</span>
                 </div>
               ))}
             </div>
@@ -258,3 +260,4 @@ export const SearchModal: React.FC = () => {
     </div>
   );
 };
+

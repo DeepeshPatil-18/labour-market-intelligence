@@ -12,6 +12,7 @@ import {
   SignOut
 } from '@phosphor-icons/react';
 import { useFilters } from '../../context/FilterContext';
+import { useLanguage } from '../../context/LanguageContext';
 
 interface SidebarProps {
   className?: string;
@@ -19,19 +20,20 @@ interface SidebarProps {
 
 export const Sidebar: React.FC<SidebarProps> = ({ className = '' }) => {
   const { logout } = useFilters();
+  const { t } = useLanguage();
 
   const governmentNav = [
-    { to: '/overview', label: 'Overview', icon: ChartPie },
-    { to: '/labour-market', label: 'Labour Market', icon: Briefcase },
-    { to: '/forecasts', label: 'Forecasts', icon: TrendUp },
-    { to: '/early-warnings', label: 'Early Warnings', icon: WarningCircle },
-    { to: '/skill-transitions', label: 'Skill Transitions', icon: ShareNetwork },
-    { to: '/training-allocation', label: 'Training Allocation', icon: SlidersHorizontal },
+    { to: '/overview', label: t('nav.overview'), icon: ChartPie },
+    { to: '/labour-market', label: t('nav.labourMarket'), icon: Briefcase },
+    { to: '/forecasts', label: t('nav.forecasts'), icon: TrendUp },
+    { to: '/early-warnings', label: t('nav.earlyWarnings'), icon: WarningCircle },
+    { to: '/skill-transitions', label: t('nav.skillTransitions'), icon: ShareNetwork },
+    { to: '/training-allocation', label: t('nav.trainingAllocation'), icon: SlidersHorizontal },
   ];
 
   const publicNav = [
-    { to: '/skill-finder', label: 'Skill Finder', icon: Compass },
-    { to: '/my-roadmap', label: 'My Roadmap', icon: Path },
+    { to: '/skill-finder', label: t('nav.skillFinder'), icon: Compass },
+    { to: '/my-roadmap', label: t('nav.myRoadmap'), icon: Path },
   ];
 
   return (
@@ -41,7 +43,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ className = '' }) => {
         {/* GOVERNMENT Section */}
         <div>
           <div className="px-3 mb-2 text-[10px] font-bold tracking-wider text-govt-400 uppercase">
-            GOVERNMENT
+            {t('nav.sectionGov')}
           </div>
           <nav className="space-y-0.5">
             {governmentNav.map(item => {
@@ -68,7 +70,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ className = '' }) => {
         {/* PUBLIC Section */}
         <div>
           <div className="px-3 mb-2 text-[10px] font-bold tracking-wider text-govt-400 uppercase">
-            PUBLIC
+            {t('nav.sectionPublic')}
           </div>
           <nav className="space-y-0.5">
             {publicNav.map(item => {
@@ -99,10 +101,10 @@ export const Sidebar: React.FC<SidebarProps> = ({ className = '' }) => {
         <button
           onClick={logout}
           className="text-[11px] text-govt-500 hover:text-red-700 flex items-center gap-1 font-medium"
-          title="Sign Out"
+          title={t('nav.exit')}
         >
           <SignOut size={12} />
-          <span>Exit</span>
+          <span>{t('nav.exit')}</span>
         </button>
       </div>
     </aside>

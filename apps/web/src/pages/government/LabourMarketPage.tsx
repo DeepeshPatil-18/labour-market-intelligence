@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useFilters } from '../../context/FilterContext';
+import { useLanguage } from '../../context/LanguageContext';
 import { labourMarketService, StateProfileRecord } from '../../services/labourMarketService';
 import { SkillDemandItem, JobPostingRecord } from '../../types';
 import { LoadingState } from '../../components/common/LoadingState';
@@ -9,6 +10,7 @@ import { CaretLeft, CaretRight, Buildings, Tag, MapPinLine } from '@phosphor-ico
 
 export const LabourMarketPage: React.FC = () => {
   const { filters, setSector, setTimeHorizon } = useFilters();
+  const { t } = useLanguage();
   const [skills, setSkills] = useState<SkillDemandItem[]>([]);
   const [sectors, setSectors] = useState<Array<{ sector: string; count: number; demandIndex: number }>>([]);
   const [jobPostings, setJobPostings] = useState<JobPostingRecord[]>([]);
@@ -46,13 +48,13 @@ export const LabourMarketPage: React.FC = () => {
   }, [filters.state, filters.district, filters.sector, page]);
 
   const scopeLabel = filters.state === 'ALL'
-    ? 'All India'
+    ? t('header.scopeAllIndia')
     : filters.district === 'ALL'
     ? filters.state
     : `${filters.state} · ${filters.district}`;
 
   if (loading) {
-    return <LoadingState message="Loading labour market intelligence..." />;
+    return <LoadingState message={t('common.loading')} />;
   }
 
   return (
@@ -61,10 +63,10 @@ export const LabourMarketPage: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 border-b border-govt-200 pb-4">
         <div>
           <h1 className="text-2xl font-bold text-navy-900 tracking-tight">
-            Labour Market Intelligence
+            {t('labour.title')}
           </h1>
           <div className="flex items-center gap-2 mt-1 text-sm text-govt-600">
-            <span>Scope:</span>
+            <span>{t('header.scope')}:</span>
             <span className="font-semibold text-navy-900 bg-govt-100 px-2 py-0.5 rounded text-xs">
               {scopeLabel}
             </span>
@@ -83,7 +85,7 @@ export const LabourMarketPage: React.FC = () => {
           <div className="flex items-center justify-between border-b border-primary-200/60 pb-2">
             <h3 className="font-bold text-sm text-navy-900 flex items-center gap-1.5">
               <Buildings size={16} className="text-primary-800" />
-              <span>{stateProfile.geography} Economy & Labour Structure</span>
+              <span>{stateProfile.geography} {t('labour.profileTitle')}</span>
             </h3>
             <span className="text-[11px] font-mono font-medium text-primary-800 bg-white px-2 py-0.5 rounded border border-primary-200">
               Scale Factor: {stateProfile.market_scale_factor}x
@@ -94,7 +96,7 @@ export const LabourMarketPage: React.FC = () => {
             <div className="space-y-1">
               <span className="font-semibold text-govt-700 flex items-center gap-1">
                 <Tag size={13} className="text-govt-500" />
-                <span>Primary Specialization Sectors:</span>
+                <span>{t('labour.primaryIndustries')}:</span>
               </span>
               <div className="flex flex-wrap gap-1">
                 {stateProfile.primary_industries.split(';').map(ind => (
@@ -108,7 +110,7 @@ export const LabourMarketPage: React.FC = () => {
             <div className="space-y-1">
               <span className="font-semibold text-govt-700 flex items-center gap-1">
                 <MapPinLine size={13} className="text-govt-500" />
-                <span>Key Industrial Labour Clusters:</span>
+                <span>{t('labour.labourClusters')}:</span>
               </span>
               <div className="flex flex-wrap gap-1">
                 {stateProfile.labour_clusters.split(';').map(cls => (
@@ -126,7 +128,7 @@ export const LabourMarketPage: React.FC = () => {
       <div className="flex flex-wrap items-center justify-between gap-4 p-4 bg-white border border-govt-200 rounded-card shadow-subtle text-xs">
         <div className="flex flex-wrap items-center gap-4">
           <div>
-            <label className="text-govt-500 font-semibold block mb-1">Industry Sector</label>
+            <label className="text-govt-500 font-semibold block mb-1">{t('labour.filterSector')}</label>
             <select
               value={filters.sector}
               onChange={(e) => {
@@ -135,64 +137,64 @@ export const LabourMarketPage: React.FC = () => {
               }}
               className="bg-govt-50 border border-govt-300 rounded px-3 py-1.5 text-xs text-govt-800 focus:outline-none focus:border-primary-600"
             >
-              <option value="ALL">All Sectors</option>
+              <option value="ALL">{t('labour.allSectors')}</option>
               {sectors.map(s => <option key={s.sector} value={s.sector}>{s.sector}</option>)}
             </select>
           </div>
 
           <div>
-            <label className="text-govt-500 font-semibold block mb-1">Time Horizon</label>
+            <label className="text-govt-500 font-semibold block mb-1">{t('labour.filterHorizon')}</label>
             <select
               value={filters.timeHorizon}
               onChange={(e) => setTimeHorizon(e.target.value as any)}
               className="bg-govt-50 border border-govt-300 rounded px-3 py-1.5 text-xs text-govt-800 focus:outline-none focus:border-primary-600"
             >
-              <option value="3m">3 Months</option>
-              <option value="6m">6 Months</option>
-              <option value="12m">12 Months</option>
+              <option value="3m">{t('labour.horizon3m')}</option>
+              <option value="6m">{t('labour.horizon6m')}</option>
+              <option value="12m">{t('labour.horizon12m')}</option>
             </select>
           </div>
         </div>
 
         <div className="text-govt-500 text-right">
-          Total Requisitions Observed: <strong className="text-navy-900 font-mono">{totalPostings.toLocaleString()}</strong>
+          {t('overview.kpiDemand')}: <strong className="text-navy-900 font-mono">{totalPostings.toLocaleString()}</strong>
         </div>
       </div>
 
       {/* Demand by Sector Bar Chart */}
       <div className="bg-white border border-govt-200 rounded-card p-6 shadow-subtle space-y-4">
-        <h2 className="text-base font-bold text-navy-900">Demand Volume by Industry Sector</h2>
+        <h2 className="text-base font-bold text-navy-900">{t('labour.sectorDemandTitle')}</h2>
         <SimpleBarChart
           data={sectors.slice(0, 6).map(s => ({
             label: s.sector,
             value: s.count,
             color: s.count > 500 ? 'bg-red-600' : s.count > 200 ? 'bg-amber-500' : 'bg-primary-700'
           }))}
-          valueLabel="Active Postings"
+          valueLabel={t('labour.colPostings')}
         />
       </div>
 
       {/* Top Demanded Skills Table */}
       <div className="space-y-3">
-        <h2 className="text-base font-bold text-navy-900">Skill Shortages & Demand Signals</h2>
+        <h2 className="text-base font-bold text-navy-900">{t('labour.skillGapsTitle')}</h2>
         <div className="bg-white border border-govt-200 rounded-card shadow-subtle overflow-hidden">
           <table className="w-full text-xs text-left">
             <thead className="bg-govt-50 text-govt-600 font-semibold border-b border-govt-200">
               <tr>
-                <th className="py-3 px-4">Rank</th>
-                <th className="py-3 px-4">Skill</th>
-                <th className="py-3 px-4">Category / Sector</th>
-                <th className="py-3 px-4 text-right">Job Postings</th>
-                <th className="py-3 px-4 text-right">Growth (MoM)</th>
-                <th className="py-3 px-4">Market Status</th>
-                <th className="py-3 px-4">Location</th>
+                <th className="py-3 px-4">#</th>
+                <th className="py-3 px-4">{t('overview.colSkill')}</th>
+                <th className="py-3 px-4">{t('overview.colSector')}</th>
+                <th className="py-3 px-4 text-right">{t('labour.colPostings')}</th>
+                <th className="py-3 px-4 text-right">{t('forecast.projectedGrowth')}</th>
+                <th className="py-3 px-4">{t('overview.colGap')}</th>
+                <th className="py-3 px-4">{t('labour.colLocation')}</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-govt-100">
               {skills.length === 0 ? (
                 <tr>
                   <td colSpan={7} className="py-6 text-center text-govt-500">
-                    No active skill records for the selected scope.
+                    {t('common.noData')}
                   </td>
                 </tr>
               ) : (
@@ -209,7 +211,9 @@ export const LabourMarketPage: React.FC = () => {
                         sk.severity === 'Shortage' ? 'bg-amber-100 text-amber-800 border border-amber-200' :
                         'bg-emerald-100 text-emerald-800 border border-emerald-200'
                       }`}>
-                        {sk.severity}
+                        {sk.severity === 'Critical' ? t('map.statusCriticalShortage') :
+                         sk.severity === 'Shortage' ? t('map.statusShortage') :
+                         t('common.balanced')}
                       </span>
                     </td>
                     <td className="py-3 px-4 text-govt-600">{sk.topState}</td>
@@ -225,7 +229,7 @@ export const LabourMarketPage: React.FC = () => {
       <div className="space-y-3">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-base font-bold text-navy-900">Synthetic Job Evidence</h2>
+            <h2 className="text-base font-bold text-navy-900">{t('labour.jobEvidenceTitle')}</h2>
             <span className="text-xs text-govt-500">Development Dataset — Synthetic Requisition Evidence</span>
           </div>
           <ProvenanceBadge source="Data: SIH Development Dataset" dataStatus="DEVELOPMENT" />
@@ -235,11 +239,11 @@ export const LabourMarketPage: React.FC = () => {
           <table className="w-full text-xs text-left">
             <thead className="bg-govt-50 text-govt-600 font-semibold border-b border-govt-200">
               <tr>
-                <th className="py-3 px-4">Occupation</th>
-                <th className="py-3 px-4">Synthetic Employer Name</th>
-                <th className="py-3 px-4">City / Geography</th>
-                <th className="py-3 px-4 text-right">Posting Volume</th>
-                <th className="py-3 px-4 text-right">Age</th>
+                <th className="py-3 px-4">{t('labour.colOccupation')}</th>
+                <th className="py-3 px-4">{t('labour.colCompany')}</th>
+                <th className="py-3 px-4">{t('labour.colLocation')}</th>
+                <th className="py-3 px-4 text-right">{t('overview.colGap')}</th>
+                <th className="py-3 px-4 text-right">{t('labour.colDate')}</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-govt-100">

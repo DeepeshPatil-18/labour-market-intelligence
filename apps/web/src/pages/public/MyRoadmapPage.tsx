@@ -1,36 +1,38 @@
 import React from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { useFilters } from '../../context/FilterContext';
+import { useLanguage } from '../../context/LanguageContext';
 import { ProvenanceBadge } from '../../components/common/ProvenanceBadge';
 import { Button } from '../../components/common/Button';
-import { ArrowLeft, CheckCircle, ArrowDown } from '@phosphor-icons/react';
+import { ArrowLeft } from '@phosphor-icons/react';
 
 export const MyRoadmapPage: React.FC = () => {
   const [searchParams] = useSearchParams();
   const { filters } = useFilters();
+  const { t } = useLanguage();
   const skill = searchParams.get('skill') || 'AutoCAD';
   const education = searchParams.get('education') || 'ITI / Diploma';
 
   const steps = [
     {
-      title: 'Current Skill Baseline',
-      desc: `Demonstrated competency in ${skill}. (Education: ${education})`,
-      status: 'Current'
+      title: t('roadmap.step1Title'),
+      desc: t('roadmap.step1Desc').replace('{skill}', skill).replace('{education}', education),
+      status: t('roadmap.step1Status')
     },
     {
-      title: 'Identified Skill Gap',
-      desc: 'Missing industrial controller & PLC ladder logic modules required for Level 5 automation roles.',
-      status: 'Gap'
+      title: t('roadmap.step2Title'),
+      desc: t('roadmap.step2Desc'),
+      status: t('roadmap.step2Status')
     },
     {
-      title: 'Recommended Bridge Skill',
-      desc: 'PLC Programming & Industrial Telemetry (6 Weeks / 180 Hours structured training).',
-      status: 'Bridge'
+      title: t('roadmap.step3Title'),
+      desc: t('roadmap.step3Desc'),
+      status: t('roadmap.step3Status')
     },
     {
-      title: 'Target Qualification Goal',
-      desc: 'Industrial Automation Technician (NCO 2015 Code: 3115.0100 · High industry shortage).',
-      status: 'Target'
+      title: t('roadmap.step4Title'),
+      desc: t('roadmap.step4Desc'),
+      status: t('roadmap.step4Status')
     }
   ];
 
@@ -41,18 +43,18 @@ export const MyRoadmapPage: React.FC = () => {
         <div>
           <Link to="/skill-finder" className="text-xs text-govt-500 hover:text-govt-800 flex items-center gap-1 mb-1">
             <ArrowLeft size={12} />
-            <span>Back to Skill Finder</span>
+            <span>{t('roadmap.back')}</span>
           </Link>
           <h1 className="text-2xl font-bold text-navy-900 tracking-tight">
-            My Learning Roadmap
+            {t('roadmap.title')}
           </h1>
           <p className="text-xs text-govt-600 mt-0.5">
-            Path from <strong className="text-navy-900">{skill}</strong> to target shortage occupation
+            {t('roadmap.subtitle').replace('{skill}', skill)}
           </p>
         </div>
 
         <ProvenanceBadge
-          source="Source: Directorate General of Employment — NCO 2015"
+          source={`Source: Directorate General of Employment — NCO 2015`}
           dataStatus="REFERENCE"
         />
       </div>
@@ -82,14 +84,14 @@ export const MyRoadmapPage: React.FC = () => {
 
       {/* Local ITI / Training Centre note */}
       <div className="p-5 bg-white border border-govt-200 rounded-card shadow-subtle text-xs space-y-2">
-        <h3 className="font-bold text-sm text-navy-900">Training Centres Offering This Bridge Program</h3>
+        <h3 className="font-bold text-sm text-navy-900">{t('roadmap.trainingCentresTitle')}</h3>
         <p className="text-govt-600 leading-relaxed">
-          Accredited Government and Aided ITIs in {filters.district !== 'ALL' ? filters.district : 'Nashik'} offering subsidized bridge courses under PMKVY and State Skill Mission schemes.
+          {t('roadmap.trainingCentresDesc')} ({filters.district !== 'ALL' ? filters.district : 'Nashik'})
         </p>
         <div className="pt-2 flex gap-3">
           <Link to="/skill-finder">
             <Button variant="outline" size="sm">
-              Search Another Skill
+              {t('roadmap.searchAnother')}
             </Button>
           </Link>
         </div>
@@ -97,3 +99,4 @@ export const MyRoadmapPage: React.FC = () => {
     </div>
   );
 };
+

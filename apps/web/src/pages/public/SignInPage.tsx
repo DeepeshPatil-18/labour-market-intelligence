@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useFilters } from '../../context/FilterContext';
-import { LockKey, EnvelopeSimple, ArrowRight, ShieldCheck, ArrowLeft } from '@phosphor-icons/react';
+import { useLanguage } from '../../context/LanguageContext';
+import { LockKey, EnvelopeSimple, ArrowRight, ShieldCheck, ArrowLeft, Globe } from '@phosphor-icons/react';
 import { Button } from '../../components/common/Button';
 
 export const SignInPage: React.FC = () => {
@@ -9,12 +10,13 @@ export const SignInPage: React.FC = () => {
   const [password, setPassword] = useState('••••••••••••');
   const [error, setError] = useState('');
   const { login, setGeography } = useFilters();
+  const { lang, setLang, t } = useLanguage();
   const navigate = useNavigate();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!email.trim()) {
-      setError('Please enter a valid government email or ID');
+      setError(t('signin.errorEmpty'));
       return;
     }
     login(email);
@@ -30,9 +32,19 @@ export const SignInPage: React.FC = () => {
       <header className="h-16 bg-white border-b border-govt-200 px-6 sm:px-12 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-1.5 text-xs text-govt-600 hover:text-govt-900 font-medium">
           <ArrowLeft size={14} />
-          <span>Back to Overview</span>
+          <span>{t('header.backOverview')}</span>
         </Link>
-        <span className="font-bold text-xs text-navy-900 tracking-wider">KUSHAL</span>
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => setLang(lang === 'EN' ? 'HI' : 'EN')}
+            className="flex items-center gap-1.5 px-2.5 py-1 rounded text-xs font-semibold bg-govt-50 hover:bg-govt-100 border border-govt-200 text-govt-800 transition-colors"
+            title={t('header.toggleLang')}
+          >
+            <Globe size={14} className="text-govt-500" />
+            <span>{lang === 'EN' ? 'हिन्दी' : 'English'}</span>
+          </button>
+          <span className="font-bold text-xs text-navy-900 tracking-wider">{t('brand.name')}</span>
+        </div>
       </header>
 
       {/* Main Login Card */}
@@ -43,10 +55,10 @@ export const SignInPage: React.FC = () => {
               <ShieldCheck size={22} />
             </div>
             <h1 className="text-xl font-bold text-navy-900 tracking-tight">
-              Government Sign In
+              {t('signin.title')}
             </h1>
             <p className="text-xs text-govt-500">
-              Authorized government officers and planning authorities
+              {t('signin.subtitle')}
             </p>
           </div>
 
@@ -59,7 +71,7 @@ export const SignInPage: React.FC = () => {
 
             <div>
               <label className="font-semibold text-govt-700 block mb-1">
-                Email / Government ID
+                {t('signin.emailLabel')}
               </label>
               <div className="relative">
                 <EnvelopeSimple size={15} className="absolute left-3 top-2.5 text-govt-400" />
@@ -76,13 +88,13 @@ export const SignInPage: React.FC = () => {
 
             <div>
               <div className="flex items-center justify-between mb-1">
-                <label className="font-semibold text-govt-700">Password</label>
+                <label className="font-semibold text-govt-700">{t('signin.passwordLabel')}</label>
                 <button
                   type="button"
                   onClick={() => alert('Password reset requests must be submitted to your ministry department IT coordinator.')}
                   className="text-primary-700 hover:underline text-[11px]"
                 >
-                  Forgot Password?
+                  {t('signin.forgotPassword')}
                 </button>
               </div>
               <div className="relative">
@@ -105,13 +117,13 @@ export const SignInPage: React.FC = () => {
               iconRight={<ArrowRight size={14} />}
               className="w-full py-2.5 mt-2"
             >
-              Sign In to All India Dashboard
+              {t('signin.submit')}
             </Button>
           </form>
 
           <div className="pt-4 border-t border-govt-100 text-center">
             <p className="text-[11px] text-govt-400">
-              Authorized government users only.
+              {t('signin.restricted')}
             </p>
           </div>
         </div>
@@ -119,7 +131,7 @@ export const SignInPage: React.FC = () => {
 
       {/* Footer */}
       <footer className="py-4 px-6 text-center text-xs text-govt-400">
-        <span>Decision Support System · SIH 2026 PS 26246</span>
+        <span>{t('signin.footerNote')}</span>
       </footer>
     </div>
   );

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useFilters } from '../../context/FilterContext';
+import { useLanguage } from '../../context/LanguageContext';
 import { alertService } from '../../services/alertService';
 import { EarlyWarningAlert } from '../../types';
 import { LoadingState } from '../../components/common/LoadingState';
@@ -9,6 +10,7 @@ import { Link } from 'react-router-dom';
 
 export const EarlyWarningsPage: React.FC = () => {
   const { filters } = useFilters();
+  const { t } = useLanguage();
   const [alerts, setAlerts] = useState<EarlyWarningAlert[]>([]);
   const [selectedTab, setSelectedTab] = useState<string>('ALL');
   const [loading, setLoading] = useState(true);
@@ -36,22 +38,21 @@ export const EarlyWarningsPage: React.FC = () => {
   };
 
   const scopeLabel = filters.state === 'ALL'
-    ? 'All India'
+    ? t('header.scopeAllIndia')
     : filters.district === 'ALL'
     ? filters.state
     : `${filters.state} · ${filters.district}`;
 
   const tabs = [
-    { id: 'ALL', label: 'All' },
-    { id: 'CRITICAL_SHORTAGE', label: 'Critical Shortage' },
-    { id: 'EMERGING_SKILL', label: 'Emerging Skill' },
-    { id: 'DEMAND_ACCELERATION', label: 'Demand Acceleration' },
-    { id: 'OVERSUPPLY_RISK', label: 'Oversupply Risk' },
-    { id: 'DEMAND_DECLINE', label: 'Demand Decline' },
+    { id: 'ALL', label: t('warnings.allSeverities') },
+    { id: 'CRITICAL_SHORTAGE', label: t('map.statusCriticalShortage') },
+    { id: 'EMERGING_SKILL', label: t('forecast.emergingSkillsTitle') },
+    { id: 'DEMAND_ACCELERATION', label: t('forecast.growthTrajectory') },
+    { id: 'OVERSUPPLY_RISK', label: t('map.statusOversupply') },
   ];
 
   if (loading) {
-    return <LoadingState message="Loading early warnings..." />;
+    return <LoadingState message={t('common.loading')} />;
   }
 
   return (
@@ -60,15 +61,13 @@ export const EarlyWarningsPage: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 border-b border-govt-200 pb-4">
         <div>
           <h1 className="text-2xl font-bold text-navy-900 tracking-tight">
-            Early Warnings
+            {t('warnings.title')}
           </h1>
           <div className="flex items-center gap-2 mt-1 text-sm text-govt-600">
-            <span className="font-semibold text-navy-900">{scopeLabel}</span>
-            <span className="text-govt-300">·</span>
-            <Link to="/scope-select" className="text-primary-700 hover:underline text-xs flex items-center gap-1 font-medium">
-              <ArrowsClockwise size={12} />
-              <span>Change scope</span>
-            </Link>
+            <span>{t('header.scope')}:</span>
+            <span className="font-semibold text-navy-900 bg-govt-100 px-2 py-0.5 rounded text-xs">
+              {scopeLabel}
+            </span>
           </div>
         </div>
 
@@ -98,20 +97,20 @@ export const EarlyWarningsPage: React.FC = () => {
       {/* Clean Table / List of Warnings */}
       {alerts.length === 0 ? (
         <div className="p-8 text-center bg-white rounded-card border border-govt-200 text-xs text-govt-500">
-          No early warning signals detected for this category and scope.
+          {t('common.noData')}
         </div>
       ) : (
         <div className="bg-white border border-govt-200 rounded-card shadow-subtle overflow-hidden">
           <table className="w-full text-xs text-left">
             <thead className="bg-govt-50 text-govt-600 font-semibold border-b border-govt-200">
               <tr>
-                <th className="py-3 px-4">Skill / Trade</th>
-                <th className="py-3 px-4">Location</th>
-                <th className="py-3 px-4">Signal Type</th>
-                <th className="py-3 px-4">Severity</th>
-                <th className="py-3 px-4 max-w-sm">Supporting Evidence</th>
-                <th className="py-3 px-4 max-w-sm">Recommended Action</th>
-                <th className="py-3 px-4 text-right">Action</th>
+                <th className="py-3 px-4">{t('overview.colSkill')}</th>
+                <th className="py-3 px-4">{t('labour.colLocation')}</th>
+                <th className="py-3 px-4">{t('warnings.rootCause')}</th>
+                <th className="py-3 px-4">{t('warnings.filterSeverity')}</th>
+                <th className="py-3 px-4 max-w-sm">{t('labour.jobEvidenceTitle')}</th>
+                <th className="py-3 px-4 max-w-sm">{t('warnings.interventionTitle')}</th>
+                <th className="py-3 px-4 text-right">{t('overview.colAction')}</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-govt-100">
@@ -133,13 +132,13 @@ export const EarlyWarningsPage: React.FC = () => {
                   <td className="py-3 px-4 text-govt-800 leading-relaxed max-w-xs font-medium">{alert.recommendedAction}</td>
                   <td className="py-3 px-4 text-right">
                     {alert.acknowledged ? (
-                      <span className="text-[11px] text-emerald-700 font-medium">✓ Acknowledged</span>
+                      <span className="text-[11px] text-emerald-700 font-medium">✓</span>
                     ) : (
                       <button
                         onClick={() => handleAcknowledge(alert.id)}
                         className="px-2.5 py-1 rounded border border-govt-300 hover:bg-govt-100 text-govt-700 font-medium text-xs"
                       >
-                        Acknowledge
+                        {t('overview.colAction')}
                       </button>
                     )}
                   </td>

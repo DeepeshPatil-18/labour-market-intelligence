@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useFilters } from '../../context/FilterContext';
+import { useLanguage } from '../../context/LanguageContext';
 import { trainingService } from '../../services/trainingService';
 import { labourMarketService, StateSkillGapRecord } from '../../services/labourMarketService';
 import { TrainingRecommendationItem } from '../../types';
@@ -8,6 +9,7 @@ import { ProvenanceBadge } from '../../components/common/ProvenanceBadge';
 
 export const TrainingAllocationPage: React.FC = () => {
   const { filters, setGeography, availableStates } = useFilters();
+  const { t } = useLanguage();
   const [recommendations, setRecommendations] = useState<TrainingRecommendationItem[]>([]);
   const [skillGaps, setSkillGaps] = useState<StateSkillGapRecord[]>([]);
   const [skillSector, setSkillSector] = useState('ALL');
@@ -41,13 +43,13 @@ export const TrainingAllocationPage: React.FC = () => {
   const totalChange = totalRecommended - totalCurrent;
 
   const scopeLabel = filters.state === 'ALL'
-    ? 'All India'
+    ? t('header.scopeAllIndia')
     : filters.district === 'ALL'
     ? filters.state
     : `${filters.state} · ${filters.district}`;
 
   if (loading) {
-    return <LoadingState message="Calculating training capacity allocation..." />;
+    return <LoadingState message={t('training.loading')} />;
   }
 
   return (
@@ -56,10 +58,10 @@ export const TrainingAllocationPage: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 border-b border-govt-200 pb-4">
         <div>
           <h1 className="text-2xl font-bold text-navy-900 tracking-tight">
-            Training Allocation & Capacity Planning
+            {t('training.title')}
           </h1>
           <div className="flex items-center gap-2 mt-1 text-sm text-govt-600">
-            <span>Scope:</span>
+            <span>{t('header.scope')}:</span>
             <span className="font-semibold text-navy-900 bg-govt-100 px-2 py-0.5 rounded text-xs">
               {scopeLabel}
             </span>
@@ -67,7 +69,7 @@ export const TrainingAllocationPage: React.FC = () => {
         </div>
 
         <ProvenanceBadge
-          source="Data: SIH Development Dataset"
+          source={`${t('common.data')}: SIH Development Dataset`}
           dataStatus="DEVELOPMENT"
         />
       </div>
@@ -75,25 +77,25 @@ export const TrainingAllocationPage: React.FC = () => {
       {/* Controls: State Filter, Skill Sector, Budget Scenario */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 p-4 bg-white border border-govt-200 rounded-card shadow-subtle text-xs">
         <div>
-          <label className="text-govt-500 font-semibold block mb-1">State Filter</label>
+          <label className="text-govt-500 font-semibold block mb-1">{t('training.stateFilter')}</label>
           <select
             value={filters.state}
             onChange={(e) => setGeography(e.target.value, 'ALL')}
             className="w-full bg-govt-50 border border-govt-300 rounded px-3 py-1.5 text-xs text-govt-900 focus:outline-none focus:border-primary-600"
           >
-            <option value="ALL">All States & UTs</option>
+            <option value="ALL">{t('training.allStates')}</option>
             {availableStates.map(s => <option key={s} value={s}>{s}</option>)}
           </select>
         </div>
 
         <div>
-          <label className="text-govt-500 font-semibold block mb-1">Skill Competency Sector</label>
+          <label className="text-govt-500 font-semibold block mb-1">{t('training.competencySector')}</label>
           <select
             value={skillSector}
             onChange={(e) => setSkillSector(e.target.value)}
             className="w-full bg-govt-50 border border-govt-300 rounded px-3 py-1.5 text-xs text-govt-900 focus:outline-none focus:border-primary-600"
           >
-            <option value="ALL">All Competencies</option>
+            <option value="ALL">{t('training.allCompetencies')}</option>
             <option value="CNC">CNC & Machining</option>
             <option value="AutoCAD">AutoCAD / Design</option>
             <option value="EV">EV & Battery</option>
@@ -103,15 +105,15 @@ export const TrainingAllocationPage: React.FC = () => {
         </div>
 
         <div>
-          <label className="text-govt-500 font-semibold block mb-1">Budget Scenario</label>
+          <label className="text-govt-500 font-semibold block mb-1">{t('training.budgetScenario')}</label>
           <select
             value={budgetScenario}
             onChange={(e) => setBudgetScenario(e.target.value)}
             className="w-full bg-govt-50 border border-govt-300 rounded px-3 py-1.5 text-xs text-govt-900 focus:outline-none focus:border-primary-600"
           >
-            <option value="0.8">Constrained (-20%)</option>
-            <option value="1.0">Baseline Budget (1.0x)</option>
-            <option value="1.3">Expansion (+30%)</option>
+            <option value="0.8">{t('training.budgetConstrained')}</option>
+            <option value="1.0">{t('training.budgetBaseline')}</option>
+            <option value="1.3">{t('training.budgetExpansion')}</option>
           </select>
         </div>
       </div>
@@ -119,23 +121,23 @@ export const TrainingAllocationPage: React.FC = () => {
       {/* Seat Summary Line */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
         <div className="p-4 bg-white border border-govt-200 rounded-card shadow-subtle">
-          <span className="text-govt-500 font-semibold block">Current Effective Supply</span>
+          <span className="text-govt-500 font-semibold block">{t('training.currentSupply')}</span>
           <div className="text-2xl font-bold text-navy-900 font-mono mt-1">
-            {totalCurrent.toLocaleString()} seats
+            {totalCurrent.toLocaleString()} {t('training.seats')}
           </div>
         </div>
 
         <div className="p-4 bg-white border border-govt-200 rounded-card shadow-subtle">
-          <span className="text-govt-500 font-semibold block">Recommended Sanctioned Capacity</span>
+          <span className="text-govt-500 font-semibold block">{t('training.recommendedCap')}</span>
           <div className="text-2xl font-bold text-navy-900 font-mono mt-1">
-            {totalRecommended.toLocaleString()} seats
+            {totalRecommended.toLocaleString()} {t('training.seats')}
           </div>
         </div>
 
         <div className="p-4 bg-white border border-govt-200 rounded-card shadow-subtle">
-          <span className="text-govt-500 font-semibold block">Net Capacity Change</span>
+          <span className="text-govt-500 font-semibold block">{t('training.netChange')}</span>
           <div className={`text-2xl font-bold font-mono mt-1 ${totalChange >= 0 ? 'text-emerald-700' : 'text-red-700'}`}>
-            {totalChange >= 0 ? `+${totalChange.toLocaleString()}` : totalChange.toLocaleString()} seats
+            {totalChange >= 0 ? `+${totalChange.toLocaleString()}` : totalChange.toLocaleString()} {t('training.seats')}
           </div>
         </div>
       </div>
@@ -144,30 +146,30 @@ export const TrainingAllocationPage: React.FC = () => {
       <div className="space-y-3">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-base font-bold text-navy-900">Skill Gap Calculations</h2>
-            <span className="text-xs text-govt-500">Derived: Demand Units - Effective Supply Units = Gap Units</span>
+            <h2 className="text-base font-bold text-navy-900">{t('training.gapCalcTitle')}</h2>
+            <span className="text-xs text-govt-500">{t('training.gapCalcSub')}</span>
           </div>
-          <ProvenanceBadge source="Data: SIH Development Dataset" dataStatus="DEVELOPMENT" />
+          <ProvenanceBadge source={`${t('common.data')}: SIH Development Dataset`} dataStatus="DEVELOPMENT" />
         </div>
 
         <div className="bg-white border border-govt-200 rounded-card shadow-subtle overflow-hidden">
           <table className="w-full text-xs text-left">
             <thead className="bg-govt-50 text-govt-600 font-semibold border-b border-govt-200">
               <tr>
-                <th className="py-3 px-4">State / Geography</th>
-                <th className="py-3 px-4">Skill</th>
-                <th className="py-3 px-4">Related Sector</th>
-                <th className="py-3 px-4 text-right">Demand Units</th>
-                <th className="py-3 px-4 text-right">Effective Supply</th>
-                <th className="py-3 px-4 text-right">Gap Units</th>
-                <th className="py-3 px-4">Market Status</th>
+                <th className="py-3 px-4">{t('training.colState')}</th>
+                <th className="py-3 px-4">{t('training.colSkill')}</th>
+                <th className="py-3 px-4">{t('training.colRelatedSector')}</th>
+                <th className="py-3 px-4 text-right">{t('training.colDemandUnits')}</th>
+                <th className="py-3 px-4 text-right">{t('training.colSupplyUnits')}</th>
+                <th className="py-3 px-4 text-right">{t('training.colGapUnits')}</th>
+                <th className="py-3 px-4">{t('training.colMarketStatus')}</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-govt-100">
               {skillGaps.length === 0 ? (
                 <tr>
                   <td colSpan={7} className="py-6 text-center text-govt-500">
-                    No skill gap records available for selected geography.
+                    {t('training.noRecords')}
                   </td>
                 </tr>
               ) : (
@@ -187,7 +189,9 @@ export const TrainingAllocationPage: React.FC = () => {
                         g.status === 'SHORTAGE' ? 'bg-amber-100 text-amber-800 border border-amber-200' :
                         'bg-emerald-100 text-emerald-800 border border-emerald-200'
                       }`}>
-                        {g.status}
+                        {g.status === 'CRITICAL SHORTAGE' ? t('map.statusCriticalShortage') :
+                         g.status === 'SHORTAGE' ? t('map.statusShortage') :
+                         t('map.statusBalanced')}
                       </span>
                     </td>
                   </tr>
@@ -200,17 +204,17 @@ export const TrainingAllocationPage: React.FC = () => {
 
       {/* Decision Table */}
       <div className="space-y-3">
-        <h2 className="text-base font-bold text-navy-900">Training Capacity Recommendations</h2>
+        <h2 className="text-base font-bold text-navy-900">{t('training.recsTitle')}</h2>
         <div className="bg-white border border-govt-200 rounded-card shadow-subtle overflow-hidden">
           <table className="w-full text-xs text-left">
             <thead className="bg-govt-50 text-govt-600 font-semibold border-b border-govt-200">
               <tr>
-                <th className="py-3 px-4">Centre & Location</th>
-                <th className="py-3 px-4">Course & Skill</th>
-                <th className="py-3 px-4 text-right">Current Seats</th>
-                <th className="py-3 px-4 text-right">Recommended</th>
-                <th className="py-3 px-4 text-right">Change</th>
-                <th className="py-3 px-4 max-w-sm">Estimated Impact</th>
+                <th className="py-3 px-4">{t('training.colCentre')}</th>
+                <th className="py-3 px-4">{t('training.colCourse')}</th>
+                <th className="py-3 px-4 text-right">{t('training.colCurrentSeats')}</th>
+                <th className="py-3 px-4 text-right">{t('training.colRecSeats')}</th>
+                <th className="py-3 px-4 text-right">{t('training.colDiff')}</th>
+                <th className="py-3 px-4 max-w-sm">{t('training.colImpact')}</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-govt-100">
@@ -241,3 +245,4 @@ export const TrainingAllocationPage: React.FC = () => {
     </div>
   );
 };
+
