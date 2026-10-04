@@ -1,0 +1,266 @@
+[
+  {
+    "skill_id": "SKL0001",
+    "skill_name": "CNC Programming",
+    "skill_category": "Manufacturing",
+    "skill_description": "Technical competency in CNC Programming for Manufacturing applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0002",
+    "skill_name": "CNC Operation",
+    "skill_category": "Manufacturing",
+    "skill_description": "Technical competency in CNC Operation for Manufacturing applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0003",
+    "skill_name": "AutoCAD Mechanical",
+    "skill_category": "Engineering Design",
+    "skill_description": "Technical competency in AutoCAD Mechanical for Engineering Design applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0004",
+    "skill_name": "Auto Electrical",
+    "skill_category": "Automotive",
+    "skill_description": "Technical competency in Auto Electrical for Automotive applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0005",
+    "skill_name": "Industrial Automation",
+    "skill_category": "Automation",
+    "skill_description": "Technical competency in Industrial Automation for Automation applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0006",
+    "skill_name": "Food Processing Machinery",
+    "skill_category": "Agro-Processing",
+    "skill_description": "Technical competency in Food Processing Machinery for Agro-Processing applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0007",
+    "skill_name": "Welding & Fabrication",
+    "skill_category": "Manufacturing",
+    "skill_description": "Technical competency in Welding & Fabrication for Manufacturing applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0008",
+    "skill_name": "EV Systems & Powertrain",
+    "skill_category": "Automotive",
+    "skill_description": "Technical competency in EV Systems & Powertrain for Automotive applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0009",
+    "skill_name": "Battery Management Systems",
+    "skill_category": "Automotive",
+    "skill_description": "Technical competency in Battery Management Systems for Automotive applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0010",
+    "skill_name": "PLC & SCADA Programming",
+    "skill_category": "Automation",
+    "skill_description": "Technical competency in PLC & SCADA Programming for Automation applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0011",
+    "skill_name": "Python",
+    "skill_category": "Software & IT",
+    "skill_description": "Technical competency in Python for Software & IT applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0012",
+    "skill_name": "React & TypeScript",
+    "skill_category": "Software & IT",
+    "skill_description": "Technical competency in React & TypeScript for Software & IT applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0013",
+    "skill_name": "SQL & Database Administration",
+    "skill_category": "Software & IT",
+    "skill_description": "Technical competency in SQL & Database Administration for Software & IT applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0014",
+    "skill_name": "GST & Corporate Accounting",
+    "skill_category": "Finance",
+    "skill_description": "Technical competency in GST & Corporate Accounting for Finance applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0015",
+    "skill_name": "Supply Chain Analytics",
+    "skill_category": "Logistics",
+    "skill_description": "Technical competency in Supply Chain Analytics for Logistics applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0016",
+    "skill_name": "Cloud DevOps & Kubernetes",
+    "skill_category": "Software & IT",
+    "skill_description": "Technical competency in Cloud DevOps & Kubernetes for Software & IT applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0017",
+    "skill_name": "Embedded Firmware (C/C++)",
+    "skill_category": "Electronics",
+    "skill_description": "Technical competency in Embedded Firmware (C/C++) for Electronics applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0018",
+    "skill_name": "VLSI & Circuit Verification",
+    "skill_category": "Electronics",
+    "skill_description": "Technical competency in VLSI & Circuit Verification for Electronics applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0019",
+    "skill_name": "SMT Electronic Assembly",
+    "skill_category": "Electronics",
+    "skill_description": "Technical competency in SMT Electronic Assembly for Electronics applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0020",
+    "skill_name": "Automotive CAD",
+    "skill_category": "Engineering Design",
+    "skill_description": "Technical competency in Automotive CAD for Engineering Design applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0021",
+    "skill_name": "Vehicle Diagnostics",
+    "skill_category": "Automotive",
+    "skill_description": "Technical competency in Vehicle Diagnostics for Automotive applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0022",
+    "skill_name": "Automated Loom Maintenance",
+    "skill_category": "Manufacturing",
+    "skill_description": "Technical competency in Automated Loom Maintenance for Manufacturing applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0023",
+    "skill_name": "Chemical Plant Operation",
+    "skill_category": "Process",
+    "skill_description": "Technical competency in Chemical Plant Operation for Process applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0024",
+    "skill_name": "Solar PV Microgrid SCADA",
+    "skill_category": "Renewables",
+    "skill_description": "Technical competency in Solar PV Microgrid SCADA for Renewables applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0025",
+    "skill_name": "Quality Control & Inspection",
+    "skill_category": "Manufacturing",
+    "skill_description": "Technical competency in Quality Control & Inspection for Manufacturing applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0026",
+    "skill_name": "Pharmaceutical Cleanroom Formulation",
+    "skill_category": "Pharma",
+    "skill_description": "Technical competency in Pharmaceutical Cleanroom Formulation for Pharma applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0027",
+    "skill_name": "Bioprocess & Cleanroom Operations",
+    "skill_category": "Pharma",
+    "skill_description": "Technical competency in Bioprocess & Cleanroom Operations for Pharma applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0028",
+    "skill_name": "Port Logistics & Cargo Handling",
+    "skill_category": "Logistics",
+    "skill_description": "Technical competency in Port Logistics & Cargo Handling for Logistics applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0029",
+    "skill_name": "Welding & Heavy Fabrication",
+    "skill_category": "Manufacturing",
+    "skill_description": "Technical competency in Welding & Heavy Fabrication for Manufacturing applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0030",
+    "skill_name": "Industrial Electrical & Wiring",
+    "skill_category": "Electrical",
+    "skill_description": "Technical competency in Industrial Electrical & Wiring for Electrical applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0031",
+    "skill_name": "Basic Data Entry & Office Tools",
+    "skill_category": "Administration",
+    "skill_description": "Technical competency in Basic Data Entry & Office Tools for Administration applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0032",
+    "skill_name": "Foundry & Metal Casting",
+    "skill_category": "Manufacturing",
+    "skill_description": "Technical competency in Foundry & Metal Casting for Manufacturing applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  },
+  {
+    "skill_id": "SKL0033",
+    "skill_name": "Supply Chain Operations",
+    "skill_category": "Logistics",
+    "skill_description": "Technical competency in Supply Chain Operations for Logistics applications.",
+    "source": "SIH Development Dataset",
+    "data_origin": "SYNTHETIC"
+  }
+]

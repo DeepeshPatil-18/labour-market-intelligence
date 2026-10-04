@@ -1,0 +1,13 @@
+{
+  "name": "sih-labour-market-intelligence",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "web:dev": "npm --workspace=@sih/web run dev",
+    "web:build": "npm --workspace=@sih/web run build"
+  }
+}

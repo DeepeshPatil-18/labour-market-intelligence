@@ -1,0 +1,121 @@
+centre_id,centre_name,state,district,centre_type,annual_capacity,utilization_rate,placement_rate,source,data_origin
+CTR0001,Nashik Skill Development Centre 01,Maharashtra,Nashik,Private,418,0.49,0.73,SYNTHETIC_DEMO,SYNTHETIC
+CTR0002,Pune Skill Development Centre 02,Maharashtra,Pune,Private,190,0.59,0.52,SYNTHETIC_DEMO,SYNTHETIC
+CTR0003,Nagpur Skill Development Centre 03,Maharashtra,Nagpur,Government-Aided,659,0.59,0.56,SYNTHETIC_DEMO,SYNTHETIC
+CTR0004,Mumbai Skill Development Centre 04,Maharashtra,Mumbai,PPP,494,0.64,0.49,SYNTHETIC_DEMO,SYNTHETIC
+CTR0005,Aurangabad Skill Development Centre 05,Maharashtra,Aurangabad,Government,828,0.56,0.69,SYNTHETIC_DEMO,SYNTHETIC
+CTR0006,Bengaluru Skill Development Centre 06,Karnataka,Bengaluru,Government,168,0.81,0.45,SYNTHETIC_DEMO,SYNTHETIC
+CTR0007,Mysuru Skill Development Centre 07,Karnataka,Mysuru,PPP,401,0.82,0.7,SYNTHETIC_DEMO,SYNTHETIC
+CTR0008,Hubballi Skill Development Centre 08,Karnataka,Hubballi,Private,122,0.73,0.45,SYNTHETIC_DEMO,SYNTHETIC
+CTR0009,Chennai Skill Development Centre 09,Tamil Nadu,Chennai,PPP,326,0.88,0.77,SYNTHETIC_DEMO,SYNTHETIC
+CTR0010,Coimbatore Skill Development Centre 10,Tamil Nadu,Coimbatore,Government,560,0.56,0.51,SYNTHETIC_DEMO,SYNTHETIC
+CTR0011,Madurai Skill Development Centre 11,Tamil Nadu,Madurai,Government,224,0.7,0.39,SYNTHETIC_DEMO,SYNTHETIC
+CTR0012,Hyderabad Skill Development Centre 12,Telangana,Hyderabad,Government-Aided,792,0.64,0.8,SYNTHETIC_DEMO,SYNTHETIC
+CTR0013,Ahmedabad Skill Development Centre 13,Gujarat,Ahmedabad,Government,190,0.82,0.38,SYNTHETIC_DEMO,SYNTHETIC
+CTR0014,Surat Skill Development Centre 14,Gujarat,Surat,PPP,636,0.9,0.79,SYNTHETIC_DEMO,SYNTHETIC
+CTR0015,Vadodara Skill Development Centre 15,Gujarat,Vadodara,PPP,433,0.54,0.67,SYNTHETIC_DEMO,SYNTHETIC
+CTR0016,New Delhi Skill Development Centre 16,Delhi,New Delhi,PPP,668,0.67,0.55,SYNTHETIC_DEMO,SYNTHETIC
+CTR0017,Gurugram Skill Development Centre 17,Haryana,Gurugram,Private,443,0.89,0.47,SYNTHETIC_DEMO,SYNTHETIC
+CTR0018,Faridabad Skill Development Centre 18,Haryana,Faridabad,PPP,927,0.81,0.57,SYNTHETIC_DEMO,SYNTHETIC
+CTR0019,Noida Skill Development Centre 19,Uttar Pradesh,Noida,Government-Aided,298,0.79,0.52,SYNTHETIC_DEMO,SYNTHETIC
+CTR0020,Lucknow Skill Development Centre 20,Uttar Pradesh,Lucknow,PPP,346,0.55,0.84,SYNTHETIC_DEMO,SYNTHETIC
+CTR0021,Kanpur Skill Development Centre 21,Uttar Pradesh,Kanpur,Government,427,0.45,0.53,SYNTHETIC_DEMO,SYNTHETIC
+CTR0022,Kolkata Skill Development Centre 22,West Bengal,Kolkata,Government,743,0.89,0.83,SYNTHETIC_DEMO,SYNTHETIC
+CTR0023,Jaipur Skill Development Centre 23,Rajasthan,Jaipur,Government-Aided,729,0.72,0.75,SYNTHETIC_DEMO,SYNTHETIC
+CTR0024,Kochi Skill Development Centre 24,Kerala,Kochi,PPP,668,0.48,0.52,SYNTHETIC_DEMO,SYNTHETIC
+CTR0025,Visakhapatnam Skill Development Centre 25,Andhra Pradesh,Visakhapatnam,PPP,311,0.86,0.42,SYNTHETIC_DEMO,SYNTHETIC
+CTR0026,Bhubaneswar Skill Development Centre 26,Odisha,Bhubaneswar,Government-Aided,945,0.49,0.53,SYNTHETIC_DEMO,SYNTHETIC
+CTR0027,Indore Skill Development Centre 27,Madhya Pradesh,Indore,Government,427,0.68,0.54,SYNTHETIC_DEMO,SYNTHETIC
+CTR0028,Ludhiana Skill Development Centre 28,Punjab,Ludhiana,Government-Aided,964,0.83,0.46,SYNTHETIC_DEMO,SYNTHETIC
+CTR0029,Ranchi Skill Development Centre 29,Jharkhand,Ranchi,PPP,389,0.74,0.68,SYNTHETIC_DEMO,SYNTHETIC
+CTR0030,Nashik Skill Development Centre 30,Maharashtra,Nashik,Government-Aided,411,0.47,0.65,SYNTHETIC_DEMO,SYNTHETIC
+CTR0031,Pune Skill Development Centre 31,Maharashtra,Pune,Government-Aided,256,0.48,0.77,SYNTHETIC_DEMO,SYNTHETIC
+CTR0032,Nagpur Skill Development Centre 32,Maharashtra,Nagpur,Government,163,0.56,0.49,SYNTHETIC_DEMO,SYNTHETIC
+CTR0033,Mumbai Skill Development Centre 33,Maharashtra,Mumbai,Government-Aided,558,0.75,0.71,SYNTHETIC_DEMO,SYNTHETIC
+CTR0034,Aurangabad Skill Development Centre 34,Maharashtra,Aurangabad,Private,627,0.7,0.51,SYNTHETIC_DEMO,SYNTHETIC
+CTR0035,Bengaluru Skill Development Centre 35,Karnataka,Bengaluru,Private,323,0.79,0.63,SYNTHETIC_DEMO,SYNTHETIC
+CTR0036,Mysuru Skill Development Centre 36,Karnataka,Mysuru,Government-Aided,775,0.45,0.69,SYNTHETIC_DEMO,SYNTHETIC
+CTR0037,Hubballi Skill Development Centre 37,Karnataka,Hubballi,Private,177,0.73,0.49,SYNTHETIC_DEMO,SYNTHETIC
+CTR0038,Chennai Skill Development Centre 38,Tamil Nadu,Chennai,Private,766,0.65,0.76,SYNTHETIC_DEMO,SYNTHETIC
+CTR0039,Coimbatore Skill Development Centre 39,Tamil Nadu,Coimbatore,Government,809,0.82,0.49,SYNTHETIC_DEMO,SYNTHETIC
+CTR0040,Madurai Skill Development Centre 40,Tamil Nadu,Madurai,Government-Aided,213,0.61,0.64,SYNTHETIC_DEMO,SYNTHETIC
+CTR0041,Hyderabad Skill Development Centre 41,Telangana,Hyderabad,Private,683,0.48,0.84,SYNTHETIC_DEMO,SYNTHETIC
+CTR0042,Ahmedabad Skill Development Centre 42,Gujarat,Ahmedabad,PPP,691,0.46,0.53,SYNTHETIC_DEMO,SYNTHETIC
+CTR0043,Surat Skill Development Centre 43,Gujarat,Surat,PPP,544,0.69,0.85,SYNTHETIC_DEMO,SYNTHETIC
+CTR0044,Vadodara Skill Development Centre 44,Gujarat,Vadodara,Government-Aided,426,0.91,0.6,SYNTHETIC_DEMO,SYNTHETIC
+CTR0045,New Delhi Skill Development Centre 45,Delhi,New Delhi,Private,992,0.82,0.66,SYNTHETIC_DEMO,SYNTHETIC
+CTR0046,Gurugram Skill Development Centre 46,Haryana,Gurugram,Government,424,0.82,0.55,SYNTHETIC_DEMO,SYNTHETIC
+CTR0047,Faridabad Skill Development Centre 47,Haryana,Faridabad,Government,658,0.56,0.81,SYNTHETIC_DEMO,SYNTHETIC
+CTR0048,Noida Skill Development Centre 48,Uttar Pradesh,Noida,Private,893,0.65,0.63,SYNTHETIC_DEMO,SYNTHETIC
+CTR0049,Lucknow Skill Development Centre 49,Uttar Pradesh,Lucknow,Government,739,0.46,0.62,SYNTHETIC_DEMO,SYNTHETIC
+CTR0050,Kanpur Skill Development Centre 50,Uttar Pradesh,Kanpur,PPP,754,0.53,0.42,SYNTHETIC_DEMO,SYNTHETIC
+CTR0051,Kolkata Skill Development Centre 51,West Bengal,Kolkata,Government,359,0.77,0.63,SYNTHETIC_DEMO,SYNTHETIC
+CTR0052,Jaipur Skill Development Centre 52,Rajasthan,Jaipur,Private,991,0.78,0.48,SYNTHETIC_DEMO,SYNTHETIC
+CTR0053,Kochi Skill Development Centre 53,Kerala,Kochi,Private,389,0.53,0.81,SYNTHETIC_DEMO,SYNTHETIC
+CTR0054,Visakhapatnam Skill Development Centre 54,Andhra Pradesh,Visakhapatnam,PPP,272,0.72,0.47,SYNTHETIC_DEMO,SYNTHETIC
+CTR0055,Bhubaneswar Skill Development Centre 55,Odisha,Bhubaneswar,Government,779,0.84,0.38,SYNTHETIC_DEMO,SYNTHETIC
+CTR0056,Indore Skill Development Centre 56,Madhya Pradesh,Indore,PPP,243,0.72,0.48,SYNTHETIC_DEMO,SYNTHETIC
+CTR0057,Ludhiana Skill Development Centre 57,Punjab,Ludhiana,Government,340,0.88,0.74,SYNTHETIC_DEMO,SYNTHETIC
+CTR0058,Ranchi Skill Development Centre 58,Jharkhand,Ranchi,Private,705,0.55,0.41,SYNTHETIC_DEMO,SYNTHETIC
+CTR0059,Nashik Skill Development Centre 59,Maharashtra,Nashik,PPP,524,0.87,0.47,SYNTHETIC_DEMO,SYNTHETIC
+CTR0060,Pune Skill Development Centre 60,Maharashtra,Pune,Government-Aided,423,0.9,0.74,SYNTHETIC_DEMO,SYNTHETIC
+CTR0061,Nagpur Skill Development Centre 61,Maharashtra,Nagpur,Government,965,0.76,0.82,SYNTHETIC_DEMO,SYNTHETIC
+CTR0062,Mumbai Skill Development Centre 62,Maharashtra,Mumbai,PPP,732,0.49,0.71,SYNTHETIC_DEMO,SYNTHETIC
+CTR0063,Aurangabad Skill Development Centre 63,Maharashtra,Aurangabad,Government-Aided,895,0.59,0.84,SYNTHETIC_DEMO,SYNTHETIC
+CTR0064,Bengaluru Skill Development Centre 64,Karnataka,Bengaluru,Government-Aided,269,0.64,0.86,SYNTHETIC_DEMO,SYNTHETIC
+CTR0065,Mysuru Skill Development Centre 65,Karnataka,Mysuru,Government-Aided,273,0.7,0.6,SYNTHETIC_DEMO,SYNTHETIC
+CTR0066,Hubballi Skill Development Centre 66,Karnataka,Hubballi,Government,394,0.58,0.69,SYNTHETIC_DEMO,SYNTHETIC
+CTR0067,Chennai Skill Development Centre 67,Tamil Nadu,Chennai,Government,184,0.68,0.75,SYNTHETIC_DEMO,SYNTHETIC
+CTR0068,Coimbatore Skill Development Centre 68,Tamil Nadu,Coimbatore,Government-Aided,760,0.7,0.64,SYNTHETIC_DEMO,SYNTHETIC
+CTR0069,Madurai Skill Development Centre 69,Tamil Nadu,Madurai,PPP,320,0.69,0.6,SYNTHETIC_DEMO,SYNTHETIC
+CTR0070,Hyderabad Skill Development Centre 70,Telangana,Hyderabad,Government-Aided,131,0.66,0.6,SYNTHETIC_DEMO,SYNTHETIC
+CTR0071,Ahmedabad Skill Development Centre 71,Gujarat,Ahmedabad,Government-Aided,188,0.79,0.68,SYNTHETIC_DEMO,SYNTHETIC
+CTR0072,Surat Skill Development Centre 72,Gujarat,Surat,Government,212,0.64,0.46,SYNTHETIC_DEMO,SYNTHETIC
+CTR0073,Vadodara Skill Development Centre 73,Gujarat,Vadodara,Government-Aided,236,0.56,0.44,SYNTHETIC_DEMO,SYNTHETIC
+CTR0074,New Delhi Skill Development Centre 74,Delhi,New Delhi,Government-Aided,619,0.82,0.81,SYNTHETIC_DEMO,SYNTHETIC
+CTR0075,Gurugram Skill Development Centre 75,Haryana,Gurugram,PPP,676,0.58,0.48,SYNTHETIC_DEMO,SYNTHETIC
+CTR0076,Faridabad Skill Development Centre 76,Haryana,Faridabad,Government-Aided,756,0.79,0.41,SYNTHETIC_DEMO,SYNTHETIC
+CTR0077,Noida Skill Development Centre 77,Uttar Pradesh,Noida,Government,385,0.86,0.55,SYNTHETIC_DEMO,SYNTHETIC
+CTR0078,Lucknow Skill Development Centre 78,Uttar Pradesh,Lucknow,PPP,669,0.52,0.68,SYNTHETIC_DEMO,SYNTHETIC
+CTR0079,Kanpur Skill Development Centre 79,Uttar Pradesh,Kanpur,Government,362,0.49,0.45,SYNTHETIC_DEMO,SYNTHETIC
+CTR0080,Kolkata Skill Development Centre 80,West Bengal,Kolkata,Private,269,0.64,0.67,SYNTHETIC_DEMO,SYNTHETIC
+CTR0081,Jaipur Skill Development Centre 81,Rajasthan,Jaipur,PPP,464,0.53,0.44,SYNTHETIC_DEMO,SYNTHETIC
+CTR0082,Kochi Skill Development Centre 82,Kerala,Kochi,Government-Aided,960,0.52,0.64,SYNTHETIC_DEMO,SYNTHETIC
+CTR0083,Visakhapatnam Skill Development Centre 83,Andhra Pradesh,Visakhapatnam,Government-Aided,761,0.86,0.44,SYNTHETIC_DEMO,SYNTHETIC
+CTR0084,Bhubaneswar Skill Development Centre 84,Odisha,Bhubaneswar,Government-Aided,223,0.89,0.6,SYNTHETIC_DEMO,SYNTHETIC
+CTR0085,Indore Skill Development Centre 85,Madhya Pradesh,Indore,Government-Aided,575,0.72,0.56,SYNTHETIC_DEMO,SYNTHETIC
+CTR0086,Ludhiana Skill Development Centre 86,Punjab,Ludhiana,Private,772,0.45,0.51,SYNTHETIC_DEMO,SYNTHETIC
+CTR0087,Ranchi Skill Development Centre 87,Jharkhand,Ranchi,Government,590,0.56,0.81,SYNTHETIC_DEMO,SYNTHETIC
+CTR0088,Nashik Skill Development Centre 88,Maharashtra,Nashik,PPP,304,0.52,0.41,SYNTHETIC_DEMO,SYNTHETIC
+CTR0089,Pune Skill Development Centre 89,Maharashtra,Pune,Private,690,0.66,0.49,SYNTHETIC_DEMO,SYNTHETIC
+CTR0090,Nagpur Skill Development Centre 90,Maharashtra,Nagpur,Private,684,0.89,0.59,SYNTHETIC_DEMO,SYNTHETIC
+CTR0091,Mumbai Skill Development Centre 91,Maharashtra,Mumbai,Private,441,0.71,0.77,SYNTHETIC_DEMO,SYNTHETIC
+CTR0092,Aurangabad Skill Development Centre 92,Maharashtra,Aurangabad,PPP,871,0.78,0.74,SYNTHETIC_DEMO,SYNTHETIC
+CTR0093,Bengaluru Skill Development Centre 93,Karnataka,Bengaluru,Government-Aided,275,0.47,0.6,SYNTHETIC_DEMO,SYNTHETIC
+CTR0094,Mysuru Skill Development Centre 94,Karnataka,Mysuru,Private,844,0.45,0.81,SYNTHETIC_DEMO,SYNTHETIC
+CTR0095,Hubballi Skill Development Centre 95,Karnataka,Hubballi,Government,950,0.75,0.55,SYNTHETIC_DEMO,SYNTHETIC
+CTR0096,Chennai Skill Development Centre 96,Tamil Nadu,Chennai,PPP,646,0.9,0.8,SYNTHETIC_DEMO,SYNTHETIC
+CTR0097,Coimbatore Skill Development Centre 97,Tamil Nadu,Coimbatore,Government,913,0.9,0.85,SYNTHETIC_DEMO,SYNTHETIC
+CTR0098,Madurai Skill Development Centre 98,Tamil Nadu,Madurai,PPP,687,0.56,0.49,SYNTHETIC_DEMO,SYNTHETIC
+CTR0099,Hyderabad Skill Development Centre 99,Telangana,Hyderabad,PPP,770,0.51,0.49,SYNTHETIC_DEMO,SYNTHETIC
+CTR0100,Ahmedabad Skill Development Centre 100,Gujarat,Ahmedabad,Government,943,0.47,0.73,SYNTHETIC_DEMO,SYNTHETIC
+CTR0101,Surat Skill Development Centre 101,Gujarat,Surat,Government-Aided,174,0.47,0.43,SYNTHETIC_DEMO,SYNTHETIC
+CTR0102,Vadodara Skill Development Centre 102,Gujarat,Vadodara,PPP,795,0.53,0.62,SYNTHETIC_DEMO,SYNTHETIC
+CTR0103,New Delhi Skill Development Centre 103,Delhi,New Delhi,PPP,140,0.65,0.46,SYNTHETIC_DEMO,SYNTHETIC
+CTR0104,Gurugram Skill Development Centre 104,Haryana,Gurugram,Government-Aided,324,0.86,0.51,SYNTHETIC_DEMO,SYNTHETIC
+CTR0105,Faridabad Skill Development Centre 105,Haryana,Faridabad,Government-Aided,940,0.5,0.72,SYNTHETIC_DEMO,SYNTHETIC
+CTR0106,Noida Skill Development Centre 106,Uttar Pradesh,Noida,PPP,656,0.58,0.69,SYNTHETIC_DEMO,SYNTHETIC
+CTR0107,Lucknow Skill Development Centre 107,Uttar Pradesh,Lucknow,Government,526,0.68,0.5,SYNTHETIC_DEMO,SYNTHETIC
+CTR0108,Kanpur Skill Development Centre 108,Uttar Pradesh,Kanpur,Government-Aided,795,0.83,0.54,SYNTHETIC_DEMO,SYNTHETIC
+CTR0109,Kolkata Skill Development Centre 109,West Bengal,Kolkata,Government-Aided,678,0.48,0.81,SYNTHETIC_DEMO,SYNTHETIC
+CTR0110,Jaipur Skill Development Centre 110,Rajasthan,Jaipur,Government-Aided,705,0.54,0.64,SYNTHETIC_DEMO,SYNTHETIC
+CTR0111,Kochi Skill Development Centre 111,Kerala,Kochi,Government-Aided,588,0.48,0.73,SYNTHETIC_DEMO,SYNTHETIC
+CTR0112,Visakhapatnam Skill Development Centre 112,Andhra Pradesh,Visakhapatnam,Government-Aided,855,0.48,0.42,SYNTHETIC_DEMO,SYNTHETIC
+CTR0113,Bhubaneswar Skill Development Centre 113,Odisha,Bhubaneswar,Government-Aided,835,0.79,0.57,SYNTHETIC_DEMO,SYNTHETIC
+CTR0114,Indore Skill Development Centre 114,Madhya Pradesh,Indore,Government-Aided,459,0.83,0.56,SYNTHETIC_DEMO,SYNTHETIC
+CTR0115,Ludhiana Skill Development Centre 115,Punjab,Ludhiana,Government-Aided,393,0.61,0.55,SYNTHETIC_DEMO,SYNTHETIC
+CTR0116,Ranchi Skill Development Centre 116,Jharkhand,Ranchi,PPP,507,0.53,0.75,SYNTHETIC_DEMO,SYNTHETIC
+CTR0117,Nashik Skill Development Centre 117,Maharashtra,Nashik,Private,270,0.45,0.6,SYNTHETIC_DEMO,SYNTHETIC
+CTR0118,Pune Skill Development Centre 118,Maharashtra,Pune,Government-Aided,181,0.78,0.72,SYNTHETIC_DEMO,SYNTHETIC
+CTR0119,Nagpur Skill Development Centre 119,Maharashtra,Nagpur,Government-Aided,593,0.92,0.47,SYNTHETIC_DEMO,SYNTHETIC
+CTR0120,Mumbai Skill Development Centre 120,Maharashtra,Mumbai,Government,690,0.77,0.81,SYNTHETIC_DEMO,SYNTHETIC

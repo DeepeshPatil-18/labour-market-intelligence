@@ -1,0 +1,601 @@
+program_id,centre_id,course_name,skill_id,skill_name,state,district,nsqf_level,duration_weeks,annual_seats,completion_rate,placement_rate,annual_budget_inr,source,data_origin
+TRN00001,CTR0001,GST Technician / Specialist Program,SKL0070,GST,Maharashtra,Nashik,6,15,196,0.64,0.76,4000000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00002,CTR0027,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Madhya Pradesh,Indore,6,18,97,0.56,0.6,4460000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00003,CTR0005,EV Systems Technician / Specialist Program,SKL0044,EV Systems,Maharashtra,Aurangabad,3,5,66,0.62,0.61,1700000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00004,CTR0014,Irrigation Management Technician / Specialist Program,SKL0081,Irrigation Management,Gujarat,Surat,4,7,114,0.77,0.81,2390000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00005,CTR0023,Data Analysis Technician / Specialist Program,SKL0016,Data Analysis,Rajasthan,Jaipur,6,10,141,0.9,0.59,1970000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00006,CTR0029,Healthcare Administration Technician / Specialist Program,SKL0067,Healthcare Administration,Jharkhand,Ranchi,2,8,217,0.93,0.59,1500000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00007,CTR0025,Excel Technician / Specialist Program,SKL0072,Excel,Andhra Pradesh,Visakhapatnam,2,16,252,0.76,0.82,970000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00008,CTR0018,Auto Electrical Technician / Specialist Program,SKL0048,Auto Electrical,Haryana,Faridabad,3,19,171,0.9,0.4,3750000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00009,CTR0029,IoT Technician / Specialist Program,SKL0026,IoT,Jharkhand,Ranchi,2,27,120,0.76,0.84,540000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00010,CTR0013,Healthcare Administration Technician / Specialist Program,SKL0067,Healthcare Administration,Gujarat,Ahmedabad,2,10,168,0.83,0.56,1960000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00011,CTR0028,Tally Technician / Specialist Program,SKL0069,Tally,Punjab,Ludhiana,3,25,35,0.77,0.85,3710000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00012,CTR0014,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Gujarat,Surat,4,7,254,0.66,0.51,2400000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00013,CTR0021,Farm Machinery Technician / Specialist Program,SKL0078,Farm Machinery,Uttar Pradesh,Kanpur,6,13,193,0.89,0.83,1190000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00014,CTR0002,IoT Technician / Specialist Program,SKL0026,IoT,Maharashtra,Pune,5,23,112,0.59,0.43,980000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00015,CTR0007,Tally Technician / Specialist Program,SKL0069,Tally,Karnataka,Mysuru,2,8,209,0.88,0.36,1440000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00016,CTR0013,CNC Turning Technician / Specialist Program,SKL0038,CNC Turning,Gujarat,Ahmedabad,2,27,128,0.81,0.37,970000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00017,CTR0022,Construction Safety Technician / Specialist Program,SKL0056,Construction Safety,West Bengal,Kolkata,4,25,143,0.64,0.38,2000000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00018,CTR0015,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Gujarat,Vadodara,4,6,298,0.8,0.4,1010000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00019,CTR0023,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,Rajasthan,Jaipur,2,27,189,0.68,0.53,2680000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00020,CTR0026,AWS Technician / Specialist Program,SKL0013,AWS,Odisha,Bhubaneswar,6,5,288,0.73,0.82,1970000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00021,CTR0002,Site Supervision Technician / Specialist Program,SKL0055,Site Supervision,Maharashtra,Pune,2,23,125,0.88,0.56,1360000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00022,CTR0001,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Maharashtra,Nashik,6,18,108,0.66,0.52,1770000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00023,CTR0027,PostgreSQL Technician / Specialist Program,SKL0009,PostgreSQL,Madhya Pradesh,Indore,3,10,160,0.89,0.74,4300000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00024,CTR0007,EV Systems Technician / Specialist Program,SKL0044,EV Systems,Karnataka,Mysuru,4,26,49,0.62,0.51,4900000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00025,CTR0012,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Telangana,Hyderabad,2,15,147,0.94,0.63,4060000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00026,CTR0010,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Tamil Nadu,Coimbatore,3,12,90,0.55,0.49,2330000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00027,CTR0015,Cybersecurity Technician / Specialist Program,SKL0018,Cybersecurity,Gujarat,Vadodara,4,14,65,0.73,0.71,4970000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00028,CTR0017,Irrigation Management Technician / Specialist Program,SKL0081,Irrigation Management,Haryana,Gurugram,2,18,210,0.73,0.71,3730000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00029,CTR0013,Accounting Technician / Specialist Program,SKL0068,Accounting,Gujarat,Ahmedabad,6,20,183,0.8,0.59,2580000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00030,CTR0012,REST APIs Technician / Specialist Program,SKL0010,REST APIs,Telangana,Hyderabad,2,21,192,0.84,0.64,1820000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00031,CTR0018,CNC Turning Technician / Specialist Program,SKL0038,CNC Turning,Haryana,Faridabad,6,8,272,0.84,0.76,4250000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00032,CTR0021,Azure Technician / Specialist Program,SKL0014,Azure,Uttar Pradesh,Kanpur,2,21,108,0.93,0.63,1090000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00033,CTR0020,Auto Electrical Technician / Specialist Program,SKL0048,Auto Electrical,Uttar Pradesh,Lucknow,3,4,193,0.57,0.54,4280000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00034,CTR0026,Battery Management Systems Technician / Specialist Program,SKL0045,Battery Management Systems,Odisha,Bhubaneswar,6,21,262,0.93,0.49,3230000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00035,CTR0019,Digital Literacy Technician / Specialist Program,SKL0096,Digital Literacy,Uttar Pradesh,Noida,6,27,102,0.57,0.68,3560000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00036,CTR0004,CNC Programming Technician / Specialist Program,SKL0031,CNC Programming,Maharashtra,Mumbai,2,17,66,0.58,0.56,4590000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00037,CTR0007,Quality Control Technician / Specialist Program,SKL0035,Quality Control,Karnataka,Mysuru,3,11,58,0.87,0.83,4400000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00038,CTR0012,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,Telangana,Hyderabad,6,5,246,0.84,0.53,3390000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00039,CTR0016,Production Planning Technician / Specialist Program,SKL0037,Production Planning,Delhi,New Delhi,2,16,276,0.91,0.76,4860000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00040,CTR0025,Docker Technician / Specialist Program,SKL0012,Docker,Andhra Pradesh,Visakhapatnam,4,13,153,0.89,0.85,900000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00041,CTR0002,Welding Technician / Specialist Program,SKL0034,Welding,Maharashtra,Pune,6,25,108,0.63,0.78,2750000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00042,CTR0029,Irrigation Management Technician / Specialist Program,SKL0081,Irrigation Management,Jharkhand,Ranchi,4,17,69,0.85,0.67,1480000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00043,CTR0029,AWS Technician / Specialist Program,SKL0013,AWS,Jharkhand,Ranchi,5,23,296,0.72,0.38,2700000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00044,CTR0026,Construction Safety Technician / Specialist Program,SKL0056,Construction Safety,Odisha,Bhubaneswar,3,4,123,0.94,0.58,3750000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00045,CTR0011,Surveying Technician / Specialist Program,SKL0058,Surveying,Tamil Nadu,Madurai,3,27,116,0.82,0.48,710000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00046,CTR0003,Patient Care Technician / Specialist Program,SKL0061,Patient Care,Maharashtra,Nagpur,4,5,247,0.74,0.68,4100000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00047,CTR0005,Machine Maintenance Technician / Specialist Program,SKL0033,Machine Maintenance,Maharashtra,Aurangabad,4,7,197,0.64,0.49,2250000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00048,CTR0008,Cybersecurity Technician / Specialist Program,SKL0018,Cybersecurity,Karnataka,Hubballi,4,22,254,0.86,0.54,3240000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00049,CTR0004,Laboratory Techniques Technician / Specialist Program,SKL0065,Laboratory Techniques,Maharashtra,Mumbai,2,15,283,0.58,0.7,2390000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00050,CTR0026,IoT Technician / Specialist Program,SKL0026,IoT,Odisha,Bhubaneswar,2,13,37,0.61,0.6,350000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00051,CTR0016,Construction Safety Technician / Specialist Program,SKL0056,Construction Safety,Delhi,New Delhi,2,16,228,0.91,0.84,2060000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00052,CTR0004,Laboratory Techniques Technician / Specialist Program,SKL0065,Laboratory Techniques,Maharashtra,Mumbai,3,4,164,0.92,0.56,1880000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00053,CTR0022,Docker Technician / Specialist Program,SKL0012,Docker,West Bengal,Kolkata,3,22,88,0.71,0.67,1420000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00054,CTR0026,Agri Input Management Technician / Specialist Program,SKL0079,Agri Input Management,Odisha,Bhubaneswar,2,13,138,0.75,0.7,2170000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00055,CTR0003,REST APIs Technician / Specialist Program,SKL0010,REST APIs,Maharashtra,Nagpur,5,22,166,0.8,0.77,1910000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00056,CTR0009,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Tamil Nadu,Chennai,4,16,192,0.63,0.57,2980000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00057,CTR0027,Post-Harvest Management Technician / Specialist Program,SKL0082,Post-Harvest Management,Madhya Pradesh,Indore,4,9,253,0.73,0.38,4530000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00058,CTR0021,Production Planning Technician / Specialist Program,SKL0037,Production Planning,Uttar Pradesh,Kanpur,6,15,268,0.73,0.37,1260000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00059,CTR0006,Production Planning Technician / Specialist Program,SKL0037,Production Planning,Karnataka,Bengaluru,6,24,265,0.55,0.68,3930000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00060,CTR0006,REST APIs Technician / Specialist Program,SKL0010,REST APIs,Karnataka,Bengaluru,4,23,66,0.56,0.56,1500000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00061,CTR0009,Healthcare Administration Technician / Specialist Program,SKL0067,Healthcare Administration,Tamil Nadu,Chennai,2,18,111,0.63,0.55,820000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00062,CTR0021,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Uttar Pradesh,Kanpur,3,15,213,0.77,0.43,470000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00063,CTR0001,Supply Chain Technician / Specialist Program,SKL0077,Supply Chain,Maharashtra,Nashik,3,12,276,0.84,0.6,4020000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00064,CTR0006,Route Planning Technician / Specialist Program,SKL0091,Route Planning,Karnataka,Bengaluru,5,21,144,0.6,0.67,4250000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00065,CTR0011,CNC Programming Technician / Specialist Program,SKL0031,CNC Programming,Tamil Nadu,Madurai,5,22,61,0.57,0.78,3950000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00066,CTR0015,Node.js Technician / Specialist Program,SKL0007,Node.js,Gujarat,Vadodara,3,14,146,0.84,0.71,3940000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00067,CTR0006,Data Analysis Technician / Specialist Program,SKL0016,Data Analysis,Karnataka,Bengaluru,3,21,102,0.83,0.78,690000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00068,CTR0016,Workplace Safety Technician / Specialist Program,SKL0095,Workplace Safety,Delhi,New Delhi,4,26,140,0.81,0.51,4210000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00069,CTR0002,Clinical Documentation Technician / Specialist Program,SKL0063,Clinical Documentation,Maharashtra,Pune,3,21,227,0.78,0.52,1050000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00070,CTR0011,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,Tamil Nadu,Madurai,4,24,93,0.64,0.44,1390000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00071,CTR0022,Patient Care Technician / Specialist Program,SKL0061,Patient Care,West Bengal,Kolkata,2,19,105,0.68,0.63,1510000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00072,CTR0018,Patient Care Technician / Specialist Program,SKL0061,Patient Care,Haryana,Faridabad,4,8,105,0.58,0.8,1780000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00073,CTR0024,Site Supervision Technician / Specialist Program,SKL0055,Site Supervision,Kerala,Kochi,2,5,157,0.7,0.45,2440000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00074,CTR0005,Machine Learning Technician / Specialist Program,SKL0017,Machine Learning,Maharashtra,Aurangabad,3,23,190,0.57,0.38,2570000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00075,CTR0021,Production Planning Technician / Specialist Program,SKL0037,Production Planning,Uttar Pradesh,Kanpur,6,19,98,0.55,0.5,4890000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00076,CTR0002,Construction Safety Technician / Specialist Program,SKL0056,Construction Safety,Maharashtra,Pune,2,11,125,0.81,0.55,2320000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00077,CTR0010,Cybersecurity Technician / Specialist Program,SKL0018,Cybersecurity,Tamil Nadu,Coimbatore,5,17,278,0.84,0.38,2980000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00078,CTR0004,React Technician / Specialist Program,SKL0005,React,Maharashtra,Mumbai,4,17,293,0.94,0.55,870000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00079,CTR0006,Irrigation Management Technician / Specialist Program,SKL0081,Irrigation Management,Karnataka,Bengaluru,6,24,281,0.76,0.75,2480000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00080,CTR0007,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Karnataka,Mysuru,3,4,182,0.92,0.41,3530000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00081,CTR0003,Post-Harvest Management Technician / Specialist Program,SKL0082,Post-Harvest Management,Maharashtra,Nagpur,2,18,131,0.76,0.8,1580000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00082,CTR0005,Python Technician / Specialist Program,SKL0001,Python,Maharashtra,Aurangabad,5,27,205,0.67,0.78,2570000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00083,CTR0015,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Gujarat,Vadodara,2,9,126,0.67,0.78,4530000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00084,CTR0014,Farm Machinery Technician / Specialist Program,SKL0078,Farm Machinery,Gujarat,Surat,3,24,78,0.6,0.66,3780000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00085,CTR0027,Cybersecurity Technician / Specialist Program,SKL0018,Cybersecurity,Madhya Pradesh,Indore,4,22,286,0.76,0.46,4160000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00086,CTR0026,Azure Technician / Specialist Program,SKL0014,Azure,Odisha,Bhubaneswar,3,21,271,0.74,0.61,4900000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00087,CTR0017,Business Analysis Technician / Specialist Program,SKL0073,Business Analysis,Haryana,Gurugram,6,21,78,0.9,0.58,1160000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00088,CTR0017,Structural Analysis Technician / Specialist Program,SKL0060,Structural Analysis,Haryana,Gurugram,4,16,145,0.72,0.52,4630000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00089,CTR0026,Auto Electrical Technician / Specialist Program,SKL0048,Auto Electrical,Odisha,Bhubaneswar,2,26,261,0.59,0.51,2510000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00090,CTR0029,Control Systems Technician / Specialist Program,SKL0029,Control Systems,Jharkhand,Ranchi,6,22,295,0.89,0.42,4640000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00091,CTR0024,Welding Technician / Specialist Program,SKL0034,Welding,Kerala,Kochi,2,27,193,0.61,0.5,1480000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00092,CTR0025,Irrigation Management Technician / Specialist Program,SKL0081,Irrigation Management,Andhra Pradesh,Visakhapatnam,4,14,187,0.77,0.36,2010000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00093,CTR0024,PLC Technician / Specialist Program,SKL0021,PLC,Kerala,Kochi,4,19,239,0.73,0.71,3810000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00094,CTR0029,EV Systems Technician / Specialist Program,SKL0044,EV Systems,Jharkhand,Ranchi,2,20,276,0.59,0.64,1630000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00095,CTR0020,Docker Technician / Specialist Program,SKL0012,Docker,Uttar Pradesh,Lucknow,3,18,141,0.67,0.85,3330000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00096,CTR0029,Team Management Technician / Specialist Program,SKL0097,Team Management,Jharkhand,Ranchi,3,14,223,0.94,0.55,1600000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00097,CTR0007,Java Technician / Specialist Program,SKL0002,Java,Karnataka,Mysuru,5,12,152,0.84,0.56,3970000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00098,CTR0014,Vehicle Diagnostics Technician / Specialist Program,SKL0047,Vehicle Diagnostics,Gujarat,Surat,3,12,187,0.67,0.83,4300000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00099,CTR0022,JavaScript Technician / Specialist Program,SKL0003,JavaScript,West Bengal,Kolkata,2,19,269,0.93,0.71,2060000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00100,CTR0022,JavaScript Technician / Specialist Program,SKL0003,JavaScript,West Bengal,Kolkata,5,10,119,0.57,0.84,1430000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00101,CTR0022,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,West Bengal,Kolkata,2,21,217,0.7,0.57,4220000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00102,CTR0024,Python Technician / Specialist Program,SKL0001,Python,Kerala,Kochi,4,8,224,0.83,0.78,1730000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00103,CTR0015,CNC Operation Technician / Specialist Program,SKL0032,CNC Operation,Gujarat,Vadodara,6,7,88,0.62,0.51,4150000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00104,CTR0018,Site Supervision Technician / Specialist Program,SKL0055,Site Supervision,Haryana,Faridabad,2,14,134,0.81,0.52,4150000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00105,CTR0017,Customer Service Technician / Specialist Program,SKL0076,Customer Service,Haryana,Gurugram,4,7,269,0.89,0.77,3760000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00106,CTR0010,Embedded Systems Technician / Specialist Program,SKL0023,Embedded Systems,Tamil Nadu,Coimbatore,2,5,204,0.92,0.68,440000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00107,CTR0015,Automotive Diagnostics Technician / Specialist Program,SKL0043,Automotive Diagnostics,Gujarat,Vadodara,2,22,53,0.64,0.73,3590000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00108,CTR0010,CNC Turning Technician / Specialist Program,SKL0038,CNC Turning,Tamil Nadu,Coimbatore,2,26,192,0.86,0.45,1000000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00109,CTR0021,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Uttar Pradesh,Kanpur,6,14,232,0.85,0.5,3350000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00110,CTR0007,Docker Technician / Specialist Program,SKL0012,Docker,Karnataka,Mysuru,2,21,228,0.75,0.42,1570000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00111,CTR0029,Data Analysis Technician / Specialist Program,SKL0016,Data Analysis,Jharkhand,Ranchi,6,16,88,0.82,0.73,730000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00112,CTR0018,Tally Technician / Specialist Program,SKL0069,Tally,Haryana,Faridabad,3,15,236,0.83,0.68,4030000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00113,CTR0013,Git Technician / Specialist Program,SKL0011,Git,Gujarat,Ahmedabad,2,15,244,0.67,0.61,4550000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00114,CTR0025,Excel Technician / Specialist Program,SKL0072,Excel,Andhra Pradesh,Visakhapatnam,3,13,249,0.64,0.46,1850000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00115,CTR0017,CNC Programming Technician / Specialist Program,SKL0031,CNC Programming,Haryana,Gurugram,6,25,296,0.82,0.66,970000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00116,CTR0008,Problem Solving Technician / Specialist Program,SKL0093,Problem Solving,Karnataka,Hubballi,5,23,135,0.71,0.69,2510000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00117,CTR0015,Team Management Technician / Specialist Program,SKL0097,Team Management,Gujarat,Vadodara,6,15,163,0.88,0.83,4880000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00118,CTR0009,Digital Literacy Technician / Specialist Program,SKL0096,Digital Literacy,Tamil Nadu,Chennai,6,14,69,0.75,0.77,3130000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00119,CTR0020,Data Analysis Technician / Specialist Program,SKL0016,Data Analysis,Uttar Pradesh,Lucknow,2,16,210,0.73,0.81,2700000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00120,CTR0023,IoT Technician / Specialist Program,SKL0026,IoT,Rajasthan,Jaipur,5,8,247,0.57,0.36,3390000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00121,CTR0017,Surveying Technician / Specialist Program,SKL0058,Surveying,Haryana,Gurugram,6,19,213,0.61,0.48,2960000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00122,CTR0013,Structural Analysis Technician / Specialist Program,SKL0060,Structural Analysis,Gujarat,Ahmedabad,5,7,84,0.76,0.67,420000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00123,CTR0025,PLC Technician / Specialist Program,SKL0021,PLC,Andhra Pradesh,Visakhapatnam,6,17,284,0.78,0.38,330000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00124,CTR0008,Java Technician / Specialist Program,SKL0002,Java,Karnataka,Hubballi,2,19,125,0.78,0.75,1180000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00125,CTR0011,Patient Care Technician / Specialist Program,SKL0061,Patient Care,Tamil Nadu,Madurai,6,26,118,0.89,0.79,1610000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00126,CTR0005,Git Technician / Specialist Program,SKL0011,Git,Maharashtra,Aurangabad,3,27,82,0.73,0.83,860000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00127,CTR0025,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Andhra Pradesh,Visakhapatnam,4,9,273,0.79,0.66,3650000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00128,CTR0004,Battery Management Systems Technician / Specialist Program,SKL0045,Battery Management Systems,Maharashtra,Mumbai,5,8,174,0.86,0.36,4740000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00129,CTR0023,Laboratory Techniques Technician / Specialist Program,SKL0065,Laboratory Techniques,Rajasthan,Jaipur,3,10,150,0.85,0.66,1200000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00130,CTR0023,Post-Harvest Management Technician / Specialist Program,SKL0082,Post-Harvest Management,Rajasthan,Jaipur,4,7,275,0.79,0.6,2170000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00131,CTR0025,Tally Technician / Specialist Program,SKL0069,Tally,Andhra Pradesh,Visakhapatnam,3,13,212,0.78,0.63,2030000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00132,CTR0011,Docker Technician / Specialist Program,SKL0012,Docker,Tamil Nadu,Madurai,4,5,200,0.65,0.68,470000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00133,CTR0011,Machine Maintenance Technician / Specialist Program,SKL0033,Machine Maintenance,Tamil Nadu,Madurai,3,9,150,0.67,0.57,3390000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00134,CTR0011,Customer Service Technician / Specialist Program,SKL0076,Customer Service,Tamil Nadu,Madurai,4,6,78,0.57,0.68,4510000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00135,CTR0025,Lean Manufacturing Technician / Specialist Program,SKL0036,Lean Manufacturing,Andhra Pradesh,Visakhapatnam,5,15,170,0.85,0.68,3580000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00136,CTR0029,Tally Technician / Specialist Program,SKL0069,Tally,Jharkhand,Ranchi,4,14,97,0.82,0.6,2870000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00137,CTR0027,Supply Chain Technician / Specialist Program,SKL0077,Supply Chain,Madhya Pradesh,Indore,3,10,297,0.86,0.8,1440000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00138,CTR0028,AWS Technician / Specialist Program,SKL0013,AWS,Punjab,Ludhiana,2,19,265,0.69,0.54,1820000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00139,CTR0018,Battery Management Systems Technician / Specialist Program,SKL0045,Battery Management Systems,Haryana,Faridabad,3,21,247,0.91,0.44,2480000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00140,CTR0001,Node.js Technician / Specialist Program,SKL0007,Node.js,Maharashtra,Nashik,4,8,152,0.87,0.84,450000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00141,CTR0023,CNC Programming Technician / Specialist Program,SKL0031,CNC Programming,Rajasthan,Jaipur,2,10,42,0.76,0.44,770000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00142,CTR0001,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Maharashtra,Nashik,5,7,296,0.8,0.4,4780000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00143,CTR0008,Patient Care Technician / Specialist Program,SKL0061,Patient Care,Karnataka,Hubballi,6,5,191,0.65,0.44,4920000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00144,CTR0004,Workplace Safety Technician / Specialist Program,SKL0095,Workplace Safety,Maharashtra,Mumbai,3,12,58,0.56,0.39,2350000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00145,CTR0009,SCADA Technician / Specialist Program,SKL0022,SCADA,Tamil Nadu,Chennai,3,13,117,0.92,0.68,3300000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00146,CTR0023,Medical Coding Technician / Specialist Program,SKL0062,Medical Coding,Rajasthan,Jaipur,2,24,119,0.82,0.56,4790000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00147,CTR0009,JavaScript Technician / Specialist Program,SKL0003,JavaScript,Tamil Nadu,Chennai,3,16,85,0.87,0.48,4980000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00148,CTR0002,Communication Technician / Specialist Program,SKL0092,Communication,Maharashtra,Pune,6,24,205,0.79,0.47,2190000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00149,CTR0018,Control Systems Technician / Specialist Program,SKL0029,Control Systems,Haryana,Faridabad,5,13,297,0.57,0.74,1060000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00150,CTR0007,SCADA Technician / Specialist Program,SKL0022,SCADA,Karnataka,Mysuru,2,22,283,0.56,0.7,4780000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00151,CTR0009,Pharmacy Operations Technician / Specialist Program,SKL0064,Pharmacy Operations,Tamil Nadu,Chennai,3,19,167,0.83,0.54,3150000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00152,CTR0024,EV Systems Technician / Specialist Program,SKL0044,EV Systems,Kerala,Kochi,6,15,70,0.76,0.77,740000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00153,CTR0007,Accounting Technician / Specialist Program,SKL0068,Accounting,Karnataka,Mysuru,6,5,275,0.76,0.78,3630000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00154,CTR0015,Machine Maintenance Technician / Specialist Program,SKL0033,Machine Maintenance,Gujarat,Vadodara,2,10,164,0.64,0.45,2080000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00155,CTR0021,Logistics Planning Technician / Specialist Program,SKL0090,Logistics Planning,Uttar Pradesh,Kanpur,3,10,151,0.69,0.38,3600000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00156,CTR0001,Auto Electrical Technician / Specialist Program,SKL0048,Auto Electrical,Maharashtra,Nashik,5,7,255,0.6,0.71,2450000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00157,CTR0027,GST Technician / Specialist Program,SKL0070,GST,Madhya Pradesh,Indore,4,5,123,0.8,0.76,2160000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00158,CTR0008,Automotive Diagnostics Technician / Specialist Program,SKL0043,Automotive Diagnostics,Karnataka,Hubballi,6,20,152,0.73,0.51,2230000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00159,CTR0008,Machine Learning Technician / Specialist Program,SKL0017,Machine Learning,Karnataka,Hubballi,4,26,143,0.58,0.8,3910000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00160,CTR0017,Post-Harvest Management Technician / Specialist Program,SKL0082,Post-Harvest Management,Haryana,Gurugram,6,18,277,0.82,0.38,640000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00161,CTR0028,Customer Service Technician / Specialist Program,SKL0076,Customer Service,Punjab,Ludhiana,4,4,45,0.91,0.55,2650000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00162,CTR0026,Auto Electrical Technician / Specialist Program,SKL0048,Auto Electrical,Odisha,Bhubaneswar,2,10,121,0.94,0.79,1960000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00163,CTR0023,Business Analysis Technician / Specialist Program,SKL0073,Business Analysis,Rajasthan,Jaipur,3,17,102,0.7,0.84,460000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00164,CTR0001,Surveying Technician / Specialist Program,SKL0058,Surveying,Maharashtra,Nashik,2,27,182,0.69,0.83,3950000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00165,CTR0017,Post-Harvest Management Technician / Specialist Program,SKL0082,Post-Harvest Management,Haryana,Gurugram,4,25,130,0.67,0.63,2780000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00166,CTR0005,Farm Machinery Technician / Specialist Program,SKL0078,Farm Machinery,Maharashtra,Aurangabad,4,15,177,0.87,0.84,1420000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00167,CTR0021,Machine Learning Technician / Specialist Program,SKL0017,Machine Learning,Uttar Pradesh,Kanpur,5,27,98,0.58,0.53,4710000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00168,CTR0008,PCB Design Technician / Specialist Program,SKL0024,PCB Design,Karnataka,Hubballi,4,18,78,0.91,0.75,650000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00169,CTR0003,Construction Safety Technician / Specialist Program,SKL0056,Construction Safety,Maharashtra,Nagpur,2,24,78,0.67,0.58,1860000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00170,CTR0007,Structural Analysis Technician / Specialist Program,SKL0060,Structural Analysis,Karnataka,Mysuru,3,10,141,0.86,0.85,3140000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00171,CTR0007,Battery Management Systems Technician / Specialist Program,SKL0045,Battery Management Systems,Karnataka,Mysuru,6,5,56,0.74,0.44,1680000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00172,CTR0006,Battery Management Systems Technician / Specialist Program,SKL0045,Battery Management Systems,Karnataka,Bengaluru,3,21,45,0.68,0.79,3300000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00173,CTR0023,Digital Marketing Technician / Specialist Program,SKL0074,Digital Marketing,Rajasthan,Jaipur,4,27,226,0.84,0.52,330000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00174,CTR0006,Construction Safety Technician / Specialist Program,SKL0056,Construction Safety,Karnataka,Bengaluru,6,17,177,0.66,0.8,4640000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00175,CTR0013,Business Analysis Technician / Specialist Program,SKL0073,Business Analysis,Gujarat,Ahmedabad,4,8,246,0.66,0.48,4560000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00176,CTR0013,Site Supervision Technician / Specialist Program,SKL0055,Site Supervision,Gujarat,Ahmedabad,4,23,71,0.83,0.79,360000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00177,CTR0020,React Technician / Specialist Program,SKL0005,React,Uttar Pradesh,Lucknow,2,4,282,0.57,0.51,560000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00178,CTR0002,Java Technician / Specialist Program,SKL0002,Java,Maharashtra,Pune,4,20,181,0.89,0.48,910000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00179,CTR0009,Production Planning Technician / Specialist Program,SKL0037,Production Planning,Tamil Nadu,Chennai,5,10,270,0.71,0.58,3260000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00180,CTR0026,Git Technician / Specialist Program,SKL0011,Git,Odisha,Bhubaneswar,2,12,42,0.56,0.43,1180000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00181,CTR0016,Communication Technician / Specialist Program,SKL0092,Communication,Delhi,New Delhi,3,8,143,0.76,0.35,1050000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00182,CTR0029,PCB Design Technician / Specialist Program,SKL0024,PCB Design,Jharkhand,Ranchi,4,27,116,0.59,0.72,410000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00183,CTR0028,Surveying Technician / Specialist Program,SKL0058,Surveying,Punjab,Ludhiana,3,19,188,0.88,0.74,4940000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00184,CTR0012,Business Analysis Technician / Specialist Program,SKL0073,Business Analysis,Telangana,Hyderabad,3,8,45,0.87,0.49,960000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00185,CTR0015,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Gujarat,Vadodara,5,23,54,0.66,0.46,3680000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00186,CTR0017,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Haryana,Gurugram,6,10,86,0.72,0.67,3140000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00187,CTR0024,CNC Turning Technician / Specialist Program,SKL0038,CNC Turning,Kerala,Kochi,6,20,252,0.66,0.71,4750000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00188,CTR0010,Cybersecurity Technician / Specialist Program,SKL0018,Cybersecurity,Tamil Nadu,Coimbatore,4,10,261,0.72,0.58,1630000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00189,CTR0019,Laboratory Techniques Technician / Specialist Program,SKL0065,Laboratory Techniques,Uttar Pradesh,Noida,6,17,118,0.79,0.76,4370000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00190,CTR0024,Accounting Technician / Specialist Program,SKL0068,Accounting,Kerala,Kochi,3,10,31,0.93,0.44,3680000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00191,CTR0015,Farm Machinery Technician / Specialist Program,SKL0078,Farm Machinery,Gujarat,Vadodara,5,4,208,0.75,0.43,4320000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00192,CTR0010,Two-Wheeler Service Technician / Specialist Program,SKL0052,Two-Wheeler Service,Tamil Nadu,Coimbatore,3,20,228,0.57,0.84,4070000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00193,CTR0018,Node.js Technician / Specialist Program,SKL0007,Node.js,Haryana,Faridabad,2,12,157,0.69,0.68,3540000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00194,CTR0002,CNC Turning Technician / Specialist Program,SKL0038,CNC Turning,Maharashtra,Pune,2,23,55,0.94,0.55,1920000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00195,CTR0019,UI/UX Design Technician / Specialist Program,SKL0019,UI/UX Design,Uttar Pradesh,Noida,2,5,200,0.92,0.44,2350000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00196,CTR0008,Control Systems Technician / Specialist Program,SKL0029,Control Systems,Karnataka,Hubballi,5,19,220,0.85,0.71,3970000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00197,CTR0010,Production Planning Technician / Specialist Program,SKL0037,Production Planning,Tamil Nadu,Coimbatore,3,6,203,0.84,0.78,2790000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00198,CTR0024,Embedded Systems Technician / Specialist Program,SKL0023,Embedded Systems,Kerala,Kochi,5,13,284,0.78,0.85,660000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00199,CTR0026,Route Planning Technician / Specialist Program,SKL0091,Route Planning,Odisha,Bhubaneswar,5,10,95,0.86,0.41,910000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00200,CTR0007,Azure Technician / Specialist Program,SKL0014,Azure,Karnataka,Mysuru,6,25,154,0.62,0.5,1680000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00201,CTR0023,Customer Service Technician / Specialist Program,SKL0076,Customer Service,Rajasthan,Jaipur,5,12,253,0.61,0.67,490000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00202,CTR0003,PostgreSQL Technician / Specialist Program,SKL0009,PostgreSQL,Maharashtra,Nagpur,2,9,93,0.62,0.8,4730000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00203,CTR0016,Excel Technician / Specialist Program,SKL0072,Excel,Delhi,New Delhi,5,18,76,0.81,0.63,4680000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00204,CTR0003,Irrigation Management Technician / Specialist Program,SKL0081,Irrigation Management,Maharashtra,Nagpur,6,12,84,0.66,0.39,4860000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00205,CTR0019,Medical Coding Technician / Specialist Program,SKL0062,Medical Coding,Uttar Pradesh,Noida,5,14,241,0.69,0.38,2110000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00206,CTR0024,PostgreSQL Technician / Specialist Program,SKL0009,PostgreSQL,Kerala,Kochi,6,25,248,0.58,0.66,3530000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00207,CTR0027,Farm Machinery Technician / Specialist Program,SKL0078,Farm Machinery,Madhya Pradesh,Indore,5,15,132,0.91,0.36,560000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00208,CTR0012,IoT Technician / Specialist Program,SKL0026,IoT,Telangana,Hyderabad,6,5,84,0.7,0.59,2720000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00209,CTR0025,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Andhra Pradesh,Visakhapatnam,3,6,106,0.83,0.61,2320000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00210,CTR0014,UI/UX Design Technician / Specialist Program,SKL0019,UI/UX Design,Gujarat,Surat,4,4,59,0.6,0.51,4740000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00211,CTR0028,PostgreSQL Technician / Specialist Program,SKL0009,PostgreSQL,Punjab,Ludhiana,6,9,203,0.9,0.42,3920000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00212,CTR0027,Pharmacy Operations Technician / Specialist Program,SKL0064,Pharmacy Operations,Madhya Pradesh,Indore,4,4,274,0.55,0.42,1670000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00213,CTR0003,AWS Technician / Specialist Program,SKL0013,AWS,Maharashtra,Nagpur,3,21,71,0.94,0.73,4450000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00214,CTR0017,Accounting Technician / Specialist Program,SKL0068,Accounting,Haryana,Gurugram,5,16,169,0.61,0.69,4430000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00215,CTR0029,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Jharkhand,Ranchi,2,22,106,0.61,0.63,4610000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00216,CTR0019,Production Planning Technician / Specialist Program,SKL0037,Production Planning,Uttar Pradesh,Noida,6,20,60,0.91,0.69,1650000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00217,CTR0021,Lean Manufacturing Technician / Specialist Program,SKL0036,Lean Manufacturing,Uttar Pradesh,Kanpur,2,15,87,0.8,0.83,2270000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00218,CTR0027,Automotive Diagnostics Technician / Specialist Program,SKL0043,Automotive Diagnostics,Madhya Pradesh,Indore,6,26,35,0.58,0.45,730000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00219,CTR0019,Supply Chain Technician / Specialist Program,SKL0077,Supply Chain,Uttar Pradesh,Noida,2,7,181,0.62,0.83,410000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00220,CTR0008,Git Technician / Specialist Program,SKL0011,Git,Karnataka,Hubballi,2,11,31,0.72,0.78,1460000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00221,CTR0020,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Uttar Pradesh,Lucknow,3,7,236,0.8,0.43,3020000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00222,CTR0013,CNC Programming Technician / Specialist Program,SKL0031,CNC Programming,Gujarat,Ahmedabad,3,21,111,0.63,0.39,3640000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00223,CTR0010,Workplace Safety Technician / Specialist Program,SKL0095,Workplace Safety,Tamil Nadu,Coimbatore,4,25,214,0.93,0.59,4070000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00224,CTR0010,Customer Service Technician / Specialist Program,SKL0076,Customer Service,Tamil Nadu,Coimbatore,2,12,88,0.84,0.55,3100000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00225,CTR0014,Surveying Technician / Specialist Program,SKL0058,Surveying,Gujarat,Surat,2,22,266,0.9,0.56,1080000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00226,CTR0001,Production Planning Technician / Specialist Program,SKL0037,Production Planning,Maharashtra,Nashik,2,22,287,0.63,0.77,520000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00227,CTR0003,Structural Analysis Technician / Specialist Program,SKL0060,Structural Analysis,Maharashtra,Nagpur,4,27,253,0.9,0.49,4910000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00228,CTR0015,Farm Machinery Technician / Specialist Program,SKL0078,Farm Machinery,Gujarat,Vadodara,6,22,38,0.58,0.43,1400000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00229,CTR0005,CNC Programming Technician / Specialist Program,SKL0031,CNC Programming,Maharashtra,Aurangabad,4,4,137,0.74,0.71,3910000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00230,CTR0010,Business Analysis Technician / Specialist Program,SKL0073,Business Analysis,Tamil Nadu,Coimbatore,3,26,286,0.59,0.66,1420000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00231,CTR0029,Excel Technician / Specialist Program,SKL0072,Excel,Jharkhand,Ranchi,5,16,116,0.83,0.59,370000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00232,CTR0001,Azure Technician / Specialist Program,SKL0014,Azure,Maharashtra,Nashik,2,18,244,0.81,0.79,3200000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00233,CTR0003,Site Supervision Technician / Specialist Program,SKL0055,Site Supervision,Maharashtra,Nagpur,3,23,146,0.92,0.74,1610000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00234,CTR0009,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,Tamil Nadu,Chennai,5,5,102,0.76,0.72,3460000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00235,CTR0019,Team Management Technician / Specialist Program,SKL0097,Team Management,Uttar Pradesh,Noida,6,10,165,0.71,0.54,640000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00236,CTR0008,Digital Marketing Technician / Specialist Program,SKL0074,Digital Marketing,Karnataka,Hubballi,4,12,143,0.78,0.55,820000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00237,CTR0020,React Technician / Specialist Program,SKL0005,React,Uttar Pradesh,Lucknow,5,20,173,0.71,0.53,4870000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00238,CTR0023,Digital Marketing Technician / Specialist Program,SKL0074,Digital Marketing,Rajasthan,Jaipur,2,16,183,0.77,0.41,2700000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00239,CTR0001,Lean Manufacturing Technician / Specialist Program,SKL0036,Lean Manufacturing,Maharashtra,Nashik,5,6,248,0.64,0.82,3410000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00240,CTR0015,Laboratory Techniques Technician / Specialist Program,SKL0065,Laboratory Techniques,Gujarat,Vadodara,5,15,220,0.9,0.45,4620000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00241,CTR0012,REST APIs Technician / Specialist Program,SKL0010,REST APIs,Telangana,Hyderabad,6,6,178,0.75,0.71,2250000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00242,CTR0014,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Gujarat,Surat,6,21,229,0.9,0.62,1180000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00243,CTR0024,IoT Technician / Specialist Program,SKL0026,IoT,Kerala,Kochi,3,10,84,0.82,0.71,1330000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00244,CTR0022,Azure Technician / Specialist Program,SKL0014,Azure,West Bengal,Kolkata,5,13,292,0.93,0.45,1520000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00245,CTR0001,Route Planning Technician / Specialist Program,SKL0091,Route Planning,Maharashtra,Nashik,6,6,56,0.7,0.43,4730000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00246,CTR0026,Excel Technician / Specialist Program,SKL0072,Excel,Odisha,Bhubaneswar,5,15,259,0.69,0.71,3830000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00247,CTR0001,CNC Operation Technician / Specialist Program,SKL0032,CNC Operation,Maharashtra,Nashik,2,18,200,0.6,0.42,2950000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00248,CTR0028,Digital Literacy Technician / Specialist Program,SKL0096,Digital Literacy,Punjab,Ludhiana,2,17,40,0.89,0.63,3920000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00249,CTR0003,JavaScript Technician / Specialist Program,SKL0003,JavaScript,Maharashtra,Nagpur,5,7,263,0.91,0.78,3850000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00250,CTR0022,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,West Bengal,Kolkata,5,19,237,0.6,0.48,3970000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00251,CTR0017,Clinical Documentation Technician / Specialist Program,SKL0063,Clinical Documentation,Haryana,Gurugram,2,8,208,0.63,0.61,1350000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00252,CTR0003,Logistics Planning Technician / Specialist Program,SKL0090,Logistics Planning,Maharashtra,Nagpur,5,15,201,0.77,0.37,3690000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00253,CTR0007,Communication Technician / Specialist Program,SKL0092,Communication,Karnataka,Mysuru,6,10,229,0.6,0.81,2800000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00254,CTR0019,Data Analysis Technician / Specialist Program,SKL0016,Data Analysis,Uttar Pradesh,Noida,6,25,131,0.83,0.77,4660000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00255,CTR0024,CNC Turning Technician / Specialist Program,SKL0038,CNC Turning,Kerala,Kochi,3,8,62,0.84,0.41,550000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00256,CTR0026,Node.js Technician / Specialist Program,SKL0007,Node.js,Odisha,Bhubaneswar,6,19,160,0.87,0.68,3530000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00257,CTR0007,PLC Technician / Specialist Program,SKL0021,PLC,Karnataka,Mysuru,6,20,162,0.9,0.69,2770000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00258,CTR0019,Team Management Technician / Specialist Program,SKL0097,Team Management,Uttar Pradesh,Noida,3,7,234,0.58,0.59,300000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00259,CTR0001,Supply Chain Technician / Specialist Program,SKL0077,Supply Chain,Maharashtra,Nashik,6,14,269,0.95,0.53,1390000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00260,CTR0026,Warehouse Management Technician / Specialist Program,SKL0085,Warehouse Management,Odisha,Bhubaneswar,5,4,193,0.56,0.74,3910000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00261,CTR0005,Git Technician / Specialist Program,SKL0011,Git,Maharashtra,Aurangabad,4,24,30,0.77,0.78,4490000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00262,CTR0005,REST APIs Technician / Specialist Program,SKL0010,REST APIs,Maharashtra,Aurangabad,3,14,102,0.95,0.76,3360000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00263,CTR0003,Team Management Technician / Specialist Program,SKL0097,Team Management,Maharashtra,Nagpur,2,21,225,0.57,0.78,570000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00264,CTR0029,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,Jharkhand,Ranchi,3,11,280,0.72,0.67,1510000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00265,CTR0006,Welding Technician / Specialist Program,SKL0034,Welding,Karnataka,Bengaluru,6,10,215,0.58,0.77,300000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00266,CTR0012,Welding Technician / Specialist Program,SKL0034,Welding,Telangana,Hyderabad,2,13,137,0.87,0.69,3260000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00267,CTR0021,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Uttar Pradesh,Kanpur,2,10,110,0.78,0.45,1450000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00268,CTR0014,Project Planning Technician / Specialist Program,SKL0059,Project Planning,Gujarat,Surat,5,4,160,0.9,0.6,1840000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00269,CTR0022,Machine Learning Technician / Specialist Program,SKL0017,Machine Learning,West Bengal,Kolkata,5,27,210,0.71,0.79,4580000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00270,CTR0001,Java Technician / Specialist Program,SKL0002,Java,Maharashtra,Nashik,6,15,69,0.61,0.52,4110000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00271,CTR0018,Project Planning Technician / Specialist Program,SKL0059,Project Planning,Haryana,Faridabad,6,6,245,0.71,0.73,1620000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00272,CTR0019,Problem Solving Technician / Specialist Program,SKL0093,Problem Solving,Uttar Pradesh,Noida,5,9,120,0.71,0.62,560000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00273,CTR0016,Warehouse Management Technician / Specialist Program,SKL0085,Warehouse Management,Delhi,New Delhi,4,15,121,0.85,0.77,3420000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00274,CTR0027,Post-Harvest Management Technician / Specialist Program,SKL0082,Post-Harvest Management,Madhya Pradesh,Indore,5,18,32,0.95,0.77,4220000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00275,CTR0007,Production Planning Technician / Specialist Program,SKL0037,Production Planning,Karnataka,Mysuru,6,7,132,0.66,0.68,480000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00276,CTR0013,Embedded Systems Technician / Specialist Program,SKL0023,Embedded Systems,Gujarat,Ahmedabad,2,15,173,0.63,0.85,2040000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00277,CTR0026,GST Technician / Specialist Program,SKL0070,GST,Odisha,Bhubaneswar,4,19,57,0.69,0.64,500000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00278,CTR0011,Surveying Technician / Specialist Program,SKL0058,Surveying,Tamil Nadu,Madurai,4,16,286,0.74,0.61,3780000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00279,CTR0018,Git Technician / Specialist Program,SKL0011,Git,Haryana,Faridabad,3,23,221,0.67,0.66,2600000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00280,CTR0007,Site Supervision Technician / Specialist Program,SKL0055,Site Supervision,Karnataka,Mysuru,4,20,81,0.85,0.59,1780000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00281,CTR0014,Logistics Planning Technician / Specialist Program,SKL0090,Logistics Planning,Gujarat,Surat,2,13,290,0.84,0.45,4220000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00282,CTR0002,Patient Care Technician / Specialist Program,SKL0061,Patient Care,Maharashtra,Pune,4,25,164,0.77,0.7,1140000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00283,CTR0027,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Madhya Pradesh,Indore,4,6,41,0.73,0.69,3900000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00284,CTR0016,Site Supervision Technician / Specialist Program,SKL0055,Site Supervision,Delhi,New Delhi,6,17,56,0.57,0.52,3730000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00285,CTR0020,SCADA Technician / Specialist Program,SKL0022,SCADA,Uttar Pradesh,Lucknow,4,7,105,0.94,0.67,1000000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00286,CTR0004,JavaScript Technician / Specialist Program,SKL0003,JavaScript,Maharashtra,Mumbai,4,27,206,0.82,0.68,3720000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00287,CTR0029,Excel Technician / Specialist Program,SKL0072,Excel,Jharkhand,Ranchi,5,13,39,0.64,0.8,1800000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00288,CTR0028,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Punjab,Ludhiana,3,26,166,0.59,0.36,3890000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00289,CTR0022,EV Systems Technician / Specialist Program,SKL0044,EV Systems,West Bengal,Kolkata,3,16,241,0.77,0.46,1080000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00290,CTR0014,SCADA Technician / Specialist Program,SKL0022,SCADA,Gujarat,Surat,3,13,177,0.56,0.48,2670000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00291,CTR0013,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,Gujarat,Ahmedabad,4,18,92,0.77,0.38,2780000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00292,CTR0025,SCADA Technician / Specialist Program,SKL0022,SCADA,Andhra Pradesh,Visakhapatnam,2,14,40,0.87,0.42,2570000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00293,CTR0002,Battery Management Systems Technician / Specialist Program,SKL0045,Battery Management Systems,Maharashtra,Pune,3,18,114,0.56,0.55,3280000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00294,CTR0002,AWS Technician / Specialist Program,SKL0013,AWS,Maharashtra,Pune,2,4,35,0.72,0.63,440000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00295,CTR0015,Control Systems Technician / Specialist Program,SKL0029,Control Systems,Gujarat,Vadodara,4,18,128,0.91,0.8,1570000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00296,CTR0009,Surveying Technician / Specialist Program,SKL0058,Surveying,Tamil Nadu,Chennai,5,16,139,0.8,0.46,4460000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00297,CTR0025,Machine Learning Technician / Specialist Program,SKL0017,Machine Learning,Andhra Pradesh,Visakhapatnam,2,15,84,0.67,0.47,3240000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00298,CTR0023,Java Technician / Specialist Program,SKL0002,Java,Rajasthan,Jaipur,2,26,114,0.89,0.81,640000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00299,CTR0004,PCB Design Technician / Specialist Program,SKL0024,PCB Design,Maharashtra,Mumbai,6,13,276,0.91,0.71,4130000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00300,CTR0029,Machine Learning Technician / Specialist Program,SKL0017,Machine Learning,Jharkhand,Ranchi,2,12,213,0.95,0.68,1670000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00301,CTR0019,Docker Technician / Specialist Program,SKL0012,Docker,Uttar Pradesh,Noida,6,22,272,0.65,0.37,3430000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00302,CTR0021,Docker Technician / Specialist Program,SKL0012,Docker,Uttar Pradesh,Kanpur,2,12,177,0.85,0.63,4940000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00303,CTR0024,Cybersecurity Technician / Specialist Program,SKL0018,Cybersecurity,Kerala,Kochi,5,21,235,0.71,0.53,3980000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00304,CTR0024,Clinical Documentation Technician / Specialist Program,SKL0063,Clinical Documentation,Kerala,Kochi,5,24,179,0.8,0.56,1900000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00305,CTR0007,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Karnataka,Mysuru,5,25,190,0.73,0.73,4450000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00306,CTR0029,Machine Maintenance Technician / Specialist Program,SKL0033,Machine Maintenance,Jharkhand,Ranchi,2,10,59,0.6,0.7,2920000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00307,CTR0002,Project Planning Technician / Specialist Program,SKL0059,Project Planning,Maharashtra,Pune,5,24,117,0.78,0.39,1840000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00308,CTR0027,Clinical Documentation Technician / Specialist Program,SKL0063,Clinical Documentation,Madhya Pradesh,Indore,2,20,55,0.8,0.39,3500000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00309,CTR0025,Agri Input Management Technician / Specialist Program,SKL0079,Agri Input Management,Andhra Pradesh,Visakhapatnam,3,22,42,0.75,0.71,1790000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00310,CTR0024,Excel Technician / Specialist Program,SKL0072,Excel,Kerala,Kochi,2,13,262,0.65,0.76,3610000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00311,CTR0021,Business Analysis Technician / Specialist Program,SKL0073,Business Analysis,Uttar Pradesh,Kanpur,6,23,244,0.86,0.67,330000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00312,CTR0008,Logistics Planning Technician / Specialist Program,SKL0090,Logistics Planning,Karnataka,Hubballi,3,20,283,0.79,0.82,3930000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00313,CTR0018,AWS Technician / Specialist Program,SKL0013,AWS,Haryana,Faridabad,6,14,209,0.81,0.82,670000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00314,CTR0025,Patient Care Technician / Specialist Program,SKL0061,Patient Care,Andhra Pradesh,Visakhapatnam,6,14,82,0.88,0.43,3760000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00315,CTR0029,UI/UX Design Technician / Specialist Program,SKL0019,UI/UX Design,Jharkhand,Ranchi,6,21,114,0.67,0.78,4480000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00316,CTR0003,Machine Maintenance Technician / Specialist Program,SKL0033,Machine Maintenance,Maharashtra,Nagpur,4,16,171,0.76,0.43,1930000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00317,CTR0010,Embedded Systems Technician / Specialist Program,SKL0023,Embedded Systems,Tamil Nadu,Coimbatore,5,7,242,0.63,0.65,2840000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00318,CTR0004,Docker Technician / Specialist Program,SKL0012,Docker,Maharashtra,Mumbai,2,13,101,0.93,0.58,1800000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00319,CTR0028,Auto Electrical Technician / Specialist Program,SKL0048,Auto Electrical,Punjab,Ludhiana,3,10,232,0.64,0.66,2760000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00320,CTR0022,Post-Harvest Management Technician / Specialist Program,SKL0082,Post-Harvest Management,West Bengal,Kolkata,2,4,111,0.71,0.66,360000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00321,CTR0016,React Technician / Specialist Program,SKL0005,React,Delhi,New Delhi,5,18,179,0.82,0.41,2870000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00322,CTR0012,Vehicle Diagnostics Technician / Specialist Program,SKL0047,Vehicle Diagnostics,Telangana,Hyderabad,6,11,82,0.64,0.76,1280000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00323,CTR0023,Farm Machinery Technician / Specialist Program,SKL0078,Farm Machinery,Rajasthan,Jaipur,6,7,228,0.55,0.8,4110000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00324,CTR0029,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Jharkhand,Ranchi,6,26,120,0.56,0.67,4550000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00325,CTR0016,Vehicle Diagnostics Technician / Specialist Program,SKL0047,Vehicle Diagnostics,Delhi,New Delhi,2,16,161,0.94,0.73,4590000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00326,CTR0022,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,West Bengal,Kolkata,4,9,76,0.67,0.78,1280000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00327,CTR0018,Warehouse Management Technician / Specialist Program,SKL0085,Warehouse Management,Haryana,Faridabad,6,7,172,0.92,0.75,4670000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00328,CTR0001,Customer Service Technician / Specialist Program,SKL0076,Customer Service,Maharashtra,Nashik,5,11,198,0.89,0.77,4100000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00329,CTR0020,Vehicle Diagnostics Technician / Specialist Program,SKL0047,Vehicle Diagnostics,Uttar Pradesh,Lucknow,2,24,57,0.84,0.64,4280000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00330,CTR0020,React Technician / Specialist Program,SKL0005,React,Uttar Pradesh,Lucknow,3,13,171,0.91,0.37,3740000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00331,CTR0007,Automotive Diagnostics Technician / Specialist Program,SKL0043,Automotive Diagnostics,Karnataka,Mysuru,3,7,195,0.7,0.45,1830000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00332,CTR0016,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Delhi,New Delhi,4,17,56,0.76,0.76,3160000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00333,CTR0004,Excel Technician / Specialist Program,SKL0072,Excel,Maharashtra,Mumbai,2,9,273,0.89,0.37,3640000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00334,CTR0016,UI/UX Design Technician / Specialist Program,SKL0019,UI/UX Design,Delhi,New Delhi,2,20,243,0.84,0.39,3300000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00335,CTR0009,Git Technician / Specialist Program,SKL0011,Git,Tamil Nadu,Chennai,2,12,253,0.78,0.49,3610000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00336,CTR0025,Auto Electrical Technician / Specialist Program,SKL0048,Auto Electrical,Andhra Pradesh,Visakhapatnam,5,15,93,0.79,0.58,3770000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00337,CTR0010,Welding Technician / Specialist Program,SKL0034,Welding,Tamil Nadu,Coimbatore,6,8,175,0.7,0.56,4280000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00338,CTR0020,UI/UX Design Technician / Specialist Program,SKL0019,UI/UX Design,Uttar Pradesh,Lucknow,3,24,230,0.77,0.41,1590000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00339,CTR0022,Automotive Diagnostics Technician / Specialist Program,SKL0043,Automotive Diagnostics,West Bengal,Kolkata,2,18,165,0.82,0.56,1170000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00340,CTR0004,Warehouse Management Technician / Specialist Program,SKL0085,Warehouse Management,Maharashtra,Mumbai,4,13,265,0.81,0.48,3230000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00341,CTR0002,Node.js Technician / Specialist Program,SKL0007,Node.js,Maharashtra,Pune,3,20,32,0.72,0.83,3210000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00342,CTR0026,React Technician / Specialist Program,SKL0005,React,Odisha,Bhubaneswar,5,9,218,0.82,0.37,1930000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00343,CTR0003,Docker Technician / Specialist Program,SKL0012,Docker,Maharashtra,Nagpur,6,8,183,0.73,0.72,4620000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00344,CTR0024,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Kerala,Kochi,5,23,286,0.86,0.74,460000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00345,CTR0026,Machine Maintenance Technician / Specialist Program,SKL0033,Machine Maintenance,Odisha,Bhubaneswar,6,5,204,0.87,0.73,3470000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00346,CTR0004,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Maharashtra,Mumbai,3,15,267,0.78,0.4,3810000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00347,CTR0016,Structural Analysis Technician / Specialist Program,SKL0060,Structural Analysis,Delhi,New Delhi,3,6,144,0.71,0.62,4050000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00348,CTR0019,Communication Technician / Specialist Program,SKL0092,Communication,Uttar Pradesh,Noida,5,5,72,0.71,0.61,2770000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00349,CTR0006,Node.js Technician / Specialist Program,SKL0007,Node.js,Karnataka,Bengaluru,5,22,261,0.79,0.75,520000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00350,CTR0008,Customer Service Technician / Specialist Program,SKL0076,Customer Service,Karnataka,Hubballi,5,8,88,0.89,0.49,1280000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00351,CTR0009,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Tamil Nadu,Chennai,5,7,262,0.89,0.84,3850000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00352,CTR0004,Git Technician / Specialist Program,SKL0011,Git,Maharashtra,Mumbai,4,4,89,0.55,0.83,2940000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00353,CTR0028,CNC Programming Technician / Specialist Program,SKL0031,CNC Programming,Punjab,Ludhiana,3,26,46,0.91,0.6,3480000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00354,CTR0011,REST APIs Technician / Specialist Program,SKL0010,REST APIs,Tamil Nadu,Madurai,4,27,142,0.81,0.37,1140000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00355,CTR0024,Patient Care Technician / Specialist Program,SKL0061,Patient Care,Kerala,Kochi,6,27,178,0.72,0.44,2520000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00356,CTR0003,AWS Technician / Specialist Program,SKL0013,AWS,Maharashtra,Nagpur,2,24,174,0.78,0.59,370000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00357,CTR0015,Digital Marketing Technician / Specialist Program,SKL0074,Digital Marketing,Gujarat,Vadodara,6,11,72,0.82,0.63,3260000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00358,CTR0012,Node.js Technician / Specialist Program,SKL0007,Node.js,Telangana,Hyderabad,4,11,253,0.94,0.42,3960000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00359,CTR0022,Business Analysis Technician / Specialist Program,SKL0073,Business Analysis,West Bengal,Kolkata,6,17,80,0.94,0.54,4990000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00360,CTR0014,Pharmacy Operations Technician / Specialist Program,SKL0064,Pharmacy Operations,Gujarat,Surat,2,13,189,0.72,0.66,4900000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00361,CTR0004,Medical Coding Technician / Specialist Program,SKL0062,Medical Coding,Maharashtra,Mumbai,5,24,153,0.93,0.6,3900000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00362,CTR0012,CNC Operation Technician / Specialist Program,SKL0032,CNC Operation,Telangana,Hyderabad,2,24,286,0.77,0.73,4180000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00363,CTR0010,Auto Electrical Technician / Specialist Program,SKL0048,Auto Electrical,Tamil Nadu,Coimbatore,3,24,98,0.86,0.75,1680000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00364,CTR0004,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Maharashtra,Mumbai,6,12,268,0.8,0.5,1530000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00365,CTR0003,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,Maharashtra,Nagpur,5,4,164,0.78,0.58,1860000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00366,CTR0014,Team Management Technician / Specialist Program,SKL0097,Team Management,Gujarat,Surat,3,4,291,0.77,0.49,670000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00367,CTR0013,Tally Technician / Specialist Program,SKL0069,Tally,Gujarat,Ahmedabad,2,20,45,0.81,0.69,3060000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00368,CTR0022,Digital Literacy Technician / Specialist Program,SKL0096,Digital Literacy,West Bengal,Kolkata,5,9,238,0.86,0.35,1590000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00369,CTR0010,Post-Harvest Management Technician / Specialist Program,SKL0082,Post-Harvest Management,Tamil Nadu,Coimbatore,4,7,76,0.7,0.37,3470000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00370,CTR0009,Quality Control Technician / Specialist Program,SKL0035,Quality Control,Tamil Nadu,Chennai,3,15,210,0.65,0.69,1340000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00371,CTR0029,Machine Learning Technician / Specialist Program,SKL0017,Machine Learning,Jharkhand,Ranchi,6,7,52,0.69,0.44,4630000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00372,CTR0025,Battery Management Systems Technician / Specialist Program,SKL0045,Battery Management Systems,Andhra Pradesh,Visakhapatnam,4,15,45,0.77,0.64,2670000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00373,CTR0018,PostgreSQL Technician / Specialist Program,SKL0009,PostgreSQL,Haryana,Faridabad,4,8,151,0.58,0.47,520000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00374,CTR0019,PLC Technician / Specialist Program,SKL0021,PLC,Uttar Pradesh,Noida,2,8,135,0.79,0.51,1180000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00375,CTR0006,CNC Operation Technician / Specialist Program,SKL0032,CNC Operation,Karnataka,Bengaluru,6,15,274,0.72,0.39,1060000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00376,CTR0003,Embedded Systems Technician / Specialist Program,SKL0023,Embedded Systems,Maharashtra,Nagpur,3,16,158,0.82,0.59,1760000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00377,CTR0014,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Gujarat,Surat,6,10,179,0.78,0.72,1650000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00378,CTR0006,Surveying Technician / Specialist Program,SKL0058,Surveying,Karnataka,Bengaluru,2,12,243,0.85,0.81,2930000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00379,CTR0023,Machine Maintenance Technician / Specialist Program,SKL0033,Machine Maintenance,Rajasthan,Jaipur,4,23,169,0.63,0.36,4030000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00380,CTR0002,Excel Technician / Specialist Program,SKL0072,Excel,Maharashtra,Pune,2,7,206,0.57,0.39,1550000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00381,CTR0014,Machine Learning Technician / Specialist Program,SKL0017,Machine Learning,Gujarat,Surat,3,6,289,0.58,0.73,4300000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00382,CTR0020,Structural Analysis Technician / Specialist Program,SKL0060,Structural Analysis,Uttar Pradesh,Lucknow,6,16,219,0.81,0.51,1230000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00383,CTR0021,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Uttar Pradesh,Kanpur,4,19,291,0.68,0.48,790000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00384,CTR0027,Node.js Technician / Specialist Program,SKL0007,Node.js,Madhya Pradesh,Indore,4,22,284,0.58,0.78,1830000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00385,CTR0014,Node.js Technician / Specialist Program,SKL0007,Node.js,Gujarat,Surat,5,6,178,0.76,0.77,3050000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00386,CTR0016,Digital Marketing Technician / Specialist Program,SKL0074,Digital Marketing,Delhi,New Delhi,6,4,163,0.57,0.73,3570000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00387,CTR0020,Control Systems Technician / Specialist Program,SKL0029,Control Systems,Uttar Pradesh,Lucknow,6,5,257,0.85,0.77,2110000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00388,CTR0022,Welding Technician / Specialist Program,SKL0034,Welding,West Bengal,Kolkata,3,4,252,0.67,0.85,4210000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00389,CTR0018,Automotive Diagnostics Technician / Specialist Program,SKL0043,Automotive Diagnostics,Haryana,Faridabad,5,9,299,0.95,0.74,2300000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00390,CTR0010,Site Supervision Technician / Specialist Program,SKL0055,Site Supervision,Tamil Nadu,Coimbatore,2,12,54,0.7,0.45,2170000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00391,CTR0017,CNC Turning Technician / Specialist Program,SKL0038,CNC Turning,Haryana,Gurugram,4,23,126,0.73,0.81,1140000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00392,CTR0004,PostgreSQL Technician / Specialist Program,SKL0009,PostgreSQL,Maharashtra,Mumbai,3,24,298,0.84,0.64,2830000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00393,CTR0019,Surveying Technician / Specialist Program,SKL0058,Surveying,Uttar Pradesh,Noida,6,19,53,0.72,0.5,2290000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00394,CTR0025,Problem Solving Technician / Specialist Program,SKL0093,Problem Solving,Andhra Pradesh,Visakhapatnam,6,17,278,0.69,0.47,4600000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00395,CTR0002,Irrigation Management Technician / Specialist Program,SKL0081,Irrigation Management,Maharashtra,Pune,5,5,241,0.71,0.52,3780000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00396,CTR0015,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Gujarat,Vadodara,2,23,172,0.87,0.68,4960000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00397,CTR0021,CNC Operation Technician / Specialist Program,SKL0032,CNC Operation,Uttar Pradesh,Kanpur,3,17,151,0.66,0.74,3640000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00398,CTR0011,CNC Turning Technician / Specialist Program,SKL0038,CNC Turning,Tamil Nadu,Madurai,3,22,219,0.65,0.62,1600000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00399,CTR0022,Embedded Systems Technician / Specialist Program,SKL0023,Embedded Systems,West Bengal,Kolkata,2,22,281,0.79,0.72,530000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00400,CTR0015,Irrigation Management Technician / Specialist Program,SKL0081,Irrigation Management,Gujarat,Vadodara,4,17,183,0.7,0.73,1230000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00401,CTR0011,Vehicle Diagnostics Technician / Specialist Program,SKL0047,Vehicle Diagnostics,Tamil Nadu,Madurai,5,9,68,0.93,0.62,4840000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00402,CTR0008,Data Analysis Technician / Specialist Program,SKL0016,Data Analysis,Karnataka,Hubballi,5,22,108,0.84,0.56,4250000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00403,CTR0010,Machine Learning Technician / Specialist Program,SKL0017,Machine Learning,Tamil Nadu,Coimbatore,3,24,57,0.71,0.44,2860000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00404,CTR0006,Vehicle Diagnostics Technician / Specialist Program,SKL0047,Vehicle Diagnostics,Karnataka,Bengaluru,2,25,288,0.95,0.56,680000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00405,CTR0016,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Delhi,New Delhi,4,7,288,0.9,0.51,380000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00406,CTR0007,Structural Analysis Technician / Specialist Program,SKL0060,Structural Analysis,Karnataka,Mysuru,3,12,150,0.59,0.5,4790000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00407,CTR0018,Java Technician / Specialist Program,SKL0002,Java,Haryana,Faridabad,3,21,145,0.88,0.67,4010000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00408,CTR0018,UI/UX Design Technician / Specialist Program,SKL0019,UI/UX Design,Haryana,Faridabad,4,11,92,0.63,0.83,1750000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00409,CTR0001,Python Technician / Specialist Program,SKL0001,Python,Maharashtra,Nashik,6,8,249,0.79,0.37,2540000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00410,CTR0022,Cybersecurity Technician / Specialist Program,SKL0018,Cybersecurity,West Bengal,Kolkata,2,10,152,0.81,0.8,4740000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00411,CTR0003,Clinical Documentation Technician / Specialist Program,SKL0063,Clinical Documentation,Maharashtra,Nagpur,2,22,204,0.89,0.44,490000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00412,CTR0025,Quality Control Technician / Specialist Program,SKL0035,Quality Control,Andhra Pradesh,Visakhapatnam,2,25,214,0.75,0.84,2290000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00413,CTR0014,Two-Wheeler Service Technician / Specialist Program,SKL0052,Two-Wheeler Service,Gujarat,Surat,2,17,239,0.68,0.55,4300000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00414,CTR0014,Quality Control Technician / Specialist Program,SKL0035,Quality Control,Gujarat,Surat,4,26,104,0.63,0.36,2700000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00415,CTR0009,Node.js Technician / Specialist Program,SKL0007,Node.js,Tamil Nadu,Chennai,5,9,205,0.92,0.54,4610000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00416,CTR0020,Communication Technician / Specialist Program,SKL0092,Communication,Uttar Pradesh,Lucknow,2,6,37,0.82,0.71,4940000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00417,CTR0001,REST APIs Technician / Specialist Program,SKL0010,REST APIs,Maharashtra,Nashik,2,9,188,0.63,0.46,1220000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00418,CTR0026,Lean Manufacturing Technician / Specialist Program,SKL0036,Lean Manufacturing,Odisha,Bhubaneswar,3,7,172,0.86,0.67,2150000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00419,CTR0023,Construction Safety Technician / Specialist Program,SKL0056,Construction Safety,Rajasthan,Jaipur,5,22,264,0.56,0.68,3430000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00420,CTR0028,EV Systems Technician / Specialist Program,SKL0044,EV Systems,Punjab,Ludhiana,3,14,177,0.57,0.67,1460000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00421,CTR0012,Construction Safety Technician / Specialist Program,SKL0056,Construction Safety,Telangana,Hyderabad,2,25,174,0.82,0.63,2290000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00422,CTR0029,REST APIs Technician / Specialist Program,SKL0010,REST APIs,Jharkhand,Ranchi,2,13,71,0.61,0.39,1430000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00423,CTR0009,Machine Learning Technician / Specialist Program,SKL0017,Machine Learning,Tamil Nadu,Chennai,3,26,37,0.81,0.36,4050000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00424,CTR0007,Docker Technician / Specialist Program,SKL0012,Docker,Karnataka,Mysuru,4,18,41,0.91,0.84,1810000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00425,CTR0014,Pharmacy Operations Technician / Specialist Program,SKL0064,Pharmacy Operations,Gujarat,Surat,5,13,67,0.74,0.6,2670000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00426,CTR0013,Clinical Documentation Technician / Specialist Program,SKL0063,Clinical Documentation,Gujarat,Ahmedabad,3,5,250,0.71,0.7,510000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00427,CTR0012,Docker Technician / Specialist Program,SKL0012,Docker,Telangana,Hyderabad,3,25,232,0.74,0.79,3880000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00428,CTR0008,Azure Technician / Specialist Program,SKL0014,Azure,Karnataka,Hubballi,5,10,95,0.86,0.58,4950000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00429,CTR0021,Java Technician / Specialist Program,SKL0002,Java,Uttar Pradesh,Kanpur,4,20,188,0.82,0.72,1010000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00430,CTR0016,Construction Safety Technician / Specialist Program,SKL0056,Construction Safety,Delhi,New Delhi,6,21,155,0.85,0.74,2600000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00431,CTR0004,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Maharashtra,Mumbai,6,24,60,0.89,0.8,900000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00432,CTR0003,Quality Control Technician / Specialist Program,SKL0035,Quality Control,Maharashtra,Nagpur,2,24,229,0.93,0.56,2030000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00433,CTR0005,React Technician / Specialist Program,SKL0005,React,Maharashtra,Aurangabad,6,25,61,0.61,0.5,3540000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00434,CTR0028,Clinical Documentation Technician / Specialist Program,SKL0063,Clinical Documentation,Punjab,Ludhiana,3,6,71,0.66,0.79,3210000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00435,CTR0028,Laboratory Techniques Technician / Specialist Program,SKL0065,Laboratory Techniques,Punjab,Ludhiana,6,20,184,0.57,0.78,2970000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00436,CTR0021,Lean Manufacturing Technician / Specialist Program,SKL0036,Lean Manufacturing,Uttar Pradesh,Kanpur,4,22,166,0.89,0.59,340000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00437,CTR0014,JavaScript Technician / Specialist Program,SKL0003,JavaScript,Gujarat,Surat,6,11,33,0.58,0.62,3120000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00438,CTR0014,Site Supervision Technician / Specialist Program,SKL0055,Site Supervision,Gujarat,Surat,6,14,216,0.89,0.71,4140000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00439,CTR0002,UI/UX Design Technician / Specialist Program,SKL0019,UI/UX Design,Maharashtra,Pune,3,16,143,0.85,0.59,3240000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00440,CTR0020,JavaScript Technician / Specialist Program,SKL0003,JavaScript,Uttar Pradesh,Lucknow,4,27,64,0.89,0.77,4900000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00441,CTR0025,CNC Programming Technician / Specialist Program,SKL0031,CNC Programming,Andhra Pradesh,Visakhapatnam,3,11,112,0.66,0.57,4000000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00442,CTR0005,Irrigation Management Technician / Specialist Program,SKL0081,Irrigation Management,Maharashtra,Aurangabad,5,5,80,0.67,0.82,2610000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00443,CTR0003,Post-Harvest Management Technician / Specialist Program,SKL0082,Post-Harvest Management,Maharashtra,Nagpur,4,21,243,0.55,0.45,1240000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00444,CTR0016,Pharmacy Operations Technician / Specialist Program,SKL0064,Pharmacy Operations,Delhi,New Delhi,3,11,271,0.68,0.69,4850000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00445,CTR0021,Embedded Systems Technician / Specialist Program,SKL0023,Embedded Systems,Uttar Pradesh,Kanpur,5,6,83,0.65,0.54,4070000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00446,CTR0002,JavaScript Technician / Specialist Program,SKL0003,JavaScript,Maharashtra,Pune,2,5,31,0.7,0.82,1160000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00447,CTR0006,Patient Care Technician / Specialist Program,SKL0061,Patient Care,Karnataka,Bengaluru,4,25,79,0.67,0.79,3320000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00448,CTR0020,Medical Coding Technician / Specialist Program,SKL0062,Medical Coding,Uttar Pradesh,Lucknow,6,15,293,0.94,0.59,3300000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00449,CTR0014,Auto Electrical Technician / Specialist Program,SKL0048,Auto Electrical,Gujarat,Surat,6,19,169,0.79,0.52,900000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00450,CTR0019,REST APIs Technician / Specialist Program,SKL0010,REST APIs,Uttar Pradesh,Noida,2,16,193,0.77,0.69,760000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00451,CTR0019,Customer Service Technician / Specialist Program,SKL0076,Customer Service,Uttar Pradesh,Noida,3,18,106,0.81,0.35,3950000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00452,CTR0014,Data Analysis Technician / Specialist Program,SKL0016,Data Analysis,Gujarat,Surat,4,12,112,0.67,0.39,450000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00453,CTR0011,Machine Maintenance Technician / Specialist Program,SKL0033,Machine Maintenance,Tamil Nadu,Madurai,6,21,43,0.88,0.57,3570000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00454,CTR0002,Docker Technician / Specialist Program,SKL0012,Docker,Maharashtra,Pune,6,13,190,0.63,0.69,3350000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00455,CTR0029,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Jharkhand,Ranchi,5,15,114,0.67,0.45,2960000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00456,CTR0020,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,Uttar Pradesh,Lucknow,2,21,202,0.89,0.44,4810000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00457,CTR0009,Team Management Technician / Specialist Program,SKL0097,Team Management,Tamil Nadu,Chennai,2,22,69,0.64,0.74,1350000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00458,CTR0020,PostgreSQL Technician / Specialist Program,SKL0009,PostgreSQL,Uttar Pradesh,Lucknow,4,5,142,0.74,0.84,900000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00459,CTR0020,Pharmacy Operations Technician / Specialist Program,SKL0064,Pharmacy Operations,Uttar Pradesh,Lucknow,4,13,107,0.92,0.38,500000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00460,CTR0027,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,Madhya Pradesh,Indore,6,26,211,0.67,0.44,4210000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00461,CTR0003,IoT Technician / Specialist Program,SKL0026,IoT,Maharashtra,Nagpur,3,22,249,0.64,0.68,3640000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00462,CTR0009,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,Tamil Nadu,Chennai,4,25,51,0.88,0.6,4810000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00463,CTR0015,Digital Literacy Technician / Specialist Program,SKL0096,Digital Literacy,Gujarat,Vadodara,6,10,152,0.86,0.65,2010000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00464,CTR0028,Workplace Safety Technician / Specialist Program,SKL0095,Workplace Safety,Punjab,Ludhiana,2,15,246,0.89,0.79,3440000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00465,CTR0027,Quality Control Technician / Specialist Program,SKL0035,Quality Control,Madhya Pradesh,Indore,5,22,120,0.85,0.77,2530000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00466,CTR0029,Logistics Planning Technician / Specialist Program,SKL0090,Logistics Planning,Jharkhand,Ranchi,4,19,255,0.8,0.7,1390000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00467,CTR0027,Python Technician / Specialist Program,SKL0001,Python,Madhya Pradesh,Indore,4,24,221,0.77,0.74,2870000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00468,CTR0007,React Technician / Specialist Program,SKL0005,React,Karnataka,Mysuru,2,6,112,0.83,0.64,4090000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00469,CTR0008,Construction Safety Technician / Specialist Program,SKL0056,Construction Safety,Karnataka,Hubballi,4,16,246,0.62,0.55,3780000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00470,CTR0023,Embedded Systems Technician / Specialist Program,SKL0023,Embedded Systems,Rajasthan,Jaipur,6,19,293,0.8,0.54,410000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00471,CTR0008,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,Karnataka,Hubballi,3,24,93,0.86,0.67,4370000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00472,CTR0018,Cybersecurity Technician / Specialist Program,SKL0018,Cybersecurity,Haryana,Faridabad,6,7,114,0.94,0.37,3850000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00473,CTR0006,Patient Care Technician / Specialist Program,SKL0061,Patient Care,Karnataka,Bengaluru,2,19,195,0.55,0.63,2270000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00474,CTR0024,Cybersecurity Technician / Specialist Program,SKL0018,Cybersecurity,Kerala,Kochi,4,24,286,0.87,0.59,1610000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00475,CTR0013,SCADA Technician / Specialist Program,SKL0022,SCADA,Gujarat,Ahmedabad,4,22,120,0.84,0.7,2710000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00476,CTR0026,SCADA Technician / Specialist Program,SKL0022,SCADA,Odisha,Bhubaneswar,2,26,32,0.83,0.63,3750000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00477,CTR0010,EV Systems Technician / Specialist Program,SKL0044,EV Systems,Tamil Nadu,Coimbatore,5,25,289,0.67,0.52,2070000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00478,CTR0020,Node.js Technician / Specialist Program,SKL0007,Node.js,Uttar Pradesh,Lucknow,6,22,166,0.68,0.71,1580000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00479,CTR0004,Two-Wheeler Service Technician / Specialist Program,SKL0052,Two-Wheeler Service,Maharashtra,Mumbai,6,25,180,0.94,0.45,2370000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00480,CTR0008,Post-Harvest Management Technician / Specialist Program,SKL0082,Post-Harvest Management,Karnataka,Hubballi,4,10,163,0.89,0.8,3760000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00481,CTR0021,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Uttar Pradesh,Kanpur,2,25,248,0.93,0.74,4200000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00482,CTR0016,Machine Maintenance Technician / Specialist Program,SKL0033,Machine Maintenance,Delhi,New Delhi,3,25,34,0.64,0.41,2800000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00483,CTR0015,Machine Maintenance Technician / Specialist Program,SKL0033,Machine Maintenance,Gujarat,Vadodara,3,19,160,0.58,0.46,4300000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00484,CTR0024,AWS Technician / Specialist Program,SKL0013,AWS,Kerala,Kochi,5,12,296,0.76,0.84,940000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00485,CTR0025,Welding Technician / Specialist Program,SKL0034,Welding,Andhra Pradesh,Visakhapatnam,4,20,74,0.63,0.72,3110000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00486,CTR0001,Vehicle Diagnostics Technician / Specialist Program,SKL0047,Vehicle Diagnostics,Maharashtra,Nashik,6,25,141,0.57,0.56,1670000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00487,CTR0004,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Maharashtra,Mumbai,6,25,34,0.75,0.83,4220000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00488,CTR0018,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,Haryana,Faridabad,5,9,115,0.72,0.49,390000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00489,CTR0011,REST APIs Technician / Specialist Program,SKL0010,REST APIs,Tamil Nadu,Madurai,6,26,287,0.57,0.54,1830000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00490,CTR0005,PLC Technician / Specialist Program,SKL0021,PLC,Maharashtra,Aurangabad,5,14,230,0.55,0.72,3130000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00491,CTR0015,Workplace Safety Technician / Specialist Program,SKL0095,Workplace Safety,Gujarat,Vadodara,6,16,239,0.72,0.74,1750000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00492,CTR0005,Welding Technician / Specialist Program,SKL0034,Welding,Maharashtra,Aurangabad,3,7,173,0.66,0.7,3810000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00493,CTR0011,Digital Marketing Technician / Specialist Program,SKL0074,Digital Marketing,Tamil Nadu,Madurai,3,9,31,0.82,0.49,1550000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00494,CTR0020,Node.js Technician / Specialist Program,SKL0007,Node.js,Uttar Pradesh,Lucknow,4,7,230,0.93,0.57,4950000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00495,CTR0026,Production Planning Technician / Specialist Program,SKL0037,Production Planning,Odisha,Bhubaneswar,5,13,163,0.77,0.5,580000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00496,CTR0021,SCADA Technician / Specialist Program,SKL0022,SCADA,Uttar Pradesh,Kanpur,2,6,127,0.76,0.49,440000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00497,CTR0003,Automotive Diagnostics Technician / Specialist Program,SKL0043,Automotive Diagnostics,Maharashtra,Nagpur,3,24,135,0.58,0.6,3270000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00498,CTR0008,Patient Care Technician / Specialist Program,SKL0061,Patient Care,Karnataka,Hubballi,6,17,217,0.58,0.57,4260000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00499,CTR0016,Healthcare Administration Technician / Specialist Program,SKL0067,Healthcare Administration,Delhi,New Delhi,4,26,259,0.85,0.69,3370000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00500,CTR0020,Problem Solving Technician / Specialist Program,SKL0093,Problem Solving,Uttar Pradesh,Lucknow,3,4,43,0.63,0.41,1710000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00501,CTR0006,Medical Coding Technician / Specialist Program,SKL0062,Medical Coding,Karnataka,Bengaluru,3,12,227,0.85,0.4,1680000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00502,CTR0021,Tally Technician / Specialist Program,SKL0069,Tally,Uttar Pradesh,Kanpur,3,23,262,0.81,0.41,4700000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00503,CTR0029,Accounting Technician / Specialist Program,SKL0068,Accounting,Jharkhand,Ranchi,5,6,130,0.91,0.83,410000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00504,CTR0014,Digital Marketing Technician / Specialist Program,SKL0074,Digital Marketing,Gujarat,Surat,6,15,71,0.94,0.84,530000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00505,CTR0025,CNC Operation Technician / Specialist Program,SKL0032,CNC Operation,Andhra Pradesh,Visakhapatnam,5,22,257,0.94,0.78,2490000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00506,CTR0010,Control Systems Technician / Specialist Program,SKL0029,Control Systems,Tamil Nadu,Coimbatore,2,14,85,0.85,0.74,1120000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00507,CTR0009,GST Technician / Specialist Program,SKL0070,GST,Tamil Nadu,Chennai,2,22,279,0.57,0.82,580000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00508,CTR0011,Production Planning Technician / Specialist Program,SKL0037,Production Planning,Tamil Nadu,Madurai,3,8,47,0.6,0.57,1240000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00509,CTR0022,Data Analysis Technician / Specialist Program,SKL0016,Data Analysis,West Bengal,Kolkata,2,22,225,0.66,0.36,4410000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00510,CTR0022,Accounting Technician / Specialist Program,SKL0068,Accounting,West Bengal,Kolkata,3,7,253,0.7,0.66,850000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00511,CTR0028,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Punjab,Ludhiana,2,16,48,0.91,0.62,4160000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00512,CTR0011,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Tamil Nadu,Madurai,6,10,68,0.9,0.48,2260000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00513,CTR0007,Machine Learning Technician / Specialist Program,SKL0017,Machine Learning,Karnataka,Mysuru,5,20,261,0.88,0.77,4300000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00514,CTR0014,AWS Technician / Specialist Program,SKL0013,AWS,Gujarat,Surat,5,11,183,0.93,0.68,2680000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00515,CTR0022,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,West Bengal,Kolkata,3,7,258,0.75,0.37,620000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00516,CTR0025,REST APIs Technician / Specialist Program,SKL0010,REST APIs,Andhra Pradesh,Visakhapatnam,4,12,59,0.79,0.54,410000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00517,CTR0001,Accounting Technician / Specialist Program,SKL0068,Accounting,Maharashtra,Nashik,3,18,168,0.71,0.85,3080000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00518,CTR0007,Patient Care Technician / Specialist Program,SKL0061,Patient Care,Karnataka,Mysuru,2,16,262,0.92,0.53,4590000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00519,CTR0018,CNC Programming Technician / Specialist Program,SKL0031,CNC Programming,Haryana,Faridabad,3,11,263,0.77,0.59,730000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00520,CTR0017,Team Management Technician / Specialist Program,SKL0097,Team Management,Haryana,Gurugram,4,5,97,0.83,0.59,380000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00521,CTR0018,Battery Management Systems Technician / Specialist Program,SKL0045,Battery Management Systems,Haryana,Faridabad,5,25,33,0.79,0.83,3500000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00522,CTR0020,Digital Literacy Technician / Specialist Program,SKL0096,Digital Literacy,Uttar Pradesh,Lucknow,2,21,107,0.56,0.6,4840000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00523,CTR0025,Warehouse Management Technician / Specialist Program,SKL0085,Warehouse Management,Andhra Pradesh,Visakhapatnam,4,5,224,0.56,0.59,1510000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00524,CTR0013,Healthcare Administration Technician / Specialist Program,SKL0067,Healthcare Administration,Gujarat,Ahmedabad,4,22,113,0.91,0.49,1060000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00525,CTR0014,React Technician / Specialist Program,SKL0005,React,Gujarat,Surat,5,15,281,0.92,0.51,1840000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00526,CTR0022,CNC Turning Technician / Specialist Program,SKL0038,CNC Turning,West Bengal,Kolkata,2,14,216,0.76,0.56,4680000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00527,CTR0002,Warehouse Management Technician / Specialist Program,SKL0085,Warehouse Management,Maharashtra,Pune,2,11,250,0.85,0.75,1630000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00528,CTR0026,SCADA Technician / Specialist Program,SKL0022,SCADA,Odisha,Bhubaneswar,3,9,36,0.57,0.4,3370000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00529,CTR0028,REST APIs Technician / Specialist Program,SKL0010,REST APIs,Punjab,Ludhiana,5,12,110,0.8,0.41,3120000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00530,CTR0003,AutoCAD Technician / Specialist Program,SKL0041,AutoCAD,Maharashtra,Nagpur,2,9,50,0.78,0.72,410000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00531,CTR0026,Healthcare Administration Technician / Specialist Program,SKL0067,Healthcare Administration,Odisha,Bhubaneswar,6,6,36,0.71,0.51,4040000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00532,CTR0002,GST Technician / Specialist Program,SKL0070,GST,Maharashtra,Pune,4,23,165,0.7,0.43,4740000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00533,CTR0007,PostgreSQL Technician / Specialist Program,SKL0009,PostgreSQL,Karnataka,Mysuru,5,5,112,0.57,0.36,2370000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00534,CTR0025,Communication Technician / Specialist Program,SKL0092,Communication,Andhra Pradesh,Visakhapatnam,4,13,102,0.69,0.65,2050000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00535,CTR0016,Welding Technician / Specialist Program,SKL0034,Welding,Delhi,New Delhi,2,22,237,0.56,0.55,3470000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00536,CTR0016,EV Systems Technician / Specialist Program,SKL0044,EV Systems,Delhi,New Delhi,2,20,79,0.85,0.53,2870000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00537,CTR0017,Automotive Diagnostics Technician / Specialist Program,SKL0043,Automotive Diagnostics,Haryana,Gurugram,3,15,272,0.73,0.54,4020000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00538,CTR0022,UI/UX Design Technician / Specialist Program,SKL0019,UI/UX Design,West Bengal,Kolkata,3,26,111,0.58,0.81,1550000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00539,CTR0001,UI/UX Design Technician / Specialist Program,SKL0019,UI/UX Design,Maharashtra,Nashik,4,21,87,0.7,0.84,2400000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00540,CTR0008,Healthcare Administration Technician / Specialist Program,SKL0067,Healthcare Administration,Karnataka,Hubballi,4,20,279,0.71,0.39,840000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00541,CTR0023,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Rajasthan,Jaipur,4,11,256,0.87,0.8,350000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00542,CTR0018,Farm Machinery Technician / Specialist Program,SKL0078,Farm Machinery,Haryana,Faridabad,6,17,124,0.69,0.55,4640000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00543,CTR0016,Azure Technician / Specialist Program,SKL0014,Azure,Delhi,New Delhi,2,23,196,0.66,0.41,3960000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00544,CTR0018,Accounting Technician / Specialist Program,SKL0068,Accounting,Haryana,Faridabad,6,9,48,0.59,0.72,740000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00545,CTR0009,Supply Chain Technician / Specialist Program,SKL0077,Supply Chain,Tamil Nadu,Chennai,3,8,202,0.68,0.62,3930000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00546,CTR0002,Logistics Planning Technician / Specialist Program,SKL0090,Logistics Planning,Maharashtra,Pune,5,4,231,0.81,0.53,1020000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00547,CTR0013,Docker Technician / Specialist Program,SKL0012,Docker,Gujarat,Ahmedabad,4,12,285,0.82,0.83,3510000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00548,CTR0024,Digital Literacy Technician / Specialist Program,SKL0096,Digital Literacy,Kerala,Kochi,4,11,71,0.8,0.8,3210000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00549,CTR0027,React Technician / Specialist Program,SKL0005,React,Madhya Pradesh,Indore,2,18,140,0.71,0.36,4950000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00550,CTR0006,CNC Turning Technician / Specialist Program,SKL0038,CNC Turning,Karnataka,Bengaluru,5,12,197,0.55,0.68,3620000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00551,CTR0021,JavaScript Technician / Specialist Program,SKL0003,JavaScript,Uttar Pradesh,Kanpur,6,22,170,0.57,0.74,3100000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00552,CTR0001,CNC Programming Technician / Specialist Program,SKL0031,CNC Programming,Maharashtra,Nashik,6,12,162,0.59,0.5,1560000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00553,CTR0013,Clinical Documentation Technician / Specialist Program,SKL0063,Clinical Documentation,Gujarat,Ahmedabad,2,21,32,0.6,0.52,370000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00554,CTR0009,Node.js Technician / Specialist Program,SKL0007,Node.js,Tamil Nadu,Chennai,5,17,163,0.87,0.76,3860000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00555,CTR0011,Automotive Diagnostics Technician / Specialist Program,SKL0043,Automotive Diagnostics,Tamil Nadu,Madurai,2,10,249,0.7,0.52,2420000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00556,CTR0024,Workplace Safety Technician / Specialist Program,SKL0095,Workplace Safety,Kerala,Kochi,6,17,46,0.9,0.39,1440000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00557,CTR0009,Python Technician / Specialist Program,SKL0001,Python,Tamil Nadu,Chennai,5,15,286,0.83,0.56,2460000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00558,CTR0004,Machine Learning Technician / Specialist Program,SKL0017,Machine Learning,Maharashtra,Mumbai,2,23,259,0.81,0.6,1530000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00559,CTR0016,Python Technician / Specialist Program,SKL0001,Python,Delhi,New Delhi,4,16,89,0.6,0.79,3110000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00560,CTR0020,Data Analysis Technician / Specialist Program,SKL0016,Data Analysis,Uttar Pradesh,Lucknow,4,10,298,0.74,0.61,500000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00561,CTR0008,Irrigation Management Technician / Specialist Program,SKL0081,Irrigation Management,Karnataka,Hubballi,6,7,276,0.7,0.74,4400000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00562,CTR0013,PCB Design Technician / Specialist Program,SKL0024,PCB Design,Gujarat,Ahmedabad,5,8,295,0.89,0.75,4360000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00563,CTR0026,Production Planning Technician / Specialist Program,SKL0037,Production Planning,Odisha,Bhubaneswar,2,10,170,0.63,0.75,2650000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00564,CTR0022,Surveying Technician / Specialist Program,SKL0058,Surveying,West Bengal,Kolkata,5,17,48,0.77,0.59,2470000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00565,CTR0028,Machine Maintenance Technician / Specialist Program,SKL0033,Machine Maintenance,Punjab,Ludhiana,3,15,127,0.85,0.79,1680000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00566,CTR0016,Site Supervision Technician / Specialist Program,SKL0055,Site Supervision,Delhi,New Delhi,3,26,141,0.87,0.46,2890000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00567,CTR0023,Auto Electrical Technician / Specialist Program,SKL0048,Auto Electrical,Rajasthan,Jaipur,4,12,225,0.66,0.39,870000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00568,CTR0014,Node.js Technician / Specialist Program,SKL0007,Node.js,Gujarat,Surat,2,13,70,0.92,0.5,1950000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00569,CTR0026,Cybersecurity Technician / Specialist Program,SKL0018,Cybersecurity,Odisha,Bhubaneswar,4,4,165,0.75,0.46,730000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00570,CTR0023,Vehicle Diagnostics Technician / Specialist Program,SKL0047,Vehicle Diagnostics,Rajasthan,Jaipur,5,20,261,0.64,0.47,910000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00571,CTR0012,Java Technician / Specialist Program,SKL0002,Java,Telangana,Hyderabad,6,8,221,0.6,0.49,1740000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00572,CTR0010,Surveying Technician / Specialist Program,SKL0058,Surveying,Tamil Nadu,Coimbatore,4,20,71,0.89,0.41,410000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00573,CTR0021,Data Analysis Technician / Specialist Program,SKL0016,Data Analysis,Uttar Pradesh,Kanpur,3,9,200,0.9,0.52,3580000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00574,CTR0023,Civil Drafting Technician / Specialist Program,SKL0057,Civil Drafting,Rajasthan,Jaipur,2,20,100,0.71,0.58,3170000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00575,CTR0020,Medical Equipment Maintenance Technician / Specialist Program,SKL0066,Medical Equipment Maintenance,Uttar Pradesh,Lucknow,6,14,85,0.74,0.8,3280000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00576,CTR0008,UI/UX Design Technician / Specialist Program,SKL0019,UI/UX Design,Karnataka,Hubballi,4,24,289,0.57,0.68,2240000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00577,CTR0028,Clinical Documentation Technician / Specialist Program,SKL0063,Clinical Documentation,Punjab,Ludhiana,6,25,276,0.94,0.74,2010000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00578,CTR0004,Supply Chain Technician / Specialist Program,SKL0077,Supply Chain,Maharashtra,Mumbai,3,4,88,0.76,0.39,4060000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00579,CTR0021,Problem Solving Technician / Specialist Program,SKL0093,Problem Solving,Uttar Pradesh,Kanpur,4,17,227,0.6,0.79,4190000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00580,CTR0015,Cybersecurity Technician / Specialist Program,SKL0018,Cybersecurity,Gujarat,Vadodara,6,13,274,0.59,0.61,1910000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00581,CTR0008,Quality Control Technician / Specialist Program,SKL0035,Quality Control,Karnataka,Hubballi,6,5,265,0.62,0.76,4860000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00582,CTR0024,Route Planning Technician / Specialist Program,SKL0091,Route Planning,Kerala,Kochi,6,6,203,0.71,0.4,2560000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00583,CTR0018,Route Planning Technician / Specialist Program,SKL0091,Route Planning,Haryana,Faridabad,2,16,227,0.73,0.5,860000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00584,CTR0007,React Technician / Specialist Program,SKL0005,React,Karnataka,Mysuru,3,6,60,0.79,0.49,1970000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00585,CTR0024,Logistics Planning Technician / Specialist Program,SKL0090,Logistics Planning,Kerala,Kochi,3,27,273,0.55,0.75,320000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00586,CTR0026,REST APIs Technician / Specialist Program,SKL0010,REST APIs,Odisha,Bhubaneswar,4,5,108,0.82,0.69,2230000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00587,CTR0022,Healthcare Administration Technician / Specialist Program,SKL0067,Healthcare Administration,West Bengal,Kolkata,3,27,65,0.81,0.73,4200000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00588,CTR0007,Quality Control Technician / Specialist Program,SKL0035,Quality Control,Karnataka,Mysuru,3,16,80,0.64,0.43,660000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00589,CTR0008,Digital Marketing Technician / Specialist Program,SKL0074,Digital Marketing,Karnataka,Hubballi,6,21,39,0.85,0.7,520000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00590,CTR0013,Tally Technician / Specialist Program,SKL0069,Tally,Gujarat,Ahmedabad,5,25,73,0.73,0.49,3460000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00591,CTR0006,Production Planning Technician / Specialist Program,SKL0037,Production Planning,Karnataka,Bengaluru,2,19,295,0.83,0.75,4660000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00592,CTR0021,Post-Harvest Management Technician / Specialist Program,SKL0082,Post-Harvest Management,Uttar Pradesh,Kanpur,3,13,127,0.83,0.65,1210000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00593,CTR0024,Mechanical Assembly Technician / Specialist Program,SKL0040,Mechanical Assembly,Kerala,Kochi,3,13,40,0.78,0.79,940000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00594,CTR0026,Digital Marketing Technician / Specialist Program,SKL0074,Digital Marketing,Odisha,Bhubaneswar,3,20,88,0.9,0.73,1690000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00595,CTR0018,Quality Control Technician / Specialist Program,SKL0035,Quality Control,Haryana,Faridabad,5,20,65,0.89,0.49,770000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00596,CTR0015,React Technician / Specialist Program,SKL0005,React,Gujarat,Vadodara,5,9,141,0.8,0.7,4000000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00597,CTR0014,Python Technician / Specialist Program,SKL0001,Python,Gujarat,Surat,4,16,156,0.79,0.82,4170000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00598,CTR0015,Irrigation Management Technician / Specialist Program,SKL0081,Irrigation Management,Gujarat,Vadodara,4,20,195,0.79,0.75,1150000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00599,CTR0002,Java Technician / Specialist Program,SKL0002,Java,Maharashtra,Pune,5,24,140,0.9,0.39,2510000,SYNTHETIC_DEMO,SYNTHETIC
+TRN00600,CTR0028,PLC Technician / Specialist Program,SKL0021,PLC,Punjab,Ludhiana,2,23,197,0.79,0.72,1100000,SYNTHETIC_DEMO,SYNTHETIC

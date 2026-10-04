@@ -1,0 +1,80 @@
+[
+  {
+    "id": "demand_based_planning",
+    "title": "Dynamic and demand-based system planning",
+    "summary": "Support supply of trained workers that can adjust to changing employment and technology demand.",
+    "source_pages": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "lmii",
+    "title": "Labour Market Information System",
+    "summary": "Establish sector-specific LMIS at national/state levels and area-specific LMIS at local levels to undertake labour market analysis.",
+    "source_pages": [
+      26,
+      27
+    ]
+  },
+  {
+    "id": "hrp",
+    "title": "Human Resource Planning",
+    "summary": "Gauge anticipated supply and demand of skilled workers by skill level, economic sector, geography and time period.",
+    "source_pages": [
+      26,
+      27
+    ]
+  },
+  {
+    "id": "dissemination",
+    "title": "Labour-market information dissemination",
+    "summary": "Disseminate LMIS/HRP information to government, employers, training providers, trainees and prospective trainees to support decisions.",
+    "source_pages": [
+      26,
+      27
+    ]
+  },
+  {
+    "id": "skill_inventory",
+    "title": "Skill inventory",
+    "summary": "Create a skill inventory with levels and grades as part of the talent-pool approach.",
+    "source_pages": [
+      7
+    ]
+  },
+  {
+    "id": "employment_outcomes",
+    "title": "Employment outcomes",
+    "summary": "Monitor placement ratios and make employment outcomes visible for skill-training programmes.",
+    "source_pages": [
+      7
+    ]
+  },
+  {
+    "id": "short_relevant_courses",
+    "title": "Short, relevant courses",
+    "summary": "Use short, relevant and effective courses that respond to fast-changing labour-market skills.",
+    "source_pages": [
+      5
+    ]
+  },
+  {
+    "id": "local_centres",
+    "title": "Local labour-market support",
+    "summary": "Village/block skill centres are described as information points for local labour-market, employment, training and support-scheme information.",
+    "source_pages": [
+      15,
+      18
+    ]
+  },
+  {
+    "id": "unorganised_sector",
+    "title": "Unorganised-sector skills",
+    "summary": "The policy explicitly addresses own-account workers, micro-enterprise workers, casual labourers, home-based workers, migrants, farmers and artisans.",
+    "source_pages": [
+      29,
+      30
+    ]
+  }
+]

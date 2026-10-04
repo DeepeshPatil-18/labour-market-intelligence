@@ -1,0 +1,59 @@
+# Labour Market Intelligence Platform — .gitignore
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+.pnp.*
+
+# Build outputs
+dist/
+.next/
+out/
+build/
+.vercel/
+
+# Database
+*.db
+*.sqlite
+
+# Prisma
+packages/database/prisma/migrations/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage
+coverage/
+
+# Turbo
+.turbo/
+
+# Processed data (regenerable)
+data/processed/*
+!data/processed/.gitkeep
+
+# Geography data (downloaded)
+data/geography/*
+!data/geography/.gitkeep
+
+# Never commit raw API snapshots with PII
+data/raw/api-snapshots/
+
+# TypeScript
+*.tsbuildinfo

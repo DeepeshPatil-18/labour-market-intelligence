@@ -1,0 +1,127 @@
+﻿indicator,year,geography,age_group,sex,category,unit,value,source_page
+LFPR,2025,All India,15+,Person,Usual status (ps+ss),percent,59.3,1
+LFPR,2025,All India,15+,Male,Usual status (ps+ss),percent,79.1,1
+LFPR,2025,All India,15+,Female,Usual status (ps+ss),percent,40.0,1
+WPR,2025,All India,15+,Person,Usual status (ps+ss),percent,57.4,1
+WPR,2025,All India,15+,Male,Usual status (ps+ss),percent,76.6,1
+WPR,2025,All India,15+,Female,Usual status (ps+ss),percent,38.8,1
+UR,2025,All India,15+,Person,Usual status (ps+ss),percent,3.1,1
+UR,2025,All India,15+,Male,Usual status (ps+ss),percent,3.1,1
+UR,2025,All India,15+,Female,Usual status (ps+ss),percent,3.1,1
+UR,2025,Rural,15+,Person,Usual status (ps+ss),percent,2.4,4
+UR,2025,Rural,15+,Male,Usual status (ps+ss),percent,2.6,4
+UR,2025,Rural,15+,Female,Usual status (ps+ss),percent,2.1,4
+UR,2025,Urban,15+,Person,Usual status (ps+ss),percent,4.8,4
+UR,2025,Urban,15+,Male,Usual status (ps+ss),percent,4.2,4
+UR,2025,Urban,15+,Female,Usual status (ps+ss),percent,6.4,4
+LFPR,2022,Rural,15+,Male,Usual status (ps+ss),percent,79.5,3
+LFPR,2022,Rural,15+,Female,Usual status (ps+ss),percent,37.5,3
+LFPR,2022,Rural,15+,Person,Usual status (ps+ss),percent,58.5,3
+LFPR,2023,Rural,15+,Male,Usual status (ps+ss),percent,79.8,3
+LFPR,2023,Rural,15+,Female,Usual status (ps+ss),percent,47.3,3
+LFPR,2023,Rural,15+,Person,Usual status (ps+ss),percent,63.4,3
+LFPR,2024,Rural,15+,Male,Usual status (ps+ss),percent,80.6,3
+LFPR,2024,Rural,15+,Female,Usual status (ps+ss),percent,45.8,3
+LFPR,2024,Rural,15+,Person,Usual status (ps+ss),percent,62.9,3
+LFPR,2025,Rural,15+,Male,Usual status (ps+ss),percent,80.5,3
+LFPR,2025,Rural,15+,Female,Usual status (ps+ss),percent,45.9,3
+LFPR,2025,Rural,15+,Person,Usual status (ps+ss),percent,62.8,3
+LFPR,2022,Urban,15+,Male,Usual status (ps+ss),percent,74.3,3
+LFPR,2022,Urban,15+,Female,Usual status (ps+ss),percent,24.7,3
+LFPR,2022,Urban,15+,Person,Usual status (ps+ss),percent,50.0,3
+LFPR,2023,Urban,15+,Male,Usual status (ps+ss),percent,74.9,3
+LFPR,2023,Urban,15+,Female,Usual status (ps+ss),percent,27.2,3
+LFPR,2023,Urban,15+,Person,Usual status (ps+ss),percent,51.4,3
+LFPR,2024,Urban,15+,Male,Usual status (ps+ss),percent,76.2,3
+LFPR,2024,Urban,15+,Female,Usual status (ps+ss),percent,27.6,3
+LFPR,2024,Urban,15+,Person,Usual status (ps+ss),percent,52.2,3
+LFPR,2025,Urban,15+,Male,Usual status (ps+ss),percent,76.2,3
+LFPR,2025,Urban,15+,Female,Usual status (ps+ss),percent,27.7,3
+LFPR,2025,Urban,15+,Person,Usual status (ps+ss),percent,52.2,3
+WPR,2022,Rural,15+,Male,Usual status (ps+ss),percent,77.1,4
+WPR,2022,Rural,15+,Female,Usual status (ps+ss),percent,36.7,4
+WPR,2022,Rural,15+,Person,Usual status (ps+ss),percent,56.9,4
+WPR,2023,Rural,15+,Male,Usual status (ps+ss),percent,77.7,4
+WPR,2023,Rural,15+,Female,Usual status (ps+ss),percent,46.4,4
+WPR,2023,Rural,15+,Person,Usual status (ps+ss),percent,61.9,4
+WPR,2024,Rural,15+,Male,Usual status (ps+ss),percent,78.4,4
+WPR,2024,Rural,15+,Female,Usual status (ps+ss),percent,44.8,4
+WPR,2024,Rural,15+,Person,Usual status (ps+ss),percent,61.4,4
+WPR,2025,Rural,15+,Male,Usual status (ps+ss),percent,78.4,4
+WPR,2025,Rural,15+,Female,Usual status (ps+ss),percent,44.9,4
+WPR,2025,Rural,15+,Person,Usual status (ps+ss),percent,61.2,4
+WPR,2022,Urban,15+,Male,Usual status (ps+ss),percent,70.4,4
+WPR,2022,Urban,15+,Female,Usual status (ps+ss),percent,22.8,4
+WPR,2022,Urban,15+,Person,Usual status (ps+ss),percent,47.0,4
+WPR,2023,Urban,15+,Male,Usual status (ps+ss),percent,71.6,4
+WPR,2023,Urban,15+,Female,Usual status (ps+ss),percent,25.2,4
+WPR,2023,Urban,15+,Person,Usual status (ps+ss),percent,48.8,4
+WPR,2024,Urban,15+,Male,Usual status (ps+ss),percent,72.8,4
+WPR,2024,Urban,15+,Female,Usual status (ps+ss),percent,25.8,4
+WPR,2024,Urban,15+,Person,Usual status (ps+ss),percent,49.6,4
+WPR,2025,Urban,15+,Male,Usual status (ps+ss),percent,73.0,4
+WPR,2025,Urban,15+,Female,Usual status (ps+ss),percent,25.9,4
+WPR,2025,Urban,15+,Person,Usual status (ps+ss),percent,49.7,4
+Employment status share,2024,All India,15+,Male,Usual status,percent,52.9,5
+Employment status share,2024,All India,15+,Female,Usual status,percent,66.5,5
+Employment status share,2024,All India,15+,Person,Usual status,percent,57.5,5
+Employment status share,2025,All India,15+,Male,Self-employed,percent,52.0,5
+Employment status share,2025,All India,15+,Female,Self-employed,percent,64.2,5
+Employment status share,2025,All India,15+,Person,Self-employed,percent,56.2,5
+Employment status share,2025,All India,15+,Male,Regular wage/salaried,percent,26.5,5
+Employment status share,2025,All India,15+,Female,Regular wage/salaried,percent,18.2,5
+Employment status share,2025,All India,15+,Person,Regular wage/salaried,percent,23.6,5
+Employment status share,2025,All India,15+,Male,Casual labour,percent,21.6,5
+Employment status share,2025,All India,15+,Female,Casual labour,percent,17.6,5
+Employment status share,2025,All India,15+,Person,Casual labour,percent,20.2,5
+Industry employment share,2024,All India,15+,Person,Agriculture,percent,44.8,6
+Industry employment share,2025,All India,15+,Person,Agriculture,percent,43.0,6
+Industry employment share,2024,All India,15+,Person,Mining & quarrying,percent,0.3,6
+Industry employment share,2025,All India,15+,Person,Mining & quarrying,percent,0.3,6
+Industry employment share,2024,All India,15+,Person,Manufacturing,percent,11.6,6
+Industry employment share,2025,All India,15+,Person,Manufacturing,percent,12.1,6
+Industry employment share,2024,All India,15+,Person,"Electricity, water, etc.",percent,0.6,6
+Industry employment share,2025,All India,15+,Person,"Electricity, water, etc.",percent,0.7,6
+Industry employment share,2024,All India,15+,Person,Construction,percent,12.3,6
+Industry employment share,2025,All India,15+,Person,Construction,percent,12.0,6
+Industry employment share,2024,All India,15+,Person,"Trade, hotel & restaurant",percent,12.5,6
+Industry employment share,2025,All India,15+,Person,"Trade, hotel & restaurant",percent,12.9,6
+Industry employment share,2024,All India,15+,Person,"Transport, storage & communications",percent,5.8,6
+Industry employment share,2025,All India,15+,Person,"Transport, storage & communications",percent,5.8,6
+Industry employment share,2024,All India,15+,Person,Other services,percent,12.2,6
+Industry employment share,2025,All India,15+,Person,Other services,percent,13.1,6
+Average earnings,2024,All India,15+,Male,Regular wage/salaried,INR/month,22891.0,6
+Average earnings,2025,All India,15+,Male,Regular wage/salaried,INR/month,24217.0,6
+Average earnings,2024,All India,15+,Female,Regular wage/salaried,INR/month,17126.0,6
+Average earnings,2025,All India,15+,Female,Regular wage/salaried,INR/month,18353.0,6
+Average earnings,2024,All India,15+,Male,Self-employed,INR/month,16893.0,7
+Average earnings,2025,All India,15+,Male,Self-employed,INR/month,17914.0,7
+Average earnings,2024,All India,15+,Female,Self-employed,INR/month,5861.0,7
+Average earnings,2025,All India,15+,Female,Self-employed,INR/month,6374.0,7
+Average earnings,2024,All India,15+,Male,Casual labour (other than public works),INR/day,456.0,7
+Average earnings,2025,All India,15+,Male,Casual labour (other than public works),INR/day,455.0,7
+Average earnings,2024,All India,15+,Female,Casual labour (other than public works),INR/day,299.0,7
+Average earnings,2025,All India,15+,Female,Casual labour (other than public works),INR/day,315.0,7
+Average years of formal education,2025,All India,15+,Person,Rural,years,9.4,7
+Average years of formal education,2025,All India,15+,Person,Urban,years,11.1,7
+Average years of formal education,2025,All India,15+,Person,Rural+Urban,years,10.0,7
+Average years of formal education,2025,All India,15+,Male,Rural,years,9.6,7
+Average years of formal education,2025,All India,15+,Male,Urban,years,11.2,7
+Average years of formal education,2025,All India,15+,Female,Rural,years,9.2,7
+Average years of formal education,2025,All India,15+,Female,Urban,years,10.9,7
+Average years of formal education,2025,All India,25+,Person,Rural+Urban,years,9.8,7
+Formal vocational/technical training,2025,All India,15-59,Person,Received/receiving,percent,4.2,2
+Formal vocational/technical training,2025,All India,15-29,Person,Received/receiving,percent,5.0,2
+Workforce participation among formally trained,2025,All India,15-59,Male,Formal vocational/technical training,percent,83.3,2
+Workforce participation among formally trained,2025,All India,15-59,Female,Formal vocational/technical training,percent,51.4,2
+NEET,2025,All India,15-24,Person,"Not in employment, education or training",percent,21.0,2
+NEET,2025,All India,15-29,Person,"Not in employment, education or training",percent,25.0,2
+Youth UR,2024,All India,15-29,Person,Usual status (ps+ss),percent,10.3,2
+Youth UR,2025,All India,15-29,Person,Usual status (ps+ss),percent,9.9,2
+Youth UR,2024,Rural,15-29,Person,Usual status (ps+ss),percent,8.7,2
+Youth UR,2025,Rural,15-29,Person,Usual status (ps+ss),percent,8.3,2
+Youth UR,2024,Urban,15-29,Person,Usual status (ps+ss),percent,14.3,2
+Youth UR,2025,Urban,15-29,Person,Usual status (ps+ss),percent,13.6,2
+Estimated employed persons,2025,All India,15+,Person,Usual status (ps+ss),crore persons,61.6,2
+Estimated employed persons,2025,All India,15+,Male,Usual status (ps+ss),crore persons,41.6,2
+Estimated employed persons,2025,All India,15+,Female,Usual status (ps+ss),crore persons,20.0,2

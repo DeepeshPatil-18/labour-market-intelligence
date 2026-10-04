@@ -1,0 +1,126 @@
+import React, { useState } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
+import { useFilters } from '../../context/FilterContext';
+import { LockKey, EnvelopeSimple, ArrowRight, ShieldCheck, ArrowLeft } from '@phosphor-icons/react';
+import { Button } from '../../components/common/Button';
+
+export const SignInPage: React.FC = () => {
+  const [email, setEmail] = useState('officer.planning@msde.gov.in');
+  const [password, setPassword] = useState('••••••••••••');
+  const [error, setError] = useState('');
+  const { login, setGeography } = useFilters();
+  const navigate = useNavigate();
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email.trim()) {
+      setError('Please enter a valid government email or ID');
+      return;
+    }
+    login(email);
+    // Reset to All India default
+    setGeography('ALL', 'ALL');
+    // Direct navigation to Dashboard
+    navigate('/overview');
+  };
+
+  return (
+    <div className="min-h-screen bg-govt-50 text-govt-900 font-sans flex flex-col justify-between">
+      {/* Simple Header */}
+      <header className="h-16 bg-white border-b border-govt-200 px-6 sm:px-12 flex items-center justify-between">
+        <Link to="/" className="flex items-center gap-1.5 text-xs text-govt-600 hover:text-govt-900 font-medium">
+          <ArrowLeft size={14} />
+          <span>Back to Overview</span>
+        </Link>
+        <span className="font-bold text-xs text-navy-900 tracking-wider">KUSHAL</span>
+      </header>
+
+      {/* Main Login Card */}
+      <main className="max-w-md w-full mx-auto px-6 py-12 flex-1 flex flex-col justify-center">
+        <div className="bg-white border border-govt-200 rounded-card shadow-card p-6 sm:p-8 space-y-6">
+          <div className="space-y-1.5 text-center">
+            <div className="w-10 h-10 rounded-full bg-govt-100 flex items-center justify-center text-navy-900 mx-auto mb-2 border border-govt-200">
+              <ShieldCheck size={22} />
+            </div>
+            <h1 className="text-xl font-bold text-navy-900 tracking-tight">
+              Government Sign In
+            </h1>
+            <p className="text-xs text-govt-500">
+              Authorized government officers and planning authorities
+            </p>
+          </div>
+
+          <form onSubmit={handleSubmit} className="space-y-4 text-xs">
+            {error && (
+              <div className="p-2.5 bg-red-50 border border-red-200 rounded text-red-700 text-xs">
+                {error}
+              </div>
+            )}
+
+            <div>
+              <label className="font-semibold text-govt-700 block mb-1">
+                Email / Government ID
+              </label>
+              <div className="relative">
+                <EnvelopeSimple size={15} className="absolute left-3 top-2.5 text-govt-400" />
+                <input
+                  type="text"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="officer.planning@msde.gov.in"
+                  className="w-full bg-govt-50 border border-govt-300 rounded pl-9 pr-3 py-2 text-xs text-govt-900 focus:outline-none focus:border-primary-600"
+                  required
+                />
+              </div>
+            </div>
+
+            <div>
+              <div className="flex items-center justify-between mb-1">
+                <label className="font-semibold text-govt-700">Password</label>
+                <button
+                  type="button"
+                  onClick={() => alert('Password reset requests must be submitted to your ministry department IT coordinator.')}
+                  className="text-primary-700 hover:underline text-[11px]"
+                >
+                  Forgot Password?
+                </button>
+              </div>
+              <div className="relative">
+                <LockKey size={15} className="absolute left-3 top-2.5 text-govt-400" />
+                <input
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="••••••••"
+                  className="w-full bg-govt-50 border border-govt-300 rounded pl-9 pr-3 py-2 text-xs text-govt-900 focus:outline-none focus:border-primary-600"
+                  required
+                />
+              </div>
+            </div>
+
+            <Button
+              type="submit"
+              variant="primary"
+              size="md"
+              iconRight={<ArrowRight size={14} />}
+              className="w-full py-2.5 mt-2"
+            >
+              Sign In to All India Dashboard
+            </Button>
+          </form>
+
+          <div className="pt-4 border-t border-govt-100 text-center">
+            <p className="text-[11px] text-govt-400">
+              Authorized government users only.
+            </p>
+          </div>
+        </div>
+      </main>
+
+      {/* Footer */}
+      <footer className="py-4 px-6 text-center text-xs text-govt-400">
+        <span>Decision Support System · SIH 2026 PS 26246</span>
+      </footer>
+    </div>
+  );
+};

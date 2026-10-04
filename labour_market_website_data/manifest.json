@@ -1,0 +1,16 @@
+{
+  "package": "Labour Market Intelligence — Website Data Package",
+  "version": "1.0",
+  "created": "2026-10-04",
+  "purpose": "Organized source data and website-ready curated PLFS indicators for the labour-market intelligence application.",
+  "important": "Unit-level PLFS files are preserved as source archives. They contain coded survey variables; this package does not invent codebook labels where the supplied files do not provide them.",
+  "frontend_entrypoints": [
+    "frontend/plfs_2025_indicators.json",
+    "frontend/plfs_2025_indicators.csv",
+    "policy/policy_signals.json"
+  ],
+  "backend_sources": "backend/source_archives/*.zip",
+  "schema": "backend/schema/source_registry.json",
+  "policy_reference": "policy/national_skill_development_policy.pdf",
+  "text_extraction": "policy/national_skill_development_policy.txt"
+}

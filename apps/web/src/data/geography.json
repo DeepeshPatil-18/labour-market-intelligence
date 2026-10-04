@@ -1,0 +1,111 @@
+[
+  {
+    "state": "Andhra Pradesh",
+    "districts": [
+      "Visakhapatnam"
+    ]
+  },
+  {
+    "state": "Delhi",
+    "districts": [
+      "New Delhi"
+    ]
+  },
+  {
+    "state": "Gujarat",
+    "districts": [
+      "Ahmedabad",
+      "Surat",
+      "Vadodara"
+    ]
+  },
+  {
+    "state": "Haryana",
+    "districts": [
+      "Faridabad",
+      "Gurugram"
+    ]
+  },
+  {
+    "state": "Jharkhand",
+    "districts": [
+      "Ranchi"
+    ]
+  },
+  {
+    "state": "Karnataka",
+    "districts": [
+      "Bengaluru",
+      "Hubballi",
+      "Mysuru"
+    ]
+  },
+  {
+    "state": "Kerala",
+    "districts": [
+      "Kochi"
+    ]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "districts": [
+      "Indore"
+    ]
+  },
+  {
+    "state": "Maharashtra",
+    "districts": [
+      "Aurangabad",
+      "Mumbai",
+      "Nagpur",
+      "Nashik",
+      "Pune"
+    ]
+  },
+  {
+    "state": "Odisha",
+    "districts": [
+      "Bhubaneswar"
+    ]
+  },
+  {
+    "state": "Punjab",
+    "districts": [
+      "Ludhiana"
+    ]
+  },
+  {
+    "state": "Rajasthan",
+    "districts": [
+      "Jaipur"
+    ]
+  },
+  {
+    "state": "Tamil Nadu",
+    "districts": [
+      "Chennai",
+      "Coimbatore",
+      "Madurai"
+    ]
+  },
+  {
+    "state": "Telangana",
+    "districts": [
+      "Hyderabad"
+    ]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "districts": [
+      "Kanpur",
+      "Lucknow",
+      "Noida"
+    ]
+  },
+  {
+    "state": "West Bengal",
+    "districts": [
+      "Kolkata"
+    ]
+  }
+]

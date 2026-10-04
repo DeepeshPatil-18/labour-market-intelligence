@@ -1,0 +1,741 @@
+// Labour Market Intelligence Platform — Canonical Database Schema
+// Prisma ORM for PostgreSQL
+// Version: 1.0 — Foundation Schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================================
+// ENUMS
+// ============================================================
+
+enum GeographyLevel {
+  COUNTRY
+  STATE
+  DISTRICT
+}
+
+enum DataOrigin {
+  OBSERVED       // Directly from source data
+  ESTIMATED      // Derived/inferred
+  MODELED        // From a statistical model
+  FORECAST       // Projected future value
+  SYNTHETIC      // Development/testing only
+}
+
+enum DataFreshness {
+  LIVE               // <24h from source
+  PERIODICALLY_UPDATED // Scheduled ingestion
+  HISTORICAL         // Archival
+  ESTIMATED          // Derived
+  FORECAST           // Projected
+}
+
+enum GapSeverity {
+  CRITICAL_SHORTAGE
+  SHORTAGE
+  BALANCED
+  OVERSUPPLY
+  CRITICAL_OVERSUPPLY
+}
+
+enum AlertType {
+  EMERGING_SKILL
+  SHORTAGE_ESCALATION
+  SATURATION_RISK
+  DECLINING_DEMAND
+  SUPPLY_DISRUPTION
+  NEW_SECTOR_GROWTH
+}
+
+enum AlertSeverity {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
+}
+
+enum AlertStatus {
+  ACTIVE
+  ACKNOWLEDGED
+  RESOLVED
+  EXPIRED
+}
+
+enum ConnectorStatus {
+  ENABLED
+  DISABLED
+  ERROR
+}
+
+enum UserRole {
+  ADMIN
+  STATE_PLANNER
+  DISTRICT_PLANNER
+}
+
+enum SkillCategory {
+  TECHNICAL
+  SOFT
+  DOMAIN
+  TOOL
+  CERTIFICATION
+}
+
+// ============================================================
+// GEOGRAPHY
+// ============================================================
+
+model Geography {
+  id        String         @id @default(cuid())
+  name      String
+  code      String         @unique // e.g. "IN", "IN-MH", "IN-MH-PUN"
+  level     GeographyLevel
+  parentId  String?
+  parent    Geography?     @relation("GeoHierarchy", fields: [parentId], references: [id])
+  children  Geography[]    @relation("GeoHierarchy")
+
+  // Census / reference metadata
+  population    BigInt?
+  area_sq_km    Float?
+  lgd_code      String?    // Local Government Directory code
+
+  // Spatial data reference
+  geojsonPath   String?    // Path to GeoJSON feature
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  jobPostings         JobPosting[]
+  demandSignals       DemandSignal[]
+  supplySignals       SupplySignal[]
+  skillGaps           SkillGap[]
+  forecasts           Forecast[]
+  alerts              Alert[]
+  labourIndicators    LabourIndicator[]
+  trainingCentres     TrainingCentre[]
+  trainingAllocations TrainingAllocation[]
+
+  @@index([level])
+  @@index([parentId])
+  @@index([code])
+}
+
+// ============================================================
+// OCCUPATION (NCO 2015)
+// ============================================================
+
+model Occupation {
+  id                   String  @id @default(cuid())
+  ncoCode              String  @unique // e.g. "1111.0100"
+  title                String
+  description          String? @db.Text
+
+  // Hierarchy
+  divisionCode         String  // 1-digit
+  divisionTitle        String
+  subDivisionCode      String  // 2-digit
+  subDivisionTitle     String?
+  groupCode            String  // 3-digit
+  groupTitle           String
+  familyCode           String  // 4-digit
+  familyTitle          String?
+
+  // ISCO-08 mapping
+  isco08Code           String
+  isco08Title          String?
+
+  // QP/NOS / NSQF
+  qpNosReference       String?  // e.g. "ASC/Q6305"
+  qpNosName            String?
+  nsqfLevel            Int?     // 1-8
+
+  // Legacy crosswalk
+  nco2004Code          String?
+
+  // Source provenance
+  sourceVolume         String?
+  sourcePage           String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  skills          OccupationSkill[]
+  jobPostings     JobPosting[]
+  demandSignals   DemandSignal[]
+  supplySignals   SupplySignal[]
+  skillGaps       SkillGap[]
+  forecasts       Forecast[]
+
+  @@index([divisionCode])
+  @@index([subDivisionCode])
+  @@index([groupCode])
+  @@index([familyCode])
+  @@index([isco08Code])
+  @@index([nsqfLevel])
+  @@index([qpNosReference])
+}
+
+// ============================================================
+// SKILL
+// ============================================================
+
+model Skill {
+  id           String        @id @default(cuid())
+  canonical    String        @unique  // Normalized canonical name
+  category     SkillCategory
+  description  String?       @db.Text
+
+  // NSQF/NOS references
+  nsqfLevel    Int?
+  nosReference String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  aliases         SkillAlias[]
+  occupations     OccupationSkill[]
+  jobPostings     JobPostingSkill[]
+  demandSignals   DemandSignal[]
+  supplySignals   SupplySignal[]
+  skillGaps       SkillGap[]
+  forecasts       Forecast[]
+
+  // Adjacency graph (skill transitions)
+  adjacencyFrom   SkillAdjacency[] @relation("AdjacencyFrom")
+  adjacencyTo     SkillAdjacency[] @relation("AdjacencyTo")
+
+  trainingPrograms TrainingProgramSkill[]
+  trainingAllocations TrainingAllocation[]
+
+  @@index([category])
+  @@index([canonical])
+}
+
+model SkillAlias {
+  id       String @id @default(cuid())
+  alias    String
+  skillId  String
+  skill    Skill  @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([alias])
+  @@index([skillId])
+}
+
+model OccupationSkill {
+  id           String     @id @default(cuid())
+  occupationId String
+  skillId      String
+  relevance    Float?     // 0-1 relevance score
+  source       String?    // How this mapping was derived
+
+  occupation   Occupation @relation(fields: [occupationId], references: [id], onDelete: Cascade)
+  skill        Skill      @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([occupationId, skillId])
+  @@index([occupationId])
+  @@index([skillId])
+}
+
+// ============================================================
+// SKILL ADJACENCY GRAPH
+// ============================================================
+
+model SkillAdjacency {
+  id                  String  @id @default(cuid())
+  fromSkillId         String
+  toSkillId           String
+  competencyOverlap   Float   // 0-1
+  nsqfProximity       Float   // 0-1
+  transitionScore     Float   // Composite feasibility score
+  bridgeCourse        String? // Recommended bridge course/path
+  estimatedDuration   String? // e.g. "3 months"
+
+  fromSkill Skill @relation("AdjacencyFrom", fields: [fromSkillId], references: [id], onDelete: Cascade)
+  toSkill   Skill @relation("AdjacencyTo", fields: [toSkillId], references: [id], onDelete: Cascade)
+
+  @@unique([fromSkillId, toSkillId])
+  @@index([fromSkillId])
+  @@index([toSkillId])
+  @@index([transitionScore])
+}
+
+// ============================================================
+// DATA SOURCE TRACKING
+// ============================================================
+
+model DataSource {
+  id              String         @id @default(cuid())
+  name            String         @unique // e.g. "adzuna", "plfs", "nco_2015"
+  displayName     String
+  type            String         // "api", "file", "manual"
+  connectorName   String?        // Maps to ConnectorRegistry key
+  status          ConnectorStatus @default(ENABLED)
+  freshness       DataFreshness
+  lastIngested    DateTime?
+  lastSuccess     DateTime?
+  lastError       String?
+  recordCount     Int            @default(0)
+  config          Json?          // Connector-specific config (no secrets)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  jobPostings       JobPosting[]
+  labourIndicators  LabourIndicator[]
+  ingestionLogs     IngestionLog[]
+
+  @@index([status])
+}
+
+model IngestionLog {
+  id               String   @id @default(cuid())
+  dataSourceId     String
+  dataSource       DataSource @relation(fields: [dataSourceId], references: [id])
+  startedAt        DateTime
+  completedAt      DateTime?
+  recordsFetched   Int      @default(0)
+  recordsInserted  Int      @default(0)
+  recordsSkipped   Int      @default(0)
+  recordsFailed    Int      @default(0)
+  errors           Json?    // Array of error details
+  status           String   // "running", "completed", "failed"
+  durationMs       Int?
+
+  @@index([dataSourceId])
+  @@index([startedAt])
+}
+
+// ============================================================
+// JOB POSTING (Demand Source)
+// ============================================================
+
+model JobPosting {
+  id              String    @id @default(cuid())
+  externalId      String    // Source-specific ID
+  title           String
+  employer        String?
+  description     String?   @db.Text
+  postingDate     DateTime?
+  expiryDate      DateTime?
+  salaryMin       Float?
+  salaryMax       Float?
+  salaryCurrency  String?   @default("INR")
+  salaryPeriod    String?   // "monthly", "annual", "daily"
+  sector          String?
+  sourceUrl       String?   @db.Text
+
+  // Geography
+  locationRaw     String?   // Raw location string from source
+  geographyId     String?
+  geography       Geography? @relation(fields: [geographyId], references: [id])
+
+  // Occupation mapping
+  occupationId    String?
+  occupation      Occupation? @relation(fields: [occupationId], references: [id])
+  occupationConfidence Float? // Confidence of AI-assisted mapping
+
+  // Data source
+  dataSourceId    String
+  dataSource      DataSource @relation(fields: [dataSourceId], references: [id])
+
+  // Processing status
+  skillsExtracted Boolean  @default(false)
+  occupationMapped Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  skills JobPostingSkill[]
+
+  @@unique([externalId, dataSourceId])
+  @@index([postingDate])
+  @@index([geographyId])
+  @@index([occupationId])
+  @@index([dataSourceId])
+  @@index([sector])
+  @@index([skillsExtracted])
+}
+
+model JobPostingSkill {
+  id           String     @id @default(cuid())
+  jobPostingId String
+  skillId      String
+  confidence   Float?     // AI extraction confidence
+  rawText      String?    // Original text matched
+
+  jobPosting   JobPosting @relation(fields: [jobPostingId], references: [id], onDelete: Cascade)
+  skill        Skill      @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([jobPostingId, skillId])
+  @@index([jobPostingId])
+  @@index([skillId])
+}
+
+// ============================================================
+// LABOUR INDICATOR (PLFS / macro data)
+// ============================================================
+
+model LabourIndicator {
+  id           String      @id @default(cuid())
+  indicator    String      // e.g. "LFPR", "WPR", "UR"
+  year         Int
+  period       String?     // e.g. "Q1", "Annual"
+  ageGroup     String?     // e.g. "15+", "15-29"
+  sex          String?     // "Male", "Female", "Person"
+  category     String?     // Context category
+  unit         String      // "percent", "INR/month", etc.
+  value        Float
+  dataOrigin   DataOrigin  @default(OBSERVED)
+
+  // Geography
+  geographyId  String?
+  geography    Geography?  @relation(fields: [geographyId], references: [id])
+  geographyRaw String?     // Raw geography string (e.g. "Rural", "Urban")
+
+  // Source
+  dataSourceId String?
+  dataSource   DataSource? @relation(fields: [dataSourceId], references: [id])
+  sourcePage   String?
+
+  createdAt DateTime @default(now())
+
+  @@index([indicator])
+  @@index([year])
+  @@index([geographyId])
+  @@index([indicator, year, geographyId])
+}
+
+// ============================================================
+// DEMAND SIGNAL (Computed)
+// ============================================================
+
+model DemandSignal {
+  id              String     @id @default(cuid())
+  period          String     // e.g. "2026-Q3", "2026-09"
+  demandIndex     Float      // Composite demand score
+
+  // Context
+  postingCount    Int?
+  employerCount   Int?
+  growthRate      Float?     // MoM or QoQ
+  avgSalary       Float?
+
+  // Signal breakdown (for explainability)
+  signalBreakdown Json?      // { "posting_volume": 0.82, "growth": 0.65, ... }
+
+  dataOrigin      DataOrigin @default(OBSERVED)
+  confidence      Float?
+  methodology     String?
+
+  // Relations
+  occupationId    String?
+  occupation      Occupation? @relation(fields: [occupationId], references: [id])
+  skillId         String?
+  skill           Skill?      @relation(fields: [skillId], references: [id])
+  geographyId     String?
+  geography       Geography?  @relation(fields: [geographyId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([period])
+  @@index([occupationId])
+  @@index([skillId])
+  @@index([geographyId])
+  @@index([demandIndex])
+}
+
+// ============================================================
+// SUPPLY SIGNAL (Computed)
+// ============================================================
+
+model SupplySignal {
+  id                    String     @id @default(cuid())
+  period                String     // e.g. "2026-Q3"
+  effectiveSupplyIndex  Float      // Composite supply score
+
+  // Raw components
+  trainingVolume        Int?
+  certificationVolume   Int?
+  employmentConversion  Float?     // Rate: trained → employed
+  skillRelevance        Float?     // Relevance of training to actual demand
+  retentionRate         Float?     // % still employed after N months
+
+  dataOrigin            DataOrigin @default(ESTIMATED)
+  confidence            Float?
+  methodology           String?
+
+  // Relations
+  occupationId    String?
+  occupation      Occupation? @relation(fields: [occupationId], references: [id])
+  skillId         String?
+  skill           Skill?      @relation(fields: [skillId], references: [id])
+  geographyId     String?
+  geography       Geography?  @relation(fields: [geographyId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([period])
+  @@index([occupationId])
+  @@index([skillId])
+  @@index([geographyId])
+}
+
+// ============================================================
+// SKILL GAP (Computed)
+// ============================================================
+
+model SkillGap {
+  id                    String      @id @default(cuid())
+  period                String
+  demandIndex           Float
+  effectiveSupplyIndex  Float
+  gapScore              Float       // demand - supply
+  severity              GapSeverity
+  confidence            Float?
+
+  // Explainability
+  evidence              Json?       // Array of evidence items
+  methodology           String?
+
+  dataOrigin            DataOrigin  @default(MODELED)
+
+  // Relations
+  occupationId    String?
+  occupation      Occupation? @relation(fields: [occupationId], references: [id])
+  skillId         String?
+  skill           Skill?      @relation(fields: [skillId], references: [id])
+  geographyId     String?
+  geography       Geography?  @relation(fields: [geographyId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([period])
+  @@index([severity])
+  @@index([occupationId])
+  @@index([skillId])
+  @@index([geographyId])
+  @@index([gapScore])
+}
+
+// ============================================================
+// FORECAST
+// ============================================================
+
+model Forecast {
+  id                  String     @id @default(cuid())
+  forecastPeriod      String     // Target period: "2027-Q1"
+  basePeriod          String     // Period forecast was generated from
+  horizon             String     // "3m", "6m", "12m"
+
+  demandForecast      Float?
+  supplyForecast      Float?
+  projectedGap        Float?
+  projectedSeverity   GapSeverity?
+
+  confidence          Float      // 0-1
+  confidenceInterval  Json?      // { "lower": 0.3, "upper": 0.7 }
+  methodology         String     // e.g. "exponential_smoothing", "arima"
+  dataPointCount      Int?       // Number of historical points used
+
+  dataOrigin          DataOrigin @default(FORECAST)
+
+  // Relations
+  occupationId    String?
+  occupation      Occupation? @relation(fields: [occupationId], references: [id])
+  skillId         String?
+  skill           Skill?      @relation(fields: [skillId], references: [id])
+  geographyId     String?
+  geography       Geography?  @relation(fields: [geographyId], references: [id])
+
+  createdAt DateTime @default(now())
+
+  @@index([forecastPeriod])
+  @@index([horizon])
+  @@index([occupationId])
+  @@index([skillId])
+  @@index([geographyId])
+}
+
+// ============================================================
+// ALERT (Early Warning)
+// ============================================================
+
+model Alert {
+  id          String        @id @default(cuid())
+  type        AlertType
+  severity    AlertSeverity
+  title       String
+  description String        @db.Text
+  evidence    Json?         // Supporting data points
+  status      AlertStatus   @default(ACTIVE)
+
+  // Context
+  skillName   String?
+  occupationName String?
+
+  // Geography
+  geographyId String?
+  geography   Geography?    @relation(fields: [geographyId], references: [id])
+
+  // Lifecycle
+  createdAt    DateTime @default(now())
+  acknowledgedAt DateTime?
+  acknowledgedBy String?
+  resolvedAt   DateTime?
+
+  @@index([type])
+  @@index([severity])
+  @@index([status])
+  @@index([geographyId])
+  @@index([createdAt])
+}
+
+// ============================================================
+// TRAINING
+// ============================================================
+
+model TrainingCentre {
+  id          String    @id @default(cuid())
+  name        String
+  type        String?   // e.g. "ITI", "PMKVY", "Private"
+  capacity    Int?      // Total seats
+  utilization Float?    // Current utilization rate (0-1)
+
+  // Geography
+  geographyId String?
+  geography   Geography? @relation(fields: [geographyId], references: [id])
+  address     String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  programs TrainingProgram[]
+
+  @@index([geographyId])
+  @@index([type])
+}
+
+model TrainingProgram {
+  id               String          @id @default(cuid())
+  name             String
+  provider         String?
+  duration         String?         // e.g. "6 months", "1 year"
+  seats            Int?
+  nsqfLevel        Int?
+  status           String?         // "active", "discontinued"
+
+  trainingCentreId String?
+  trainingCentre   TrainingCentre? @relation(fields: [trainingCentreId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  skills TrainingProgramSkill[]
+
+  @@index([trainingCentreId])
+  @@index([nsqfLevel])
+}
+
+model TrainingProgramSkill {
+  id                String          @id @default(cuid())
+  trainingProgramId String
+  skillId           String
+
+  trainingProgram   TrainingProgram @relation(fields: [trainingProgramId], references: [id], onDelete: Cascade)
+  skill             Skill           @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([trainingProgramId, skillId])
+}
+
+// ============================================================
+// TRAINING ALLOCATION (Optimizer Output)
+// ============================================================
+
+model TrainingAllocation {
+  id                  String   @id @default(cuid())
+  period              String   // Recommendation period
+
+  currentSeats        Int?
+  recommendedSeats    Int?
+  seatChange          Int?     // Positive = increase, negative = decrease
+  currentBudget       Float?
+  recommendedBudget   Float?
+  budgetChange        Float?
+
+  rationale           String?  @db.Text // Human-readable explanation
+  evidence            Json?    // Supporting data
+  confidence          Float?
+  priority            Int?     // 1 = highest priority
+
+  // Relations
+  geographyId String?
+  geography   Geography? @relation(fields: [geographyId], references: [id])
+  skillId     String?
+  skill       Skill?     @relation(fields: [skillId], references: [id])
+
+  createdAt DateTime @default(now())
+
+  @@index([period])
+  @@index([geographyId])
+  @@index([skillId])
+}
+
+// ============================================================
+// AUTHENTICATION & AUTHORIZATION
+// ============================================================
+
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  passwordHash  String
+  name          String
+  role          UserRole
+  isActive      Boolean  @default(true)
+
+  // Scope
+  geographyId   String?  // For state/district planners
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  lastLoginAt DateTime?
+
+  // Relations
+  auditLogs AuditLog[]
+
+  @@index([role])
+  @@index([email])
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  action    String   // e.g. "LOGIN", "VIEW_REPORT", "EXPORT_DATA"
+  resource  String?  // e.g. "forecast", "training_allocation"
+  details   Json?
+  ipAddress String?
+  userAgent String?
+
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([action])
+  @@index([createdAt])
+}

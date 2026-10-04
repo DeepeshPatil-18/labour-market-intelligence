@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "source": "DataMeet Maps + Local Government Directory (LGD) / Census 2011 Crosswalk",
+    "license": "Creative Commons Attribution 2.5 India",
+    "repo": "https://github.com/datameet/maps",
+    "generated_at": "2026-10-04T11:19:16.244Z"
+  },
+  "states": [
+    {
+      "state_code": "AN",
+      "state_name": "Andaman and Nicobar Islands",
+      "district_count": 3
+    },
+    {
+      "state_code": "AP",
+      "state_name": "Andhra Pradesh",
+      "district_count": 23
+    },
+    {
+      "state_code": "AR",
+      "state_name": "Arunachal Pradesh",
+      "district_count": 16
+    },
+    {
+      "state_code": "AS",
+      "state_name": "Assam",
+      "district_count": 27
+    },
+    {
+      "state_code": "BR",
+      "state_name": "Bihar",
+      "district_count": 38
+    },
+    {
+      "state_code": "CH",
+      "state_name": "Chandigarh",
+      "district_count": 1
+    },
+    {
+      "state_code": "CT",
+      "state_name": "Chhattisgarh",
+      "district_count": 18
+    },
+    {
+      "state_code": "DN",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "district_count": 1
+    },
+    {
+      "state_code": "DD",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "district_count": 2
+    },
+    {
+      "state_code": "DL",
+      "state_name": "NCT of Delhi",
+      "district_count": 9
+    },
+    {
+      "state_code": "GA",
+      "state_name": "Goa",
+      "district_count": 2
+    },
+    {
+      "state_code": "GJ",
+      "state_name": "Gujarat",
+      "district_count": 26
+    },
+    {
+      "state_code": "HR",
+      "state_name": "Haryana",
+      "district_count": 21
+    },
+    {
+      "state_code": "HP",
+      "state_name": "Himachal Pradesh",
+      "district_count": 12
+    },
+    {
+      "state_code": "JK",
+      "state_name": "Jammu and Kashmir",
+      "district_count": 23
+    },
+    {
+      "state_code": "JH",
+      "state_name": "Jharkhand",
+      "district_count": 24
+    },
+    {
+      "state_code": "KA",
+      "state_name": "Karnataka",
+      "district_count": 30
+    },
+    {
+      "state_code": "KL",
+      "state_name": "Kerala",
+      "district_count": 14
+    },
+    {
+      "state_code": "LD",
+      "state_name": "Lakshadweep",
+      "district_count": 1
+    },
+    {
+      "state_code": "MP",
+      "state_name": "Madhya Pradesh",
+      "district_count": 50
+    },
+    {
+      "state_code": "MH",
+      "state_name": "Maharashtra",
+      "district_count": 35
+    },
+    {
+      "state_code": "MN",
+      "state_name": "Manipur",
+      "district_count": 9
+    },
+    {
+      "state_code": "ML",
+      "state_name": "Meghalaya",
+      "district_count": 7
+    },
+    {
+      "state_code": "MZ",
+      "state_name": "Mizoram",
+      "district_count": 8
+    },
+    {
+      "state_code": "NL",
+      "state_name": "Nagaland",
+      "district_count": 11
+    },
+    {
+      "state_code": "OD",
+      "state_name": "Odisha",
+      "district_count": 30
+    },
+    {
+      "state_code": "PY",
+      "state_name": "Puducherry",
+      "district_count": 4
+    },
+    {
+      "state_code": "PB",
+      "state_name": "Punjab",
+      "district_count": 20
+    },
+    {
+      "state_code": "RJ",
+      "state_name": "Rajasthan",
+      "district_count": 33
+    },
+    {
+      "state_code": "SK",
+      "state_name": "Sikkim",
+      "district_count": 4
+    },
+    {
+      "state_code": "TN",
+      "state_name": "Tamil Nadu",
+      "district_count": 32
+    },
+    {
+      "state_code": "TG",
+      "state_name": "Telangana",
+      "district_count": 0
+    },
+    {
+      "state_code": "TR",
+      "state_name": "Tripura",
+      "district_count": 4
+    },
+    {
+      "state_code": "UP",
+      "state_name": "Uttar Pradesh",
+      "district_count": 71
+    },
+    {
+      "state_code": "UT",
+      "state_name": "Uttarakhand",
+      "district_count": 13
+    },
+    {
+      "state_code": "WB",
+      "state_name": "West Bengal",
+      "district_count": 19
+    }
+  ],
+  "state_code_aliases": {
+    "Andaman and Nicobar": "AN",
+    "Andaman & Nicobar Island": "AN",
+    "Andhra Pradesh": "AP",
+    "Arunachal Pradesh": "AR",
+    "Arunanchal Pradesh": "AR",
+    "Assam": "AS",
+    "Bihar": "BR",
+    "Chandigarh": "CH",
+    "Chhattisgarh": "CT",
+    "Dadra and Nagar Haveli": "DN",
+    "Dadara & Nagar Havelli": "DN",
+    "Daman and Diu": "DD",
+    "Daman & Diu": "DD",
+    "Delhi": "DL",
+    "NCT of Delhi": "DL",
+    "Goa": "GA",
+    "Gujarat": "GJ",
+    "Haryana": "HR",
+    "Himachal Pradesh": "HP",
+    "Jammu and Kashmir": "JK",
+    "Jammu & Kashmir": "JK",
+    "Jharkhand": "JH",
+    "Karnataka": "KA",
+    "Kerala": "KL",
+    "Lakshadweep": "LD",
+    "Madhya Pradesh": "MP",
+    "Maharashtra": "MH",
+    "Manipur": "MN",
+    "Meghalaya": "ML",
+    "Mizoram": "MZ",
+    "Nagaland": "NL",
+    "Orissa": "OD",
+    "Odisha": "OD",
+    "Puducherry": "PY",
+    "Punjab": "PB",
+    "Rajasthan": "RJ",
+    "Sikkim": "SK",
+    "Tamil Nadu": "TN",
+    "Telangana": "TG",
+    "Tripura": "TR",
+    "Uttar Pradesh": "UP",
+    "Uttaranchal": "UT",
+    "Uttarakhand": "UT",
+    "West Bengal": "WB"
+  }
+}

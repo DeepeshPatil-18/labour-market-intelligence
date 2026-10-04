@@ -1,0 +1,99 @@
+skill_id,skill_name,skill_category,skill_description,source,data_origin
+SKL0001,Python,Software & IT,Canonical skill used for labour-market demand and training analysis: Python.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0002,Java,Software & IT,Canonical skill used for labour-market demand and training analysis: Java.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0003,JavaScript,Software & IT,Canonical skill used for labour-market demand and training analysis: JavaScript.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0004,TypeScript,Software & IT,Canonical skill used for labour-market demand and training analysis: TypeScript.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0005,React,Software & IT,Canonical skill used for labour-market demand and training analysis: React.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0006,Next.js,Software & IT,Canonical skill used for labour-market demand and training analysis: Next.js.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0007,Node.js,Software & IT,Canonical skill used for labour-market demand and training analysis: Node.js.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0008,SQL,Software & IT,Canonical skill used for labour-market demand and training analysis: SQL.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0009,PostgreSQL,Software & IT,Canonical skill used for labour-market demand and training analysis: PostgreSQL.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0010,REST APIs,Software & IT,Canonical skill used for labour-market demand and training analysis: REST APIs.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0011,Git,Software & IT,Canonical skill used for labour-market demand and training analysis: Git.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0012,Docker,Software & IT,Canonical skill used for labour-market demand and training analysis: Docker.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0013,AWS,Software & IT,Canonical skill used for labour-market demand and training analysis: AWS.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0014,Azure,Software & IT,Canonical skill used for labour-market demand and training analysis: Azure.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0015,Power BI,Software & IT,Canonical skill used for labour-market demand and training analysis: Power BI.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0016,Data Analysis,Software & IT,Canonical skill used for labour-market demand and training analysis: Data Analysis.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0017,Machine Learning,Software & IT,Canonical skill used for labour-market demand and training analysis: Machine Learning.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0018,Cybersecurity,Software & IT,Canonical skill used for labour-market demand and training analysis: Cybersecurity.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0019,UI/UX Design,Software & IT,Canonical skill used for labour-market demand and training analysis: UI/UX Design.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0020,Figma,Software & IT,Canonical skill used for labour-market demand and training analysis: Figma.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0021,PLC,Electronics & Automation,Canonical skill used for labour-market demand and training analysis: PLC.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0022,SCADA,Electronics & Automation,Canonical skill used for labour-market demand and training analysis: SCADA.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0023,Embedded Systems,Electronics & Automation,Canonical skill used for labour-market demand and training analysis: Embedded Systems.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0024,PCB Design,Electronics & Automation,Canonical skill used for labour-market demand and training analysis: PCB Design.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0025,Industrial Automation,Electronics & Automation,Canonical skill used for labour-market demand and training analysis: Industrial Automation.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0026,IoT,Electronics & Automation,Canonical skill used for labour-market demand and training analysis: IoT.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0027,Sensors,Electronics & Automation,Canonical skill used for labour-market demand and training analysis: Sensors.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0028,Electrical Testing,Electronics & Automation,Canonical skill used for labour-market demand and training analysis: Electrical Testing.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0029,Control Systems,Electronics & Automation,Canonical skill used for labour-market demand and training analysis: Control Systems.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0030,AutoCAD Electrical,Electronics & Automation,Canonical skill used for labour-market demand and training analysis: AutoCAD Electrical.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0031,CNC Programming,Manufacturing,Canonical skill used for labour-market demand and training analysis: CNC Programming.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0032,CNC Operation,Manufacturing,Canonical skill used for labour-market demand and training analysis: CNC Operation.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0033,Machine Maintenance,Manufacturing,Canonical skill used for labour-market demand and training analysis: Machine Maintenance.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0034,Welding,Manufacturing,Canonical skill used for labour-market demand and training analysis: Welding.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0035,Quality Control,Manufacturing,Canonical skill used for labour-market demand and training analysis: Quality Control.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0036,Lean Manufacturing,Manufacturing,Canonical skill used for labour-market demand and training analysis: Lean Manufacturing.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0037,Production Planning,Manufacturing,Canonical skill used for labour-market demand and training analysis: Production Planning.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0038,CNC Turning,Manufacturing,Canonical skill used for labour-market demand and training analysis: CNC Turning.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0039,CNC Milling,Manufacturing,Canonical skill used for labour-market demand and training analysis: CNC Milling.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0040,Mechanical Assembly,Manufacturing,Canonical skill used for labour-market demand and training analysis: Mechanical Assembly.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0041,AutoCAD,Manufacturing,Canonical skill used for labour-market demand and training analysis: AutoCAD.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0042,SolidWorks,Manufacturing,Canonical skill used for labour-market demand and training analysis: SolidWorks.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0043,Automotive Diagnostics,Automotive & EV,Canonical skill used for labour-market demand and training analysis: Automotive Diagnostics.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0044,EV Systems,Automotive & EV,Canonical skill used for labour-market demand and training analysis: EV Systems.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0045,Battery Management Systems,Automotive & EV,Canonical skill used for labour-market demand and training analysis: Battery Management Systems.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0046,EV Battery Maintenance,Automotive & EV,Canonical skill used for labour-market demand and training analysis: EV Battery Maintenance.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0047,Vehicle Diagnostics,Automotive & EV,Canonical skill used for labour-market demand and training analysis: Vehicle Diagnostics.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0048,Auto Electrical,Automotive & EV,Canonical skill used for labour-market demand and training analysis: Auto Electrical.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0049,Electric Motor Systems,Automotive & EV,Canonical skill used for labour-market demand and training analysis: Electric Motor Systems.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0050,Automotive CAD,Automotive & EV,Canonical skill used for labour-market demand and training analysis: Automotive CAD.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0051,Service Operations,Automotive & EV,Canonical skill used for labour-market demand and training analysis: Service Operations.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0052,Two-Wheeler Service,Automotive & EV,Canonical skill used for labour-market demand and training analysis: Two-Wheeler Service.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0053,AutoCAD,Construction,Canonical skill used for labour-market demand and training analysis: AutoCAD.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0054,Quantity Surveying,Construction,Canonical skill used for labour-market demand and training analysis: Quantity Surveying.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0055,Site Supervision,Construction,Canonical skill used for labour-market demand and training analysis: Site Supervision.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0056,Construction Safety,Construction,Canonical skill used for labour-market demand and training analysis: Construction Safety.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0057,Civil Drafting,Construction,Canonical skill used for labour-market demand and training analysis: Civil Drafting.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0058,Surveying,Construction,Canonical skill used for labour-market demand and training analysis: Surveying.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0059,Project Planning,Construction,Canonical skill used for labour-market demand and training analysis: Project Planning.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0060,Structural Analysis,Construction,Canonical skill used for labour-market demand and training analysis: Structural Analysis.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0061,Patient Care,Healthcare,Canonical skill used for labour-market demand and training analysis: Patient Care.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0062,Medical Coding,Healthcare,Canonical skill used for labour-market demand and training analysis: Medical Coding.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0063,Clinical Documentation,Healthcare,Canonical skill used for labour-market demand and training analysis: Clinical Documentation.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0064,Pharmacy Operations,Healthcare,Canonical skill used for labour-market demand and training analysis: Pharmacy Operations.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0065,Laboratory Techniques,Healthcare,Canonical skill used for labour-market demand and training analysis: Laboratory Techniques.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0066,Medical Equipment Maintenance,Healthcare,Canonical skill used for labour-market demand and training analysis: Medical Equipment Maintenance.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0067,Healthcare Administration,Healthcare,Canonical skill used for labour-market demand and training analysis: Healthcare Administration.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0068,Accounting,Finance & Business,Canonical skill used for labour-market demand and training analysis: Accounting.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0069,Tally,Finance & Business,Canonical skill used for labour-market demand and training analysis: Tally.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0070,GST,Finance & Business,Canonical skill used for labour-market demand and training analysis: GST.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0071,Financial Analysis,Finance & Business,Canonical skill used for labour-market demand and training analysis: Financial Analysis.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0072,Excel,Finance & Business,Canonical skill used for labour-market demand and training analysis: Excel.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0073,Business Analysis,Finance & Business,Canonical skill used for labour-market demand and training analysis: Business Analysis.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0074,Digital Marketing,Finance & Business,Canonical skill used for labour-market demand and training analysis: Digital Marketing.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0075,Sales,Finance & Business,Canonical skill used for labour-market demand and training analysis: Sales.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0076,Customer Service,Finance & Business,Canonical skill used for labour-market demand and training analysis: Customer Service.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0077,Supply Chain,Finance & Business,Canonical skill used for labour-market demand and training analysis: Supply Chain.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0078,Farm Machinery,Agriculture,Canonical skill used for labour-market demand and training analysis: Farm Machinery.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0079,Agri Input Management,Agriculture,Canonical skill used for labour-market demand and training analysis: Agri Input Management.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0080,Precision Agriculture,Agriculture,Canonical skill used for labour-market demand and training analysis: Precision Agriculture.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0081,Irrigation Management,Agriculture,Canonical skill used for labour-market demand and training analysis: Irrigation Management.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0082,Post-Harvest Management,Agriculture,Canonical skill used for labour-market demand and training analysis: Post-Harvest Management.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0083,Food Processing,Agriculture,Canonical skill used for labour-market demand and training analysis: Food Processing.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0084,Cold Chain,Agriculture,Canonical skill used for labour-market demand and training analysis: Cold Chain.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0085,Warehouse Management,Logistics,Canonical skill used for labour-market demand and training analysis: Warehouse Management.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0086,Inventory Management,Logistics,Canonical skill used for labour-market demand and training analysis: Inventory Management.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0087,Supply Chain Management,Logistics,Canonical skill used for labour-market demand and training analysis: Supply Chain Management.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0088,Fleet Management,Logistics,Canonical skill used for labour-market demand and training analysis: Fleet Management.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0089,Forklift Operation,Logistics,Canonical skill used for labour-market demand and training analysis: Forklift Operation.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0090,Logistics Planning,Logistics,Canonical skill used for labour-market demand and training analysis: Logistics Planning.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0091,Route Planning,Logistics,Canonical skill used for labour-market demand and training analysis: Route Planning.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0092,Communication,General,Canonical skill used for labour-market demand and training analysis: Communication.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0093,Problem Solving,General,Canonical skill used for labour-market demand and training analysis: Problem Solving.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0094,Microsoft Excel,General,Canonical skill used for labour-market demand and training analysis: Microsoft Excel.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0095,Workplace Safety,General,Canonical skill used for labour-market demand and training analysis: Workplace Safety.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0096,Digital Literacy,General,Canonical skill used for labour-market demand and training analysis: Digital Literacy.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0097,Team Management,General,Canonical skill used for labour-market demand and training analysis: Team Management.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC
+SKL0098,English Communication,General,Canonical skill used for labour-market demand and training analysis: English Communication.,SYNTHETIC_DEMO_TAXONOMY,SYNTHETIC

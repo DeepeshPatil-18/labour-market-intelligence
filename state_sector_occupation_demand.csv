@@ -1,0 +1,616 @@
+geography,geography_type,sector,occupation,active_postings_90d,employer_count,demand_growth_pct,median_salary_estimate_inr_month,evidence_strength,data_origin
+Andhra Pradesh,State,Food Processing,Food Processing Technician,218,83,7.6,33040,HIGH,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Food Processing,Quality Technician,146,55,7.0,29500,HIGH,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Food Processing,Cold-chain Operator,91,34,6.5,26550,HIGH,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Logistics,Warehouse Supervisor,179,68,9.299999999999999,35280,HIGH,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Logistics,Logistics Coordinator,119,45,8.7,31500,HIGH,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Logistics,Fleet Operations Assistant,75,28,8.2,28350,HIGH,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Pharmaceuticals,Pharmaceutical Production Technician,148,56,7.6,40880,HIGH,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Pharmaceuticals,Quality Control Technician,99,37,7.0,36500,HIGH,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Pharmaceuticals,Packaging Machine Operator,62,23,6.5,32850,HIGH,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Textiles & Apparel,Textile Machine Operator,122,46,4.3999999999999995,39200,HIGH,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Textiles & Apparel,Garment Production Supervisor,82,31,3.8,35000,HIGH,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Textiles & Apparel,Quality Inspector - Textiles,51,19,3.3,31500,HIGH,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Electronics,Electronics Assembly Technician,100,38,8.1,40880,MEDIUM,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Electronics,PCB Testing Technician,67,25,7.5,36500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,State,Electronics,Electronics Quality Inspector,42,16,7.0,32850,MEDIUM,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Energy & Utilities,Hydropower Plant Technician,39,15,7.6,26320,MEDIUM,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Energy & Utilities,Electrical Maintenance Technician,26,10,7.0,23500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Energy & Utilities,Instrumentation Technician,16,6,6.5,21150,MEDIUM,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Construction,Construction Site Supervisor,32,12,6.6,28000,LOW,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Construction,Mason,21,8,6.0,25000,LOW,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Construction,Heavy Equipment Operator,13,5,5.5,22500,LOW,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Tourism & Hospitality,Hotel Operations Associate,27,10,6.8,30240,LOW,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Tourism & Hospitality,Food & Beverage Supervisor,18,7,6.2,27000,LOW,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Tourism & Hospitality,Travel Operations Executive,11,4,5.7,24300,LOW,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Agriculture & Horticulture,Horticulture Technician,22,8,3.8000000000000003,32480,LOW,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Agriculture & Horticulture,Packhouse Operator,15,5,3.2,29000,LOW,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Agriculture & Horticulture,Farm Equipment Technician,9,3,2.7,26100,LOW,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Public & Community Services,Administrative Support Associate,18,7,2.8000000000000003,34160,LOW,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Public & Community Services,Community Service Worker,12,4,2.2,30500,LOW,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,Public & Community Services,Records Assistant,8,3,1.7000000000000002,27450,LOW,SYNTHETIC_DEVELOPMENT
+Assam,State,Tea Processing,Tea Processing Technician,142,54,7.3,30800,HIGH,SYNTHETIC_DEVELOPMENT
+Assam,State,Tea Processing,Quality Control Assistant,94,36,6.7,27500,HIGH,SYNTHETIC_DEVELOPMENT
+Assam,State,Tea Processing,Packaging Operator,59,22,6.2,24750,HIGH,SYNTHETIC_DEVELOPMENT
+Assam,State,Oil & Gas,Process Technician,116,44,4.3,32480,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Oil & Gas,Mechanical Maintenance Technician,77,29,3.7,29000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Oil & Gas,Safety Technician,48,18,3.2,26100,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Food Processing,Food Processing Technician,96,36,5.6,34720,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Food Processing,Production Operator,64,24,5.0,31000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Food Processing,Quality Technician,40,15,4.5,27900,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Logistics,Warehouse Supervisor,79,30,7.3999999999999995,36960,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Logistics,Inventory Controller,53,20,6.8,33000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Logistics,Transport Operations Associate,33,12,6.3,29700,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Textiles & Handicrafts,Handloom Weaver,65,24,3.1,38640,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Textiles & Handicrafts,Textile Quality Inspector,44,16,2.5,34500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Textiles & Handicrafts,Production Artisan,27,10,2.0,31050,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Tourism & Hospitality,Hotel Operations Associate,54,20,7.8,40880,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Tourism & Hospitality,Food & Beverage Supervisor,36,13,7.2,36500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Assam,State,Tourism & Hospitality,Travel Operations Executive,22,8,6.7,32850,MEDIUM,SYNTHETIC_DEVELOPMENT
+Bihar,State,Agriculture,Farm Equipment Technician,305,116,3.1,37520,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Agriculture,Agriculture Field Technician,204,77,2.5,33500,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Agriculture,Irrigation Technician,127,48,2.0,30150,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Food Processing,Food Processing Technician,250,95,6.8,39760,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Food Processing,Production Operator,167,63,6.2,35500,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Food Processing,Quality Technician,104,39,5.7,31950,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Construction,Construction Site Supervisor,207,79,6.3999999999999995,41440,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Construction,Mason,138,52,5.8,37000,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Construction,Heavy Equipment Operator,86,33,5.3,33300,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Logistics,Warehouse Supervisor,171,65,8.1,43680,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Logistics,Inventory Controller,114,43,7.5,39000,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Logistics,Transport Operations Associate,71,27,7.0,35100,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Textiles & Apparel,Textile Machine Operator,141,53,5.3999999999999995,45920,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Textiles & Apparel,Garment Production Supervisor,94,36,4.8,41000,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Textiles & Apparel,Quality Inspector - Textiles,59,22,4.3,36900,HIGH,SYNTHETIC_DEVELOPMENT
+Bihar,State,Retail & Consumer Services,Retail Operations Supervisor,116,44,4.1,47600,MEDIUM,SYNTHETIC_DEVELOPMENT
+Bihar,State,Retail & Consumer Services,Inventory Associate,77,29,3.5,42500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Bihar,State,Retail & Consumer Services,Customer Operations Associate,48,18,3.0,38250,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Metals & Steel,Steel Fabrication Technician,142,54,6.1,30800,HIGH,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Metals & Steel,Furnace Operator,94,36,5.5,27500,HIGH,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Metals & Steel,Mechanical Maintenance Technician,59,22,5.0,24750,HIGH,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Mining & Minerals,Mining Technician,116,44,5.6,32480,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Mining & Minerals,Heavy Equipment Operator,77,29,5.0,29000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Mining & Minerals,Mine Safety Technician,48,18,4.5,26100,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Energy & Utilities,Electrical Technician,96,36,5.1,34720,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Energy & Utilities,Power Plant Operator,64,24,4.5,31000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Energy & Utilities,Maintenance Technician,40,15,4.0,27900,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Building Materials,Cement Plant Operator,79,30,3.1,36960,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Building Materials,Mechanical Maintenance Technician,53,20,2.5,33000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Building Materials,Quality Control Technician,33,12,2.0,29700,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Construction,Construction Site Supervisor,65,24,6.3999999999999995,38640,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Construction,Mason,44,16,5.8,34500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Construction,Heavy Equipment Operator,27,10,5.3,31050,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Food Processing,Food Processing Technician,54,20,5.3999999999999995,40880,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Food Processing,Production Operator,36,13,4.8,36500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,Food Processing,Quality Technician,22,8,4.3,32850,MEDIUM,SYNTHETIC_DEVELOPMENT
+Goa,State,Tourism & Hospitality,Hotel Operations Associate,44,16,7.6,26320,MEDIUM,SYNTHETIC_DEVELOPMENT
+Goa,State,Tourism & Hospitality,Food & Beverage Supervisor,29,11,7.0,23500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Goa,State,Tourism & Hospitality,Travel Operations Executive,18,7,6.5,21150,MEDIUM,SYNTHETIC_DEVELOPMENT
+Goa,State,Tourism & Hospitality,Hotel Operations Associate,36,13,7.1,28560,LOW,SYNTHETIC_DEVELOPMENT
+Goa,State,Tourism & Hospitality,Food & Beverage Supervisor,24,9,6.5,25500,LOW,SYNTHETIC_DEVELOPMENT
+Goa,State,Tourism & Hospitality,Housekeeping Supervisor,15,6,6.0,22950,LOW,SYNTHETIC_DEVELOPMENT
+Goa,State,Pharmaceuticals,Pharmaceutical Production Technician,30,11,8.1,34160,LOW,SYNTHETIC_DEVELOPMENT
+Goa,State,Pharmaceuticals,Quality Control Technician,20,7,7.5,30500,LOW,SYNTHETIC_DEVELOPMENT
+Goa,State,Pharmaceuticals,Packaging Machine Operator,12,5,7.0,27450,LOW,SYNTHETIC_DEVELOPMENT
+Goa,State,Marine & Fisheries,Marine Engine Technician,24,9,5.1,32480,LOW,SYNTHETIC_DEVELOPMENT
+Goa,State,Marine & Fisheries,Port Operations Assistant,16,6,4.5,29000,LOW,SYNTHETIC_DEVELOPMENT
+Goa,State,Marine & Fisheries,Fisheries Technician,10,4,4.0,26100,LOW,SYNTHETIC_DEVELOPMENT
+Goa,State,Food Processing,Food Processing Technician,20,7,5.8,34160,LOW,SYNTHETIC_DEVELOPMENT
+Goa,State,Food Processing,Production Operator,13,5,5.2,30500,LOW,SYNTHETIC_DEVELOPMENT
+Goa,State,Food Processing,Quality Technician,8,3,4.7,27450,LOW,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Chemicals,Chemicals Technician,345,131,6.8,39200,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Chemicals,Chemicals Operator,230,87,6.2,35000,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Chemicals,Chemicals Associate,144,54,5.7,31500,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Pharmaceuticals,Pharmaceutical Production Technician,283,107,9.0,45360,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Pharmaceuticals,Quality Control Technician,188,71,8.4,40500,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Pharmaceuticals,Packaging Machine Operator,118,45,7.9,36450,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Textiles & Apparel,Textile Machine Operator,234,89,5.3999999999999995,43120,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Textiles & Apparel,Garment Production Supervisor,156,59,4.8,38500,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Textiles & Apparel,Quality Inspector - Textiles,98,37,4.3,34650,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Engineering & Manufacturing,CNC Machine Operator,193,73,6.3999999999999995,45360,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Engineering & Manufacturing,Production Technician,129,49,5.8,40500,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Engineering & Manufacturing,Quality Inspector,80,30,5.3,36450,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Automotive,Automotive Technician,158,60,7.3999999999999995,47600,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Automotive,CNC Machine Operator,106,40,6.8,42500,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Automotive,Automotive Quality Inspector,66,25,6.3,38250,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Logistics,Warehouse Supervisor,131,49,6.8,49280,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Logistics,Logistics Coordinator,87,33,6.2,44000,HIGH,SYNTHETIC_DEVELOPMENT
+Gujarat,State,Logistics,Fleet Operations Assistant,55,21,5.7,39600,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Automotive,Automotive Technician,266,101,7.6,35840,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Automotive,CNC Machine Operator,177,67,7.0,32000,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Automotive,Automotive Quality Inspector,111,42,6.5,28800,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Engineering & Manufacturing,CNC Machine Operator,218,83,7.8,38080,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Engineering & Manufacturing,Production Technician,145,55,7.2,34000,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Engineering & Manufacturing,Quality Inspector,91,34,6.7,30600,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Logistics,Warehouse Supervisor,181,69,8.1,39760,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Logistics,Inventory Controller,121,46,7.5,35500,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Logistics,Transport Operations Associate,75,29,7.0,31950,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Food Processing,Food Processing Technician,149,56,6.6,42000,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Food Processing,Production Operator,99,37,6.0,37500,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Food Processing,Quality Technician,62,23,5.5,33750,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Information Technology,Software Developer,122,46,9.4,48160,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Information Technology,Cloud Support Associate,82,31,8.8,43000,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Information Technology,Data Analyst,51,19,8.3,38700,HIGH,SYNTHETIC_DEVELOPMENT
+Haryana,State,Pharmaceuticals,Pharmaceutical Production Technician,101,38,7.6,49840,MEDIUM,SYNTHETIC_DEVELOPMENT
+Haryana,State,Pharmaceuticals,Quality Control Technician,67,25,7.0,44500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Haryana,State,Pharmaceuticals,Packaging Machine Operator,42,16,6.5,40050,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Pharmaceuticals,Pharmaceutical Production Technician,92,35,9.5,31920,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Pharmaceuticals,Quality Control Technician,61,23,8.9,28500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Pharmaceuticals,Packaging Machine Operator,38,14,8.4,25650,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Agriculture & Horticulture,Horticulture Technician,75,28,5.8,30240,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Agriculture & Horticulture,Packhouse Operator,50,19,5.2,27000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Agriculture & Horticulture,Farm Equipment Technician,31,12,4.7,24300,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Tourism & Hospitality,Hotel Operations Associate,62,24,6.6,32480,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Tourism & Hospitality,Food & Beverage Supervisor,42,16,6.0,29000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Tourism & Hospitality,Travel Operations Executive,26,10,5.5,26100,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Energy & Utilities,Hydropower Plant Technician,51,19,5.6,34160,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Energy & Utilities,Electrical Maintenance Technician,34,13,5.0,30500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Energy & Utilities,Instrumentation Technician,21,8,4.5,27450,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Food Processing,Food Processing Technician,42,16,5.8,36400,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Food Processing,Production Operator,28,11,5.2,32500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,Food Processing,Quality Technician,18,7,4.7,29250,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Coal Mining,Coal Mining Technician,161,61,6.8,31360,HIGH,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Coal Mining,Coal Mining Operator,108,41,6.2,28000,HIGH,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Coal Mining,Coal Mining Associate,67,25,5.7,25200,HIGH,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Metals & Steel,Steel Fabrication Technician,132,50,5.1,33600,HIGH,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Metals & Steel,Furnace Operator,88,33,4.5,30000,HIGH,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Metals & Steel,Mechanical Maintenance Technician,55,21,4.0,27000,HIGH,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Mineral Processing,Mineral Processing Technician,110,42,6.3999999999999995,35840,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Mineral Processing,Mineral Processing Operator,73,28,5.8,32000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Mineral Processing,Mineral Processing Associate,46,17,5.3,28800,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Energy & Utilities,Electrical Technician,90,34,5.6,37520,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Energy & Utilities,Power Plant Operator,60,23,5.0,33500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Energy & Utilities,Maintenance Technician,38,14,4.5,30150,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Construction,Construction Site Supervisor,74,28,5.1,39760,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Construction,Mason,50,19,4.5,35500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Construction,Heavy Equipment Operator,31,12,4.0,31950,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Engineering & Manufacturing,CNC Machine Operator,61,23,6.3999999999999995,41440,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Engineering & Manufacturing,Production Technician,41,15,5.8,37000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,Engineering & Manufacturing,Quality Inspector,26,10,5.3,33300,MEDIUM,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Information Technology,Software Developer,374,142,10.0,44800,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Information Technology,Cloud Support Associate,249,95,9.4,40000,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Information Technology,Data Analyst,156,59,8.9,36000,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Electronics,Electronics Test Technician,307,116,10.799999999999999,42560,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Electronics,Embedded Systems Technician,204,77,10.2,38000,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Electronics,Production Quality Inspector,128,48,9.7,34200,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Aerospace & Advanced Manufacturing,Aerospace Production Technician,254,96,8.799999999999999,44800,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Aerospace & Advanced Manufacturing,CNC Programmer,170,64,8.2,40000,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Aerospace & Advanced Manufacturing,Quality Assurance Technician,106,40,7.699999999999999,36000,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Automotive,Automotive Technician,210,80,6.6,46480,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Automotive,CNC Machine Operator,140,53,6.0,41500,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Automotive,Automotive Quality Inspector,87,33,5.5,37350,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Life Sciences,Laboratory Technician,172,65,9.6,52640,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Life Sciences,Bioprocess Technician,115,44,9.0,47000,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Life Sciences,Quality Control Analyst,72,27,8.5,42300,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Information Technology,Software Developer,142,54,4.8,54880,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Information Technology,Product Analyst,95,36,4.2,49000,HIGH,SYNTHETIC_DEVELOPMENT
+Karnataka,State,Information Technology,Data Analyst,59,22,3.7,44100,HIGH,SYNTHETIC_DEVELOPMENT
+Kerala,State,Healthcare,Medical Laboratory Technician,207,78,7.3,33600,HIGH,SYNTHETIC_DEVELOPMENT
+Kerala,State,Healthcare,Healthcare Support Associate,138,52,6.7,30000,HIGH,SYNTHETIC_DEVELOPMENT
+Kerala,State,Healthcare,Pharmacy Technician,86,33,6.2,27000,HIGH,SYNTHETIC_DEVELOPMENT
+Kerala,State,Tourism & Hospitality,Hotel Operations Associate,169,64,9.0,35280,HIGH,SYNTHETIC_DEVELOPMENT
+Kerala,State,Tourism & Hospitality,Food & Beverage Supervisor,113,43,8.4,31500,HIGH,SYNTHETIC_DEVELOPMENT
+Kerala,State,Tourism & Hospitality,Travel Operations Executive,71,27,7.9,28350,HIGH,SYNTHETIC_DEVELOPMENT
+Kerala,State,Information Technology,Software Developer,141,53,9.6,41440,HIGH,SYNTHETIC_DEVELOPMENT
+Kerala,State,Information Technology,Cloud Support Associate,94,36,9.0,37000,HIGH,SYNTHETIC_DEVELOPMENT
+Kerala,State,Information Technology,Data Analyst,59,22,8.5,33300,HIGH,SYNTHETIC_DEVELOPMENT
+Kerala,State,Retail & Consumer Services,Retail Operations Supervisor,116,44,4.6,39760,MEDIUM,SYNTHETIC_DEVELOPMENT
+Kerala,State,Retail & Consumer Services,Inventory Associate,77,29,4.0,35500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Kerala,State,Retail & Consumer Services,Customer Operations Associate,48,18,3.5,31950,MEDIUM,SYNTHETIC_DEVELOPMENT
+Kerala,State,Logistics,Warehouse Supervisor,95,36,7.8,41440,MEDIUM,SYNTHETIC_DEVELOPMENT
+Kerala,State,Logistics,Inventory Controller,63,24,7.2,37000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Kerala,State,Logistics,Transport Operations Associate,40,15,6.7,33300,MEDIUM,SYNTHETIC_DEVELOPMENT
+Kerala,State,Marine & Fisheries,Marine Engine Technician,79,30,6.3999999999999995,43680,MEDIUM,SYNTHETIC_DEVELOPMENT
+Kerala,State,Marine & Fisheries,Port Operations Assistant,52,20,5.8,39000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Kerala,State,Marine & Fisheries,Fisheries Technician,33,12,5.3,35100,MEDIUM,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Agriculture,Farm Equipment Technician,286,108,3.6,36960,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Agriculture,Agriculture Field Technician,190,72,3.0,33000,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Agriculture,Irrigation Technician,119,45,2.5,29700,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Food Processing,Food Processing Technician,234,89,7.3,38640,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Food Processing,Production Operator,156,59,6.7,34500,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Food Processing,Quality Technician,98,37,6.2,31050,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Automotive,Automotive Technician,194,73,6.3999999999999995,40880,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Automotive,CNC Machine Operator,130,49,5.8,36500,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Automotive,Automotive Quality Inspector,81,31,5.3,32850,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Textiles & Apparel,Textile Machine Operator,160,60,5.1,43120,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Textiles & Apparel,Garment Production Supervisor,107,40,4.5,38500,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Textiles & Apparel,Quality Inspector - Textiles,67,25,4.0,34650,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Building Materials,Cement Plant Operator,132,50,3.6,44800,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Building Materials,Mechanical Maintenance Technician,88,33,3.0,40000,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Building Materials,Quality Control Technician,55,21,2.5,36000,HIGH,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Mining & Minerals,Mining Technician,108,41,3.1,47040,MEDIUM,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Mining & Minerals,Heavy Equipment Operator,72,27,2.5,42000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,Mining & Minerals,Mine Safety Technician,45,17,2.0,37800,MEDIUM,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Financial Services,Banking Operations Associate,591,224,9.5,49280,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Financial Services,Insurance Operations Associate,394,149,8.9,44000,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Financial Services,Financial Services Associate,246,93,8.4,39600,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Information Technology,Software Developer,484,184,10.799999999999999,51520,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Information Technology,Cloud Support Associate,323,123,10.2,46000,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Information Technology,Data Analyst,202,77,9.7,41400,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Automotive,Automotive Technician,402,153,6.8,49840,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Automotive,CNC Machine Operator,268,102,6.2,44500,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Automotive,Automotive Quality Inspector,167,64,5.7,40050,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Engineering & Manufacturing,CNC Machine Operator,331,125,6.6,51520,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Engineering & Manufacturing,Production Technician,220,84,6.0,46000,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Engineering & Manufacturing,Quality Inspector,138,52,5.5,41400,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Pharmaceuticals,Pharmaceutical Production Technician,272,103,7.3999999999999995,57680,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Pharmaceuticals,Quality Control Technician,181,69,6.8,51500,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Pharmaceuticals,Packaging Machine Operator,113,43,6.3,46350,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Media & Creative Services,Video Editor,225,85,6.3999999999999995,56000,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Media & Creative Services,Digital Content Associate,150,57,5.8,50000,HIGH,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,Media & Creative Services,Graphic Production Assistant,94,35,5.3,45000,HIGH,SYNTHETIC_DEVELOPMENT
+Manipur,State,Agriculture,Farm Equipment Technician,39,15,3.6,26320,MEDIUM,SYNTHETIC_DEVELOPMENT
+Manipur,State,Agriculture,Agriculture Field Technician,26,10,3.0,23500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Manipur,State,Agriculture,Irrigation Technician,16,6,2.5,21150,MEDIUM,SYNTHETIC_DEVELOPMENT
+Manipur,State,Textiles & Handicrafts,Handloom Weaver,32,12,4.6,28560,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Textiles & Handicrafts,Textile Quality Inspector,21,8,4.0,25500,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Textiles & Handicrafts,Production Artisan,13,5,3.5,22950,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Tourism & Hospitality,Hotel Operations Associate,27,10,7.8,30240,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Tourism & Hospitality,Food & Beverage Supervisor,18,7,7.2,27000,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Tourism & Hospitality,Travel Operations Executive,11,4,6.7,24300,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Food Processing,Food Processing Technician,22,8,6.8,32480,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Food Processing,Production Operator,15,5,6.2,29000,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Food Processing,Quality Technician,9,3,5.7,26100,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Retail & Consumer Services,Retail Operations Supervisor,18,7,4.3999999999999995,34160,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Retail & Consumer Services,Inventory Associate,12,4,3.8,30500,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Retail & Consumer Services,Customer Operations Associate,8,3,3.3,27450,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Public & Community Services,Administrative Support Associate,15,5,3.4,36400,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Public & Community Services,Community Service Worker,10,4,2.8,32500,LOW,SYNTHETIC_DEVELOPMENT
+Manipur,State,Public & Community Services,Records Assistant,6,2,2.3,29250,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Tourism & Hospitality,Hotel Operations Associate,36,13,8.6,26320,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Tourism & Hospitality,Food & Beverage Supervisor,24,9,8.0,23500,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Tourism & Hospitality,Travel Operations Executive,15,6,7.5,21150,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Agriculture & Horticulture,Horticulture Technician,29,11,5.3,28000,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Agriculture & Horticulture,Packhouse Operator,20,7,4.7,25000,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Agriculture & Horticulture,Farm Equipment Technician,12,5,4.2,22500,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Mining & Minerals,Mining Technician,24,9,3.6,30240,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Mining & Minerals,Heavy Equipment Operator,16,6,3.0,27000,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Mining & Minerals,Mine Safety Technician,10,4,2.5,24300,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Food Processing,Food Processing Technician,20,7,6.8,32480,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Food Processing,Production Operator,13,5,6.2,29000,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Food Processing,Quality Technician,8,3,5.7,26100,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Construction,Construction Site Supervisor,16,6,4.8,34160,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Construction,Mason,11,4,4.2,30500,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Construction,Heavy Equipment Operator,7,2,3.7,27450,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Logistics,Warehouse Supervisor,13,5,7.8,36400,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Logistics,Inventory Controller,9,3,7.2,32500,LOW,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,Logistics,Transport Operations Associate,6,2,6.7,29250,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Agriculture & Horticulture,Horticulture Technician,31,12,6.6,25760,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Agriculture & Horticulture,Packhouse Operator,20,8,6.0,23000,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Agriculture & Horticulture,Farm Equipment Technician,13,5,5.5,20700,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Bamboo & Handicrafts,Bamboo Product Artisan,25,9,5.8,28000,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Bamboo & Handicrafts,Production Supervisor,17,6,5.2,25000,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Bamboo & Handicrafts,Quality Inspector,10,4,4.7,22500,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Tourism & Hospitality,Hotel Operations Associate,21,8,7.8,29680,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Tourism & Hospitality,Food & Beverage Supervisor,14,5,7.2,26500,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Tourism & Hospitality,Travel Operations Executive,9,3,6.7,23850,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Food Processing,Food Processing Technician,17,6,5.8,31920,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Food Processing,Production Operator,12,4,5.2,28500,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Food Processing,Quality Technician,7,3,4.7,25650,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Public & Community Services,Administrative Support Associate,14,5,2.1,33600,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Public & Community Services,Community Service Worker,9,4,1.5,30000,LOW,SYNTHETIC_DEVELOPMENT
+Mizoram,State,Public & Community Services,Records Assistant,6,2,1.0,27000,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Agriculture,Farm Equipment Technician,32,12,3.8000000000000003,25760,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Agriculture,Agriculture Field Technician,21,8,3.2,23000,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Agriculture,Irrigation Technician,13,5,2.7,20700,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Food Processing,Food Processing Technician,26,10,8.1,28000,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Food Processing,Production Operator,17,6,7.5,25000,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Food Processing,Quality Technician,11,4,7.0,22500,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Tourism & Hospitality,Hotel Operations Associate,22,8,7.6,30240,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Tourism & Hospitality,Food & Beverage Supervisor,14,5,7.0,27000,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Tourism & Hospitality,Travel Operations Executive,9,3,6.5,24300,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Textiles & Handicrafts,Handloom Weaver,18,7,4.1,31920,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Textiles & Handicrafts,Textile Quality Inspector,12,4,3.5,28500,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Textiles & Handicrafts,Production Artisan,7,3,3.0,25650,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Logistics,Warehouse Supervisor,14,5,7.8,34160,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Logistics,Inventory Controller,10,4,7.2,30500,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Logistics,Transport Operations Associate,6,2,6.7,27450,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Public & Community Services,Administrative Support Associate,12,4,2.1,35840,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Public & Community Services,Community Service Worker,8,3,1.5,32000,LOW,SYNTHETIC_DEVELOPMENT
+Nagaland,State,Public & Community Services,Records Assistant,5,2,1.0,28800,LOW,SYNTHETIC_DEVELOPMENT
+Odisha,State,Metals,Metals Technician,197,74,6.1,33040,HIGH,SYNTHETIC_DEVELOPMENT
+Odisha,State,Metals,Metals Operator,131,50,5.5,29500,HIGH,SYNTHETIC_DEVELOPMENT
+Odisha,State,Metals,Metals Associate,82,31,5.0,26550,HIGH,SYNTHETIC_DEVELOPMENT
+Odisha,State,Mining & Minerals,Mining Technician,161,61,4.3,35280,HIGH,SYNTHETIC_DEVELOPMENT
+Odisha,State,Mining & Minerals,Heavy Equipment Operator,108,41,3.7,31500,HIGH,SYNTHETIC_DEVELOPMENT
+Odisha,State,Mining & Minerals,Mine Safety Technician,67,25,3.2,28350,HIGH,SYNTHETIC_DEVELOPMENT
+Odisha,State,Metals & Steel,Steel Fabrication Technician,134,51,4.1,36960,HIGH,SYNTHETIC_DEVELOPMENT
+Odisha,State,Metals & Steel,Furnace Operator,89,34,3.5,33000,HIGH,SYNTHETIC_DEVELOPMENT
+Odisha,State,Metals & Steel,Mechanical Maintenance Technician,56,21,3.0,29700,HIGH,SYNTHETIC_DEVELOPMENT
+Odisha,State,Logistics,Warehouse Supervisor,110,42,7.8,39200,MEDIUM,SYNTHETIC_DEVELOPMENT
+Odisha,State,Logistics,Logistics Coordinator,74,28,7.2,35000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Odisha,State,Logistics,Fleet Operations Assistant,46,17,6.7,31500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Odisha,State,Energy & Utilities,Electrical Technician,91,34,6.1,40880,MEDIUM,SYNTHETIC_DEVELOPMENT
+Odisha,State,Energy & Utilities,Power Plant Operator,60,23,5.5,36500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Odisha,State,Energy & Utilities,Maintenance Technician,38,14,5.0,32850,MEDIUM,SYNTHETIC_DEVELOPMENT
+Odisha,State,Construction,Construction Site Supervisor,75,28,6.3999999999999995,43120,MEDIUM,SYNTHETIC_DEVELOPMENT
+Odisha,State,Construction,Mason,50,19,5.8,38500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Odisha,State,Construction,Heavy Equipment Operator,31,12,5.3,34650,MEDIUM,SYNTHETIC_DEVELOPMENT
+Punjab,State,Agriculture,Farm Equipment Technician,216,82,4.6,33600,HIGH,SYNTHETIC_DEVELOPMENT
+Punjab,State,Agriculture,Agriculture Field Technician,144,55,4.0,30000,HIGH,SYNTHETIC_DEVELOPMENT
+Punjab,State,Agriculture,Irrigation Technician,90,34,3.5,27000,HIGH,SYNTHETIC_DEVELOPMENT
+Punjab,State,Food Processing,Food Processing Technician,178,67,6.6,35840,HIGH,SYNTHETIC_DEVELOPMENT
+Punjab,State,Food Processing,Production Operator,118,45,6.0,32000,HIGH,SYNTHETIC_DEVELOPMENT
+Punjab,State,Food Processing,Quality Technician,74,28,5.5,28800,HIGH,SYNTHETIC_DEVELOPMENT
+Punjab,State,Textiles & Apparel,Textile Machine Operator,147,56,3.8000000000000003,38080,HIGH,SYNTHETIC_DEVELOPMENT
+Punjab,State,Textiles & Apparel,Garment Production Supervisor,98,37,3.2,34000,HIGH,SYNTHETIC_DEVELOPMENT
+Punjab,State,Textiles & Apparel,Quality Inspector - Textiles,61,23,2.7,30600,HIGH,SYNTHETIC_DEVELOPMENT
+Punjab,State,Light Engineering,Light Engineering Technician,121,46,5.3999999999999995,39760,HIGH,SYNTHETIC_DEVELOPMENT
+Punjab,State,Light Engineering,Light Engineering Operator,81,31,4.8,35500,HIGH,SYNTHETIC_DEVELOPMENT
+Punjab,State,Light Engineering,Light Engineering Associate,51,19,4.3,31950,HIGH,SYNTHETIC_DEVELOPMENT
+Punjab,State,Logistics,Warehouse Supervisor,100,38,6.8,42000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Punjab,State,Logistics,Inventory Controller,67,25,6.2,37500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Punjab,State,Logistics,Transport Operations Associate,42,16,5.7,33750,MEDIUM,SYNTHETIC_DEVELOPMENT
+Punjab,State,Retail & Consumer Services,Retail Operations Supervisor,82,31,4.6,43680,MEDIUM,SYNTHETIC_DEVELOPMENT
+Punjab,State,Retail & Consumer Services,Inventory Associate,55,20,4.0,39000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Punjab,State,Retail & Consumer Services,Customer Operations Associate,34,13,3.5,35100,MEDIUM,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Mining & Minerals,Mining Technician,256,97,5.3,35840,HIGH,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Mining & Minerals,Heavy Equipment Operator,171,65,4.7,32000,HIGH,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Mining & Minerals,Mine Safety Technician,107,40,4.2,28800,HIGH,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Building Materials,Cement Plant Operator,210,80,4.6,37520,HIGH,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Building Materials,Mechanical Maintenance Technician,140,53,4.0,33500,HIGH,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Building Materials,Quality Control Technician,87,33,3.5,30150,HIGH,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Textiles & Apparel,Textile Machine Operator,174,66,3.8000000000000003,39760,HIGH,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Textiles & Apparel,Garment Production Supervisor,116,44,3.2,35500,HIGH,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Textiles & Apparel,Quality Inspector - Textiles,73,27,2.7,31950,HIGH,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Gems & Jewellery,Jewellery Production Artisan,144,54,5.3999999999999995,41440,HIGH,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Gems & Jewellery,Gemstone Processing Technician,96,36,4.8,37000,HIGH,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Gems & Jewellery,Jewellery Quality Inspector,60,23,4.3,33300,HIGH,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Tourism & Hospitality,Hotel Operations Associate,118,45,6.8,43680,MEDIUM,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Tourism & Hospitality,Food & Beverage Supervisor,78,30,6.2,39000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Tourism & Hospitality,Travel Operations Executive,49,19,5.7,35100,MEDIUM,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Renewable Energy,Solar PV Technician,97,37,11.1,45920,MEDIUM,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Renewable Energy,Electrical Technician,65,25,10.5,41000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,Renewable Energy,Energy Site Supervisor,41,15,10.0,36900,MEDIUM,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Tourism & Hospitality,Hotel Operations Associate,22,8,8.799999999999999,25760,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Tourism & Hospitality,Food & Beverage Supervisor,14,5,8.2,23000,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Tourism & Hospitality,Travel Operations Executive,9,3,7.699999999999999,20700,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Pharmaceuticals,Pharmaceutical Production Technician,18,7,8.5,31360,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Pharmaceuticals,Quality Control Technician,12,4,7.9,28000,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Pharmaceuticals,Packaging Machine Operator,7,3,7.4,25200,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Energy & Utilities,Hydropower Plant Technician,15,5,6.1,29680,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Energy & Utilities,Electrical Maintenance Technician,10,4,5.5,26500,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Energy & Utilities,Instrumentation Technician,6,2,5.0,23850,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Organic Agriculture,Organic Agriculture Technician,12,4,6.3999999999999995,31360,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Organic Agriculture,Organic Agriculture Operator,8,3,5.8,28000,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Organic Agriculture,Organic Agriculture Associate,5,2,5.3,25200,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Food Processing,Food Processing Technician,10,3,6.8,33600,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Food Processing,Production Operator,7,2,6.2,30000,LOW,SYNTHETIC_DEVELOPMENT
+Sikkim,State,Food Processing,Quality Technician,4,2,5.7,27000,LOW,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Automotive,Automotive Technician,404,153,7.6,42000,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Automotive,CNC Machine Operator,269,102,7.0,37500,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Automotive,Automotive Quality Inspector,168,64,6.5,33750,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Electronics,Electronics Test Technician,331,126,10.799999999999999,43680,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Electronics,Embedded Systems Technician,221,84,10.2,39000,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Electronics,Production Quality Inspector,138,52,9.7,35100,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Textiles & Apparel,Textile Machine Operator,275,104,4.6,45920,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Textiles & Apparel,Garment Production Supervisor,183,69,4.0,41000,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Textiles & Apparel,Quality Inspector - Textiles,114,43,3.5,36900,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Engineering & Manufacturing,CNC Machine Operator,226,85,6.3999999999999995,48160,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Engineering & Manufacturing,Production Technician,151,57,5.8,43000,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Engineering & Manufacturing,Quality Inspector,94,36,5.3,38700,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Information Technology,Software Developer,186,71,8.6,53760,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Information Technology,Cloud Support Associate,124,47,8.0,48000,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Information Technology,Data Analyst,77,29,7.5,43200,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Leather & Footwear,Leather Processing Technician,154,58,4.6,52080,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Leather & Footwear,Footwear Production Technician,102,39,4.0,46500,HIGH,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,Leather & Footwear,Quality Inspector,64,24,3.5,41850,HIGH,SYNTHETIC_DEVELOPMENT
+Telangana,State,Information Technology,Software Developer,246,93,9.5,39200,HIGH,SYNTHETIC_DEVELOPMENT
+Telangana,State,Information Technology,Cloud Support Associate,164,62,8.9,35000,HIGH,SYNTHETIC_DEVELOPMENT
+Telangana,State,Information Technology,Data Analyst,103,39,8.4,31500,HIGH,SYNTHETIC_DEVELOPMENT
+Telangana,State,Pharmaceuticals,Pharmaceutical Production Technician,202,76,8.3,40880,HIGH,SYNTHETIC_DEVELOPMENT
+Telangana,State,Pharmaceuticals,Quality Control Technician,135,51,7.7,36500,HIGH,SYNTHETIC_DEVELOPMENT
+Telangana,State,Pharmaceuticals,Packaging Machine Operator,84,32,7.2,32850,HIGH,SYNTHETIC_DEVELOPMENT
+Telangana,State,Life Sciences,Laboratory Technician,168,63,9.799999999999999,43120,HIGH,SYNTHETIC_DEVELOPMENT
+Telangana,State,Life Sciences,Bioprocess Technician,112,42,9.2,38500,HIGH,SYNTHETIC_DEVELOPMENT
+Telangana,State,Life Sciences,Quality Control Analyst,70,26,8.7,34650,HIGH,SYNTHETIC_DEVELOPMENT
+Telangana,State,Aerospace & Advanced Manufacturing,Aerospace Production Technician,138,52,8.4,41440,HIGH,SYNTHETIC_DEVELOPMENT
+Telangana,State,Aerospace & Advanced Manufacturing,CNC Programmer,92,35,7.8,37000,HIGH,SYNTHETIC_DEVELOPMENT
+Telangana,State,Aerospace & Advanced Manufacturing,Quality Assurance Technician,57,22,7.3,33300,HIGH,SYNTHETIC_DEVELOPMENT
+Telangana,State,Electronics,Electronics Test Technician,113,43,10.4,43120,MEDIUM,SYNTHETIC_DEVELOPMENT
+Telangana,State,Electronics,Embedded Systems Technician,76,28,9.8,38500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Telangana,State,Electronics,Production Quality Inspector,47,18,9.3,34650,MEDIUM,SYNTHETIC_DEVELOPMENT
+Telangana,State,Logistics,Warehouse Supervisor,94,36,6.8,45360,MEDIUM,SYNTHETIC_DEVELOPMENT
+Telangana,State,Logistics,Inventory Controller,62,24,6.2,40500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Telangana,State,Logistics,Transport Operations Associate,39,15,5.7,36450,MEDIUM,SYNTHETIC_DEVELOPMENT
+Tripura,State,Rubber & Polymer Products,Rubber Processing Operator,32,12,6.6,25760,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Rubber & Polymer Products,Production Technician,21,8,6.0,23000,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Rubber & Polymer Products,Quality Inspector,13,5,5.5,20700,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Tea Processing,Tea Processing Technician,26,10,6.3,28000,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Tea Processing,Quality Control Assistant,17,6,5.7,25000,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Tea Processing,Packaging Operator,11,4,5.2,22500,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Bamboo,Bamboo Technician,22,8,6.3999999999999995,30240,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Bamboo,Bamboo Operator,14,5,5.8,27000,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Bamboo,Bamboo Associate,9,3,5.3,24300,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Food Processing,Food Processing Technician,18,7,6.1,31920,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Food Processing,Production Operator,12,4,5.5,28500,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Food Processing,Quality Technician,7,3,5.0,25650,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Construction,Construction Site Supervisor,14,5,5.3999999999999995,34160,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Construction,Mason,10,4,4.8,30500,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Construction,Heavy Equipment Operator,6,2,4.3,27450,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Tourism & Hospitality,Hotel Operations Associate,12,4,6.6,35840,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Tourism & Hospitality,Food & Beverage Supervisor,8,3,6.0,32000,LOW,SYNTHETIC_DEVELOPMENT
+Tripura,State,Tourism & Hospitality,Travel Operations Executive,5,2,5.5,28800,LOW,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Agriculture,Farm Equipment Technician,630,239,4.6,45920,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Agriculture,Agriculture Field Technician,420,159,4.0,41000,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Agriculture,Irrigation Technician,263,100,3.5,36900,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Food Processing,Food Processing Technician,517,196,7.1,47600,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Food Processing,Production Operator,345,131,6.5,42500,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Food Processing,Quality Technician,215,82,6.0,38250,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Leather & Footwear,Leather Processing Technician,429,163,5.1,49840,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Leather & Footwear,Footwear Production Technician,286,108,4.5,44500,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Leather & Footwear,Quality Inspector,179,68,4.0,40050,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Textiles & Apparel,Textile Machine Operator,353,134,5.3999999999999995,51520,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Textiles & Apparel,Garment Production Supervisor,235,89,4.8,46000,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Textiles & Apparel,Quality Inspector - Textiles,147,56,4.3,41400,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Electronics,Electronics Test Technician,290,110,9.799999999999999,53760,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Electronics,Embedded Systems Technician,193,73,9.2,48000,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Electronics,Production Quality Inspector,121,46,8.7,43200,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Construction,Construction Site Supervisor,240,91,5.6,56000,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Construction,Mason,160,60,5.0,50000,HIGH,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,Construction,Heavy Equipment Operator,100,38,4.5,45000,HIGH,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Pharmaceuticals,Pharmaceutical Production Technician,89,34,9.0,32480,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Pharmaceuticals,Quality Control Technician,59,22,8.4,29000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Pharmaceuticals,Packaging Machine Operator,37,14,7.9,26100,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Tourism & Hospitality,Hotel Operations Associate,72,27,7.8,30240,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Tourism & Hospitality,Food & Beverage Supervisor,48,18,7.2,27000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Tourism & Hospitality,Travel Operations Executive,30,11,6.7,24300,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Food Processing,Food Processing Technician,60,23,6.8,32480,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Food Processing,Production Operator,40,15,6.2,29000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Food Processing,Quality Technician,25,9,5.7,26100,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Energy & Utilities,Hydropower Plant Technician,49,19,5.1,34720,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Energy & Utilities,Electrical Maintenance Technician,33,12,4.5,31000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Energy & Utilities,Instrumentation Technician,21,8,4.0,27900,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Automotive Components,Automotive Components Technician,41,15,6.1,36400,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Automotive Components,Automotive Components Operator,27,10,5.5,32500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Automotive Components,Automotive Components Associate,17,6,5.0,29250,MEDIUM,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Logistics,Warehouse Supervisor,34,12,7.6,38640,LOW,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Logistics,Inventory Controller,22,8,7.0,34500,LOW,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,Logistics,Transport Operations Associate,14,5,6.5,31050,LOW,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Food Processing,Food Processing Technician,354,134,7.8,39760,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Food Processing,Production Operator,236,90,7.2,35500,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Food Processing,Quality Technician,148,56,6.7,31950,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Textiles & Apparel,Textile Machine Operator,291,110,5.3,42000,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Textiles & Apparel,Garment Production Supervisor,194,74,4.7,37500,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Textiles & Apparel,Quality Inspector - Textiles,121,46,4.2,33750,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Jute & Natural Fibres,Jute Machine Operator,241,91,4.8,43680,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Jute & Natural Fibres,Textile Quality Inspector,161,61,4.2,39000,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Jute & Natural Fibres,Production Supervisor,100,38,3.7,35100,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Metals & Steel,Steel Fabrication Technician,199,75,4.6,45920,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Metals & Steel,Furnace Operator,132,50,4.0,41000,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Metals & Steel,Mechanical Maintenance Technician,83,31,3.5,36900,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Information Technology,Software Developer,163,62,8.799999999999999,51520,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Information Technology,Cloud Support Associate,109,41,8.2,46000,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Information Technology,Data Analyst,68,26,7.699999999999999,41400,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Logistics,Warehouse Supervisor,135,51,8.1,49840,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Logistics,Inventory Controller,90,34,7.5,44500,HIGH,SYNTHETIC_DEVELOPMENT
+West Bengal,State,Logistics,Transport Operations Associate,56,21,7.0,40050,HIGH,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Tourism & Hospitality,Hotel Operations Associate,11,4,8.799999999999999,25200,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Tourism & Hospitality,Food & Beverage Supervisor,7,3,8.2,22500,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Tourism & Hospitality,Travel Operations Executive,5,2,7.699999999999999,20250,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Fisheries,Fisheries Technician,9,3,5.8,26880,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Fisheries,Cold-chain Operator,6,2,5.2,24000,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Fisheries,Aquaculture Technician,4,2,4.7,21600,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Marine & Fisheries,Marine Engine Technician,7,2,5.6,29120,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Marine & Fisheries,Port Operations Assistant,5,2,5.0,26000,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Marine & Fisheries,Fisheries Technician,3,2,4.5,23400,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Logistics,Warehouse Supervisor,6,2,7.3999999999999995,31360,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Logistics,Inventory Controller,4,2,6.8,28000,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Logistics,Transport Operations Associate,3,2,6.3,25200,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Public & Community Services,Administrative Support Associate,6,2,2.4,33040,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Public & Community Services,Community Service Worker,4,2,1.8,29500,LOW,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,Public & Community Services,Records Assistant,3,2,1.3,26550,LOW,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Public Administration,Administrative Support Associate,39,15,4.1,26320,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Public Administration,Records Assistant,26,10,3.5,23500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Public Administration,Public Service Coordinator,16,6,3.0,21150,MEDIUM,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Healthcare,Medical Laboratory Technician,32,12,8.1,28000,LOW,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Healthcare,Healthcare Support Associate,21,8,7.5,25000,LOW,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Healthcare,Pharmacy Technician,13,5,7.0,22500,LOW,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Education & Training,Vocational Trainer,27,10,4.8,30240,LOW,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Education & Training,Training Coordinator,18,7,4.2,27000,LOW,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Education & Training,Education Support Associate,11,4,3.7,24300,LOW,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Information Technology,Software Developer,22,8,8.6,35840,LOW,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Information Technology,Cloud Support Associate,15,5,8.0,32000,LOW,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Information Technology,Data Analyst,9,3,7.5,28800,LOW,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Retail & Consumer Services,Retail Operations Supervisor,18,7,4.3999999999999995,34160,LOW,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Retail & Consumer Services,Inventory Associate,12,4,3.8,30500,LOW,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,Retail & Consumer Services,Customer Operations Associate,8,3,3.3,27450,LOW,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Pharmaceuticals,Pharmaceutical Production Technician,39,15,8.0,30240,MEDIUM,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Pharmaceuticals,Quality Control Technician,26,10,7.4,27000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Pharmaceuticals,Packaging Machine Operator,16,6,6.9,24300,MEDIUM,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Textiles & Apparel,Textile Machine Operator,32,12,5.6,28000,LOW,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Textiles & Apparel,Garment Production Supervisor,21,8,5.0,25000,LOW,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Textiles & Apparel,Quality Inspector - Textiles,13,5,4.5,22500,LOW,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Plastics,Plastics Technician,27,10,5.6,30240,LOW,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Plastics,Plastics Operator,18,7,5.0,27000,LOW,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Plastics,Plastics Associate,11,4,4.5,24300,LOW,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Engineering & Manufacturing,CNC Machine Operator,22,8,6.1,32480,LOW,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Engineering & Manufacturing,Production Technician,15,5,5.5,29000,LOW,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Engineering & Manufacturing,Quality Inspector,9,3,5.0,26100,LOW,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Food Processing,Food Processing Technician,18,7,5.6,34160,LOW,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Food Processing,Production Operator,12,4,5.0,30500,LOW,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,Food Processing,Quality Technician,8,3,4.5,27450,LOW,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Public Administration,Administrative Support Associate,335,127,3.6,39200,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Public Administration,Records Assistant,223,84,3.0,35000,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Public Administration,Public Service Coordinator,139,53,2.5,31500,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Financial Services,Banking Operations Associate,275,104,8.799999999999999,44800,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Financial Services,Insurance Operations Associate,183,69,8.2,40000,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Financial Services,Financial Services Associate,114,43,7.699999999999999,36000,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Information Technology,Software Developer,228,86,9.4,47040,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Information Technology,Cloud Support Associate,152,58,8.8,42000,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Information Technology,Data Analyst,95,36,8.3,37800,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Retail & Consumer Services,Retail Operations Supervisor,188,71,3.8000000000000003,44800,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Retail & Consumer Services,Inventory Associate,125,47,3.2,40000,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Retail & Consumer Services,Customer Operations Associate,78,30,2.7,36000,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Logistics,Warehouse Supervisor,154,58,7.6,47040,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Logistics,Inventory Controller,103,39,7.0,42000,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Logistics,Transport Operations Associate,64,24,6.5,37800,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Healthcare,Medical Laboratory Technician,127,48,6.6,49280,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Healthcare,Healthcare Support Associate,85,32,6.0,44000,HIGH,SYNTHETIC_DEVELOPMENT
+Delhi,UT,Healthcare,Pharmacy Technician,53,20,5.5,39600,HIGH,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Tourism & Hospitality,Hotel Operations Associate,89,34,8.1,28560,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Tourism & Hospitality,Food & Beverage Supervisor,59,22,7.5,25500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Tourism & Hospitality,Travel Operations Executive,37,14,7.0,22950,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Agriculture & Horticulture,Horticulture Technician,72,27,5.1,30240,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Agriculture & Horticulture,Packhouse Operator,48,18,4.5,27000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Agriculture & Horticulture,Farm Equipment Technician,30,11,4.0,24300,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Handicrafts,Craft Production Artisan,60,23,5.3999999999999995,32480,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Handicrafts,Product Finishing Technician,40,15,4.8,29000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Handicrafts,Quality Inspector,25,9,4.3,26100,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Food Processing,Food Processing Technician,49,19,6.8,34720,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Food Processing,Production Operator,33,12,6.2,31000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Food Processing,Quality Technician,21,8,5.7,27900,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Construction,Construction Site Supervisor,41,15,6.3999999999999995,36400,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Construction,Mason,27,10,5.8,32500,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Construction,Heavy Equipment Operator,17,6,5.3,29250,MEDIUM,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Logistics,Warehouse Supervisor,34,12,8.4,38640,LOW,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Logistics,Inventory Controller,22,8,7.8,34500,LOW,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,Logistics,Transport Operations Associate,14,5,7.3,31050,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Tourism & Hospitality,Hotel Operations Associate,15,6,8.799999999999999,25200,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Tourism & Hospitality,Food & Beverage Supervisor,10,4,8.2,22500,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Tourism & Hospitality,Travel Operations Executive,6,2,7.699999999999999,20250,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Construction,Construction Site Supervisor,12,4,6.3,27440,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Construction,Mason,8,3,5.7,24500,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Construction,Heavy Equipment Operator,5,2,5.2,22050,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Renewable Energy,Solar PV Technician,11,4,11.1,29120,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Renewable Energy,Electrical Technician,7,3,10.5,26000,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Renewable Energy,Energy Site Supervisor,4,2,10.0,23400,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Public & Community Services,Administrative Support Associate,9,3,3.1,31360,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Public & Community Services,Community Service Worker,6,2,2.5,28000,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Public & Community Services,Records Assistant,4,2,2.0,25200,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Agriculture & Horticulture,Horticulture Technician,7,2,3.8000000000000003,33040,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Agriculture & Horticulture,Packhouse Operator,5,2,3.2,29500,LOW,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,Agriculture & Horticulture,Farm Equipment Technician,3,2,2.7,26550,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Tourism & Hospitality,Hotel Operations Associate,7,2,8.1,24640,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Tourism & Hospitality,Food & Beverage Supervisor,4,2,7.5,22000,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Tourism & Hospitality,Travel Operations Executive,3,2,7.0,19800,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Fisheries,Fisheries Technician,6,2,6.1,26880,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Fisheries,Cold-chain Operator,4,2,5.5,24000,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Fisheries,Aquaculture Technician,3,2,5.0,21600,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Marine & Fisheries,Marine Engine Technician,6,2,5.6,29120,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Marine & Fisheries,Port Operations Assistant,4,2,5.0,26000,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Marine & Fisheries,Fisheries Technician,3,2,4.5,23400,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Food Processing,Food Processing Technician,6,2,6.6,30800,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Food Processing,Production Operator,4,2,6.0,27500,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Food Processing,Quality Technician,3,2,5.5,24750,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Public & Community Services,Administrative Support Associate,6,2,2.6,33040,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Public & Community Services,Community Service Worker,4,2,2.0,29500,LOW,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,Public & Community Services,Records Assistant,3,2,1.5,26550,LOW,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Tourism & Hospitality,Hotel Operations Associate,49,19,8.3,26880,MEDIUM,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Tourism & Hospitality,Food & Beverage Supervisor,33,12,7.7,24000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Tourism & Hospitality,Travel Operations Executive,21,8,7.2,21600,MEDIUM,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Pharmaceuticals,Pharmaceutical Production Technician,40,15,8.0,32480,MEDIUM,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Pharmaceuticals,Quality Control Technician,27,10,7.4,29000,MEDIUM,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Pharmaceuticals,Packaging Machine Operator,17,6,6.9,26100,MEDIUM,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Engineering & Manufacturing,CNC Machine Operator,34,12,6.1,30800,LOW,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Engineering & Manufacturing,Production Technician,22,8,5.5,27500,LOW,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Engineering & Manufacturing,Quality Inspector,14,5,5.0,24750,LOW,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Textiles & Apparel,Textile Machine Operator,27,10,3.8000000000000003,33040,LOW,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Textiles & Apparel,Garment Production Supervisor,18,7,3.2,29500,LOW,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Textiles & Apparel,Quality Inspector - Textiles,11,4,2.7,26550,LOW,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Food Processing,Food Processing Technician,23,8,6.6,34720,LOW,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Food Processing,Production Operator,15,5,6.0,31000,LOW,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Food Processing,Quality Technician,9,3,5.5,27900,LOW,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Information Technology,Software Developer,19,7,9.6,40880,LOW,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Information Technology,Cloud Support Associate,12,4,9.0,36500,LOW,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,Information Technology,Data Analyst,8,3,8.5,32850,LOW,SYNTHETIC_DEVELOPMENT

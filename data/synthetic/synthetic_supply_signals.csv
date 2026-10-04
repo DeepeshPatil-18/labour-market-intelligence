@@ -1,0 +1,534 @@
+state,district,skill,training_seats,completion_rate,placement_rate,effective_supply_index,source,data_origin
+Andhra Pradesh,Visakhapatnam,Agri Input Management,42,0.75,0.71,3.6,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Auto Electrical,93,0.79,0.58,6.8,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,AutoCAD,379,0.81,0.635,31.1,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Battery Management Systems,45,0.77,0.64,3.5,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,CNC Operation,257,0.94,0.78,30.1,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,CNC Programming,112,0.66,0.57,6.7,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Communication,102,0.69,0.65,7.3,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Docker,153,0.89,0.85,18.5,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Excel,501,0.7,0.64,35.9,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Irrigation Management,187,0.77,0.36,8.3,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Lean Manufacturing,170,0.85,0.68,15.7,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Machine Learning,84,0.67,0.47,4.2,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,PLC,284,0.78,0.38,13.4,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Patient Care,82,0.88,0.43,5.0,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Problem Solving,278,0.69,0.47,14.4,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Quality Control,214,0.75,0.84,21.5,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,REST APIs,59,0.79,0.54,4.0,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,SCADA,40,0.87,0.42,2.3,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Tally,212,0.78,0.63,16.6,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Warehouse Management,224,0.56,0.59,11.8,SYNTHETIC_DEMO,SYNTHETIC
+Andhra Pradesh,Visakhapatnam,Welding,74,0.63,0.72,5.4,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Azure,196,0.66,0.41,8.5,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Communication,143,0.76,0.35,6.1,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Construction Safety,383,0.88,0.79,42.5,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Digital Marketing,163,0.57,0.73,10.8,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,EV Systems,79,0.85,0.53,5.7,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Excel,76,0.81,0.63,6.2,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Healthcare Administration,259,0.85,0.69,24.3,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Machine Maintenance,34,0.64,0.41,1.4,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Mechanical Assembly,344,0.8300000000000001,0.635,29.0,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Pharmacy Operations,271,0.68,0.69,20.3,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Production Planning,276,0.91,0.76,30.5,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Python,89,0.6,0.79,6.7,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,React,179,0.82,0.41,9.6,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Site Supervision,197,0.72,0.49,11.1,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Structural Analysis,144,0.71,0.62,10.1,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,UI/UX Design,243,0.84,0.39,12.7,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Vehicle Diagnostics,161,0.94,0.73,17.6,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Warehouse Management,121,0.85,0.77,12.7,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Welding,237,0.56,0.55,11.7,SYNTHETIC_DEMO,SYNTHETIC
+Delhi,New Delhi,Workplace Safety,140,0.81,0.51,9.2,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,Accounting,183,0.8,0.59,13.8,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,Business Analysis,246,0.66,0.48,12.4,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,CNC Programming,111,0.63,0.39,4.4,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,CNC Turning,128,0.81,0.37,6.1,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,Civil Drafting,92,0.77,0.38,4.3,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,Clinical Documentation,282,0.655,0.61,18.0,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,Docker,285,0.82,0.83,31.0,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,Embedded Systems,173,0.63,0.85,14.8,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,Git,244,0.67,0.61,15.9,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,Healthcare Administration,281,0.87,0.525,20.5,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,PCB Design,295,0.89,0.75,31.5,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,SCADA,120,0.84,0.7,11.3,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,Site Supervision,71,0.83,0.79,7.4,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,Structural Analysis,84,0.76,0.67,6.8,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Ahmedabad,Tally,118,0.77,0.59,8.6,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,AWS,183,0.93,0.68,18.5,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Auto Electrical,169,0.79,0.52,11.1,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Data Analysis,112,0.67,0.39,4.7,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Digital Marketing,71,0.94,0.84,9.0,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Farm Machinery,78,0.6,0.66,4.9,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Irrigation Management,114,0.77,0.81,11.4,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,JavaScript,33,0.58,0.62,1.9,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Logistics Planning,290,0.84,0.45,17.5,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Machine Learning,289,0.58,0.73,19.5,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Mechanical Assembly,433,0.72,0.615,30.6,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Medical Equipment Maintenance,229,0.9,0.62,20.4,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Node.js,248,0.8400000000000001,0.635,21.1,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Pharmacy Operations,256,0.73,0.63,18.8,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Project Planning,160,0.9,0.6,13.8,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Python,156,0.79,0.82,16.1,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Quality Control,104,0.63,0.36,3.8,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,React,281,0.92,0.51,21.1,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,SCADA,177,0.56,0.48,7.6,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Site Supervision,216,0.89,0.71,21.8,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Surveying,266,0.9,0.56,21.4,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Team Management,291,0.77,0.49,17.5,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Two-Wheeler Service,239,0.68,0.55,14.3,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,UI/UX Design,59,0.6,0.51,2.9,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Surat,Vehicle Diagnostics,187,0.67,0.83,16.6,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,AutoCAD,226,0.765,0.5700000000000001,15.7,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,Automotive Diagnostics,53,0.64,0.73,4.0,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,CNC Operation,88,0.62,0.51,4.4,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,Control Systems,128,0.91,0.8,14.9,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,Cybersecurity,339,0.6599999999999999,0.6599999999999999,23.6,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,Digital Literacy,152,0.86,0.65,13.6,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,Digital Marketing,72,0.82,0.63,5.9,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,Farm Machinery,246,0.665,0.43,11.2,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,Irrigation Management,378,0.745,0.74,33.3,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,Laboratory Techniques,220,0.9,0.45,14.2,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,Machine Maintenance,324,0.61,0.455,14.4,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,Medical Equipment Maintenance,424,0.7350000000000001,0.5900000000000001,29.4,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,Node.js,146,0.84,0.71,13.9,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,React,141,0.8,0.7,12.6,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,Team Management,163,0.88,0.83,19.0,SYNTHETIC_DEMO,SYNTHETIC
+Gujarat,Vadodara,Workplace Safety,239,0.72,0.74,20.3,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,AWS,209,0.81,0.82,22.2,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Accounting,48,0.59,0.72,3.3,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Auto Electrical,171,0.9,0.4,9.8,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Automotive Diagnostics,299,0.95,0.74,33.6,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Battery Management Systems,280,0.8500000000000001,0.635,24.1,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,CNC Programming,263,0.77,0.59,19.1,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,CNC Turning,272,0.84,0.76,27.7,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Civil Drafting,115,0.72,0.49,6.5,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Control Systems,297,0.57,0.74,20.0,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Cybersecurity,114,0.94,0.37,6.3,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Farm Machinery,124,0.69,0.55,7.5,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Git,221,0.67,0.66,15.6,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Java,145,0.88,0.67,13.7,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Node.js,157,0.69,0.68,11.8,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Patient Care,105,0.58,0.8,7.8,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,PostgreSQL,151,0.58,0.47,6.6,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Project Planning,245,0.71,0.73,20.3,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Quality Control,65,0.89,0.49,4.5,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Route Planning,227,0.73,0.5,13.2,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Site Supervision,134,0.81,0.52,9.0,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Tally,236,0.83,0.68,21.3,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,UI/UX Design,92,0.63,0.83,7.7,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Faridabad,Warehouse Management,172,0.92,0.75,19.0,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Gurugram,Accounting,169,0.61,0.69,11.4,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Gurugram,AutoCAD,86,0.72,0.67,6.6,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Gurugram,Automotive Diagnostics,272,0.73,0.54,17.1,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Gurugram,Business Analysis,78,0.9,0.58,6.5,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Gurugram,CNC Programming,296,0.82,0.66,25.6,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Gurugram,CNC Turning,126,0.73,0.81,11.9,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Gurugram,Clinical Documentation,208,0.63,0.61,12.8,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Gurugram,Customer Service,269,0.89,0.77,29.4,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Gurugram,Irrigation Management,210,0.73,0.71,17.4,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Gurugram,Post-Harvest Management,407,0.745,0.505,24.5,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Gurugram,Structural Analysis,145,0.72,0.52,8.7,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Gurugram,Surveying,213,0.61,0.48,10.0,SYNTHETIC_DEMO,SYNTHETIC
+Haryana,Gurugram,Team Management,97,0.83,0.59,7.6,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,AWS,296,0.72,0.38,12.9,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Accounting,130,0.91,0.83,15.7,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,AutoCAD,114,0.67,0.45,5.5,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Civil Drafting,280,0.72,0.67,21.6,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Control Systems,295,0.89,0.42,17.6,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Data Analysis,88,0.82,0.73,8.4,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,EV Systems,276,0.59,0.64,16.6,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Excel,155,0.735,0.6950000000000001,12.6,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Healthcare Administration,217,0.93,0.59,19.0,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,IoT,120,0.76,0.84,12.2,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Irrigation Management,69,0.85,0.67,6.3,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Logistics Planning,255,0.8,0.7,22.8,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Machine Learning,265,0.82,0.56,19.4,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Machine Maintenance,59,0.6,0.7,4.0,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Mechanical Assembly,120,0.56,0.67,7.2,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Medical Equipment Maintenance,106,0.61,0.63,6.5,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,PCB Design,116,0.59,0.72,7.9,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,REST APIs,71,0.61,0.39,2.7,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Tally,97,0.82,0.6,7.6,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,Team Management,223,0.94,0.55,18.4,SYNTHETIC_DEMO,SYNTHETIC
+Jharkhand,Ranchi,UI/UX Design,114,0.67,0.78,9.5,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,Battery Management Systems,45,0.68,0.79,3.9,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,CNC Operation,274,0.72,0.39,12.3,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,CNC Turning,197,0.55,0.68,11.8,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,Construction Safety,177,0.66,0.8,14.9,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,Data Analysis,102,0.83,0.78,10.5,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,Irrigation Management,281,0.76,0.75,25.6,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,Medical Coding,227,0.85,0.4,12.3,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,Node.js,261,0.79,0.75,24.7,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,Patient Care,274,0.6100000000000001,0.71,19.0,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,Production Planning,560,0.69,0.7150000000000001,44.1,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,REST APIs,66,0.56,0.56,3.3,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,Route Planning,144,0.6,0.67,9.2,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,Surveying,243,0.85,0.81,26.7,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,Vehicle Diagnostics,288,0.95,0.56,24.5,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Bengaluru,Welding,215,0.58,0.77,15.3,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Automotive Diagnostics,152,0.73,0.51,9.0,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Azure,95,0.86,0.58,7.6,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Civil Drafting,93,0.86,0.67,8.6,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Construction Safety,246,0.62,0.55,13.4,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Control Systems,220,0.85,0.71,21.2,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Customer Service,88,0.89,0.49,6.1,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Cybersecurity,254,0.86,0.54,18.8,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Data Analysis,108,0.84,0.56,8.1,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Digital Marketing,182,0.815,0.625,14.8,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Git,31,0.72,0.78,2.8,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Healthcare Administration,279,0.71,0.39,12.3,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Irrigation Management,276,0.7,0.74,22.8,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Java,125,0.78,0.75,11.7,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Logistics Planning,283,0.79,0.82,29.3,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Machine Learning,143,0.58,0.8,10.6,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,PCB Design,78,0.91,0.75,8.5,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Patient Care,408,0.615,0.505,20.2,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Post-Harvest Management,163,0.89,0.8,18.5,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Problem Solving,135,0.71,0.69,10.6,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,Quality Control,265,0.62,0.76,19.9,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Hubballi,UI/UX Design,289,0.57,0.68,17.9,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Accounting,275,0.76,0.78,26.0,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,AutoCAD,182,0.92,0.41,11.0,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Automotive Diagnostics,195,0.7,0.45,9.8,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Azure,154,0.62,0.5,7.6,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Battery Management Systems,56,0.74,0.44,2.9,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Communication,229,0.6,0.81,17.8,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Docker,269,0.8300000000000001,0.63,22.5,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,EV Systems,49,0.62,0.51,2.5,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Java,152,0.84,0.56,11.4,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Machine Learning,261,0.88,0.77,28.3,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Medical Equipment Maintenance,190,0.73,0.73,16.2,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,PLC,162,0.9,0.69,16.1,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Patient Care,262,0.92,0.53,20.4,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,PostgreSQL,112,0.57,0.36,3.7,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Production Planning,132,0.66,0.68,9.5,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Quality Control,138,0.755,0.63,10.5,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,React,172,0.81,0.565,12.6,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,SCADA,283,0.56,0.7,17.7,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Site Supervision,81,0.85,0.59,6.5,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Structural Analysis,291,0.725,0.675,22.7,SYNTHETIC_DEMO,SYNTHETIC
+Karnataka,Mysuru,Tally,209,0.88,0.36,10.6,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,AWS,296,0.76,0.84,30.2,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Accounting,31,0.93,0.44,2.0,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,AutoCAD,286,0.86,0.74,29.1,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,CNC Turning,314,0.75,0.5599999999999999,21.1,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Clinical Documentation,179,0.8,0.56,12.8,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Cybersecurity,521,0.79,0.56,36.8,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Digital Literacy,71,0.8,0.8,7.3,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,EV Systems,70,0.76,0.77,6.5,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Embedded Systems,284,0.78,0.85,30.1,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Excel,262,0.65,0.76,20.7,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,IoT,84,0.82,0.71,7.8,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Logistics Planning,273,0.55,0.75,18.0,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Mechanical Assembly,40,0.78,0.79,3.9,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,PLC,239,0.73,0.71,19.8,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Patient Care,178,0.72,0.44,9.0,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,PostgreSQL,248,0.58,0.66,15.2,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Python,224,0.83,0.78,23.2,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Route Planning,203,0.71,0.4,9.2,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Site Supervision,157,0.7,0.45,7.9,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Welding,193,0.61,0.5,9.4,SYNTHETIC_DEMO,SYNTHETIC
+Kerala,Kochi,Workplace Safety,46,0.9,0.39,2.6,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,Automotive Diagnostics,35,0.58,0.45,1.5,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,Civil Drafting,211,0.67,0.44,9.9,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,Clinical Documentation,55,0.8,0.39,2.7,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,Cybersecurity,286,0.76,0.46,16.0,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,Farm Machinery,132,0.91,0.36,6.9,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,GST,123,0.8,0.76,11.9,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,Mechanical Assembly,97,0.56,0.6,5.2,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,Medical Equipment Maintenance,41,0.73,0.69,3.3,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,Node.js,284,0.58,0.78,20.5,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,Pharmacy Operations,274,0.55,0.42,10.1,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,Post-Harvest Management,285,0.84,0.575,22.0,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,PostgreSQL,160,0.89,0.74,16.8,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,Python,221,0.77,0.74,20.1,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,Quality Control,120,0.85,0.77,12.5,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,React,140,0.71,0.36,5.7,SYNTHETIC_DEMO,SYNTHETIC
+Madhya Pradesh,Indore,Supply Chain,297,0.86,0.8,32.6,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Aurangabad,CNC Programming,137,0.74,0.71,11.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Aurangabad,EV Systems,66,0.62,0.61,4.0,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Aurangabad,Farm Machinery,177,0.87,0.84,20.7,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Aurangabad,Git,112,0.75,0.8049999999999999,10.8,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Aurangabad,Irrigation Management,80,0.67,0.82,7.0,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Aurangabad,Machine Learning,190,0.57,0.38,6.6,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Aurangabad,Machine Maintenance,197,0.64,0.49,9.9,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Aurangabad,PLC,230,0.55,0.72,14.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Aurangabad,Python,205,0.67,0.78,17.1,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Aurangabad,REST APIs,102,0.95,0.76,11.8,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Aurangabad,React,61,0.61,0.5,3.0,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Aurangabad,Welding,173,0.66,0.7,12.8,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,AutoCAD,34,0.75,0.83,3.4,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,Battery Management Systems,174,0.86,0.36,8.6,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,CNC Programming,66,0.58,0.56,3.4,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,Docker,101,0.93,0.58,8.7,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,Excel,273,0.89,0.37,14.4,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,Git,89,0.55,0.83,6.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,JavaScript,206,0.82,0.68,18.3,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,Laboratory Techniques,447,0.75,0.63,33.7,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,Machine Learning,259,0.81,0.6,20.1,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,Mechanical Assembly,267,0.78,0.4,13.3,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,Medical Coding,153,0.93,0.6,13.6,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,Medical Equipment Maintenance,328,0.845,0.65,28.8,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,PCB Design,276,0.91,0.71,28.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,PostgreSQL,298,0.84,0.64,25.6,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,React,293,0.94,0.55,24.2,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,Supply Chain,88,0.76,0.39,4.2,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,Two-Wheeler Service,180,0.94,0.45,12.2,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,Warehouse Management,265,0.81,0.48,16.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Mumbai,Workplace Safety,58,0.56,0.39,2.0,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,AWS,245,0.86,0.6599999999999999,22.2,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,AutoCAD,50,0.78,0.72,4.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Automotive Diagnostics,135,0.58,0.6,7.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Civil Drafting,164,0.78,0.58,11.9,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Clinical Documentation,204,0.89,0.44,12.8,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Construction Safety,78,0.67,0.58,4.8,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Docker,183,0.73,0.72,15.4,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Embedded Systems,158,0.82,0.59,12.2,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,IoT,249,0.64,0.68,17.3,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Irrigation Management,84,0.66,0.39,3.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,JavaScript,263,0.91,0.78,29.8,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Logistics Planning,201,0.77,0.37,9.1,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Machine Maintenance,171,0.76,0.43,8.9,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Patient Care,247,0.74,0.68,19.9,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Post-Harvest Management,374,0.655,0.625,24.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,PostgreSQL,93,0.62,0.8,7.4,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Quality Control,229,0.93,0.56,19.1,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,REST APIs,166,0.8,0.77,16.3,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Site Supervision,146,0.92,0.74,15.9,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Structural Analysis,253,0.9,0.49,17.8,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nagpur,Team Management,225,0.57,0.78,16.0,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Accounting,168,0.71,0.85,16.2,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Auto Electrical,255,0.6,0.71,17.4,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Azure,244,0.81,0.79,24.9,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,CNC Operation,200,0.6,0.42,8.1,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,CNC Programming,162,0.59,0.5,7.6,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Customer Service,198,0.89,0.77,21.7,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,GST,196,0.64,0.76,15.2,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Java,69,0.61,0.52,3.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Lean Manufacturing,248,0.64,0.82,20.8,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Mechanical Assembly,404,0.73,0.46,21.7,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Node.js,152,0.87,0.84,17.7,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Production Planning,287,0.63,0.77,22.2,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Python,249,0.79,0.37,11.6,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,REST APIs,188,0.63,0.46,8.7,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Route Planning,56,0.7,0.43,2.7,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Supply Chain,545,0.895,0.565,44.0,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Surveying,182,0.69,0.83,16.7,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,UI/UX Design,87,0.7,0.84,8.2,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Nashik,Vehicle Diagnostics,141,0.57,0.56,7.2,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,AWS,35,0.72,0.63,2.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Battery Management Systems,114,0.56,0.55,5.6,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,CNC Turning,55,0.94,0.55,4.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Clinical Documentation,227,0.78,0.52,14.7,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Communication,205,0.79,0.47,12.2,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Construction Safety,125,0.81,0.55,8.9,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Docker,190,0.63,0.69,13.2,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Excel,206,0.57,0.39,7.3,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,GST,165,0.7,0.43,7.9,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,IoT,112,0.59,0.43,4.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Irrigation Management,241,0.71,0.52,14.2,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Java,321,0.895,0.435,20.0,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,JavaScript,31,0.7,0.82,2.8,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Logistics Planning,231,0.81,0.53,15.8,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Node.js,32,0.72,0.83,3.1,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Patient Care,164,0.77,0.7,14.1,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Project Planning,117,0.78,0.39,5.7,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Site Supervision,125,0.88,0.56,9.8,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,UI/UX Design,143,0.85,0.59,11.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Warehouse Management,250,0.85,0.75,25.5,SYNTHETIC_DEMO,SYNTHETIC
+Maharashtra,Pune,Welding,108,0.63,0.78,8.5,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,AWS,288,0.73,0.82,27.5,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Agri Input Management,138,0.75,0.7,11.6,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Auto Electrical,382,0.7649999999999999,0.65,30.3,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Azure,271,0.74,0.61,19.5,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Battery Management Systems,262,0.93,0.49,19.1,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Construction Safety,123,0.94,0.58,10.7,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Cybersecurity,165,0.75,0.46,9.1,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Digital Marketing,88,0.9,0.73,9.2,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Excel,259,0.69,0.71,20.3,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,GST,57,0.69,0.64,4.0,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Git,42,0.56,0.43,1.6,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Healthcare Administration,36,0.71,0.51,2.1,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,IoT,37,0.61,0.6,2.2,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Lean Manufacturing,172,0.86,0.67,15.8,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Machine Maintenance,204,0.87,0.73,20.7,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Node.js,160,0.87,0.68,15.1,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Production Planning,333,0.7,0.625,23.3,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,REST APIs,108,0.82,0.69,9.8,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,React,218,0.82,0.37,10.6,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Route Planning,95,0.86,0.41,5.4,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,SCADA,68,0.7,0.515,3.9,SYNTHETIC_DEMO,SYNTHETIC
+Odisha,Bhubaneswar,Warehouse Management,193,0.56,0.74,12.8,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,AWS,265,0.69,0.54,15.8,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,Auto Electrical,232,0.64,0.66,15.7,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,CNC Programming,46,0.91,0.6,4.0,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,Clinical Documentation,347,0.8,0.765,33.9,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,Customer Service,45,0.91,0.55,3.6,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,Digital Literacy,40,0.89,0.63,3.6,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,EV Systems,177,0.57,0.67,10.8,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,Laboratory Techniques,184,0.57,0.78,13.1,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,Machine Maintenance,127,0.85,0.79,13.6,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,Mechanical Assembly,166,0.59,0.36,5.6,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,Medical Equipment Maintenance,48,0.91,0.62,4.3,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,PLC,197,0.79,0.72,17.9,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,PostgreSQL,203,0.9,0.42,12.3,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,REST APIs,110,0.8,0.41,5.8,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,Surveying,188,0.88,0.74,19.6,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,Tally,35,0.77,0.85,3.7,SYNTHETIC_DEMO,SYNTHETIC
+Punjab,Ludhiana,Workplace Safety,246,0.89,0.79,27.6,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Auto Electrical,225,0.66,0.39,9.3,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Business Analysis,102,0.7,0.84,9.6,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,CNC Programming,42,0.76,0.44,2.2,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Civil Drafting,289,0.6950000000000001,0.5549999999999999,17.8,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Construction Safety,264,0.56,0.68,16.1,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Customer Service,253,0.61,0.67,16.5,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Data Analysis,141,0.9,0.59,12.0,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Digital Marketing,409,0.8049999999999999,0.46499999999999997,24.5,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Embedded Systems,293,0.8,0.54,20.2,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Farm Machinery,228,0.55,0.8,16.0,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,IoT,247,0.57,0.36,8.1,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Java,114,0.89,0.81,13.1,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Laboratory Techniques,150,0.85,0.66,13.4,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Machine Maintenance,169,0.63,0.36,6.1,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Mechanical Assembly,256,0.87,0.8,28.5,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Medical Coding,119,0.82,0.56,8.7,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Post-Harvest Management,275,0.79,0.6,20.8,SYNTHETIC_DEMO,SYNTHETIC
+Rajasthan,Jaipur,Vehicle Diagnostics,261,0.64,0.47,12.5,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Civil Drafting,153,0.8200000000000001,0.6599999999999999,13.2,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Digital Literacy,69,0.75,0.77,6.4,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,GST,279,0.57,0.82,20.8,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Git,253,0.78,0.49,15.4,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Healthcare Administration,111,0.63,0.55,6.1,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,JavaScript,85,0.87,0.48,5.7,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Machine Learning,37,0.81,0.36,1.7,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Mechanical Assembly,262,0.89,0.84,31.3,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Medical Equipment Maintenance,192,0.63,0.57,11.0,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Node.js,368,0.895,0.65,34.2,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Pharmacy Operations,167,0.83,0.54,12.0,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Production Planning,270,0.71,0.58,17.8,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Python,286,0.83,0.56,21.2,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Quality Control,210,0.65,0.69,15.0,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,SCADA,117,0.92,0.68,11.7,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Supply Chain,202,0.68,0.62,13.6,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Surveying,139,0.8,0.46,8.2,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Chennai,Team Management,69,0.64,0.74,5.2,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Auto Electrical,98,0.86,0.75,10.1,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,AutoCAD,90,0.55,0.49,3.9,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Business Analysis,286,0.59,0.66,17.8,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,CNC Turning,192,0.86,0.45,11.9,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Control Systems,85,0.85,0.74,8.5,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Customer Service,88,0.84,0.55,6.5,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Cybersecurity,539,0.78,0.48,32.2,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,EV Systems,289,0.67,0.52,16.1,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Embedded Systems,446,0.775,0.665,36.7,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Machine Learning,57,0.71,0.44,2.8,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Post-Harvest Management,76,0.7,0.37,3.1,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Production Planning,203,0.84,0.78,21.2,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Site Supervision,54,0.7,0.45,2.7,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Surveying,71,0.89,0.41,4.1,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Two-Wheeler Service,228,0.57,0.84,17.4,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Welding,175,0.7,0.56,11.0,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Coimbatore,Workplace Safety,214,0.93,0.59,18.8,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,Automotive Diagnostics,249,0.7,0.52,14.5,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,CNC Programming,61,0.57,0.78,4.3,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,CNC Turning,219,0.65,0.62,14.1,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,Civil Drafting,93,0.64,0.44,4.2,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,Customer Service,78,0.57,0.68,4.8,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,Digital Marketing,31,0.82,0.49,2.0,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,Docker,200,0.65,0.68,14.1,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,Machine Maintenance,193,0.775,0.57,13.6,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,Medical Equipment Maintenance,68,0.9,0.48,4.7,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,Patient Care,118,0.89,0.79,13.3,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,Production Planning,47,0.6,0.57,2.6,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,REST APIs,429,0.69,0.455,21.5,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,Surveying,402,0.78,0.5449999999999999,27.3,SYNTHETIC_DEMO,SYNTHETIC
+Tamil Nadu,Madurai,Vehicle Diagnostics,68,0.93,0.62,6.3,SYNTHETIC_DEMO,SYNTHETIC
+Telangana,Hyderabad,Business Analysis,45,0.87,0.49,3.1,SYNTHETIC_DEMO,SYNTHETIC
+Telangana,Hyderabad,CNC Operation,286,0.77,0.73,25.7,SYNTHETIC_DEMO,SYNTHETIC
+Telangana,Hyderabad,Civil Drafting,246,0.84,0.53,17.5,SYNTHETIC_DEMO,SYNTHETIC
+Telangana,Hyderabad,Construction Safety,174,0.82,0.63,14.4,SYNTHETIC_DEMO,SYNTHETIC
+Telangana,Hyderabad,Docker,232,0.74,0.79,21.7,SYNTHETIC_DEMO,SYNTHETIC
+Telangana,Hyderabad,IoT,84,0.7,0.59,5.5,SYNTHETIC_DEMO,SYNTHETIC
+Telangana,Hyderabad,Java,221,0.6,0.49,10.4,SYNTHETIC_DEMO,SYNTHETIC
+Telangana,Hyderabad,Mechanical Assembly,147,0.94,0.63,13.9,SYNTHETIC_DEMO,SYNTHETIC
+Telangana,Hyderabad,Node.js,253,0.94,0.42,16.0,SYNTHETIC_DEMO,SYNTHETIC
+Telangana,Hyderabad,REST APIs,370,0.7949999999999999,0.675,31.7,SYNTHETIC_DEMO,SYNTHETIC
+Telangana,Hyderabad,Vehicle Diagnostics,82,0.64,0.76,6.4,SYNTHETIC_DEMO,SYNTHETIC
+Telangana,Hyderabad,Welding,137,0.87,0.69,13.1,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,AutoCAD,614,0.7433333333333333,0.4533333333333333,33.1,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Azure,108,0.93,0.63,10.1,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Business Analysis,244,0.86,0.67,22.5,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,CNC Operation,151,0.66,0.74,11.8,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Data Analysis,200,0.9,0.52,15.0,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Docker,177,0.85,0.63,15.1,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Embedded Systems,83,0.65,0.54,4.7,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Farm Machinery,193,0.89,0.83,22.8,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Java,188,0.82,0.72,17.7,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,JavaScript,170,0.57,0.74,11.5,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Lean Manufacturing,253,0.845,0.71,24.2,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Logistics Planning,151,0.69,0.38,6.3,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Machine Learning,98,0.58,0.53,4.8,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Medical Equipment Maintenance,480,0.89,0.62,42.3,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Post-Harvest Management,127,0.83,0.65,10.9,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Problem Solving,227,0.6,0.79,17.2,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Production Planning,366,0.64,0.435,16.3,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,SCADA,127,0.76,0.49,7.6,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Kanpur,Tally,262,0.81,0.41,13.9,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Auto Electrical,193,0.57,0.54,9.5,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Civil Drafting,202,0.89,0.44,12.6,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Communication,37,0.82,0.71,3.4,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Control Systems,257,0.85,0.77,26.9,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Data Analysis,508,0.735,0.71,42.3,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Digital Literacy,107,0.56,0.6,5.7,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Docker,141,0.67,0.85,12.8,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,JavaScript,64,0.89,0.77,7.0,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Mechanical Assembly,236,0.8,0.43,13.0,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Medical Coding,293,0.94,0.59,26.0,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Medical Equipment Maintenance,85,0.74,0.8,8.0,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Node.js,396,0.805,0.6399999999999999,32.6,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Pharmacy Operations,107,0.92,0.38,6.0,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,PostgreSQL,142,0.74,0.84,14.1,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Problem Solving,43,0.63,0.41,1.8,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,React,626,0.73,0.47000000000000003,34.3,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,SCADA,105,0.94,0.67,10.6,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Structural Analysis,219,0.81,0.51,14.5,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,UI/UX Design,230,0.77,0.41,11.6,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Lucknow,Vehicle Diagnostics,57,0.84,0.64,4.9,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,Communication,72,0.71,0.61,5.0,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,Customer Service,106,0.81,0.35,4.8,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,Data Analysis,131,0.83,0.77,13.4,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,Digital Literacy,102,0.57,0.68,6.3,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,Docker,272,0.65,0.37,10.4,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,Laboratory Techniques,118,0.79,0.76,11.3,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,Medical Coding,241,0.69,0.38,10.1,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,PLC,135,0.79,0.51,8.7,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,Problem Solving,120,0.71,0.62,8.4,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,Production Planning,60,0.91,0.69,6.0,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,REST APIs,193,0.77,0.69,16.4,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,Supply Chain,181,0.62,0.83,14.9,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,Surveying,53,0.72,0.5,3.0,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,Team Management,399,0.645,0.565,23.2,SYNTHETIC_DEMO,SYNTHETIC
+Uttar Pradesh,Noida,UI/UX Design,200,0.92,0.44,12.9,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Accounting,253,0.7,0.66,18.7,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Automotive Diagnostics,165,0.82,0.56,12.1,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Azure,292,0.93,0.45,19.5,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Business Analysis,80,0.94,0.54,6.5,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,CNC Turning,216,0.76,0.56,14.7,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Civil Drafting,495,0.675,0.425,22.7,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Construction Safety,143,0.64,0.38,5.6,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Cybersecurity,152,0.81,0.8,15.7,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Data Analysis,225,0.66,0.36,8.5,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Digital Literacy,238,0.86,0.35,11.4,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Docker,88,0.71,0.67,6.7,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,EV Systems,241,0.77,0.46,13.6,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Embedded Systems,281,0.79,0.72,25.5,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Healthcare Administration,65,0.81,0.73,6.1,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,JavaScript,388,0.75,0.7749999999999999,36.0,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Machine Learning,210,0.71,0.79,18.8,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Medical Equipment Maintenance,293,0.685,0.675,21.6,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Patient Care,105,0.68,0.63,7.2,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Post-Harvest Management,111,0.71,0.66,8.3,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Surveying,48,0.77,0.59,3.5,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,UI/UX Design,111,0.58,0.81,8.3,SYNTHETIC_DEMO,SYNTHETIC
+West Bengal,Kolkata,Welding,252,0.67,0.85,22.9,SYNTHETIC_DEMO,SYNTHETIC

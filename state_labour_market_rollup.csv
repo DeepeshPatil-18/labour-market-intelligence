@@ -1,0 +1,37 @@
+geography,geography_type,active_job_postings_90d,employer_count,weighted_demand_growth_pct,top_demand_sector,top_shortage_skill,critical_shortage_skill_count,shortage_skill_count,oversupply_skill_count,mean_skill_gap_pct,labour_market_status,data_origin
+Andhra Pradesh,State,1601,604,7.1,Food Processing,pharmaceutical production,0,1,0,7.4,BALANCED,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,State,287,107,5.6,Energy & Utilities,hydropower technician,6,0,0,39.7,CRITICAL SHORTAGE,SYNTHETIC_DEVELOPMENT
+Assam,State,1149,431,5.5,Tea Processing,heavy vehicle operation,0,6,0,22.3,SHORTAGE,SYNTHETIC_DEVELOPMENT
+Bihar,State,2479,939,5.1,Agriculture,masonry,0,6,0,24.8,SHORTAGE,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,State,1149,431,4.9,Metals & Steel,CNC machining,0,5,0,16.3,SHORTAGE,SYNTHETIC_DEVELOPMENT
+Goa,State,319,119,6.5,Tourism & Hospitality,pharmaceutical operations,1,5,0,24.4,SHORTAGE,SYNTHETIC_DEVELOPMENT
+Gujarat,State,2801,1060,6.6,Chemicals,industrial automation,0,0,0,-6.6,BALANCED,SYNTHETIC_DEVELOPMENT
+Haryana,State,2160,817,7.4,Automotive,industrial automation,0,0,0,-3.3,BALANCED,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,State,671,255,6.6,Pharmaceuticals,pharmaceutical production,1,5,0,24.9,SHORTAGE,SYNTHETIC_DEVELOPMENT
+Jharkhand,State,1311,496,5.5,Coal Mining,industrial electrical,0,6,0,25.9,SHORTAGE,SYNTHETIC_DEVELOPMENT
+Karnataka,State,3040,1151,8.5,Information Technology,data engineering,0,0,0,1.2,BALANCED,SYNTHETIC_DEVELOPMENT
+Kerala,State,1681,636,7.2,Healthcare,nursing support,0,1,1,1.3,BALANCED,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,State,2322,877,4.6,Agriculture,CNC machining,0,2,0,8.6,SHORTAGE,SYNTHETIC_DEVELOPMENT
+Maharashtra,State,4801,1822,7.9,Financial Services,data engineering,0,0,1,-3.6,BALANCED,SYNTHETIC_DEVELOPMENT
+Manipur,State,318,118,4.7,Agriculture,construction,6,0,0,35.1,CRITICAL SHORTAGE,SYNTHETIC_DEVELOPMENT
+Meghalaya,State,289,107,5.8,Tourism & Hospitality,heavy equipment,6,0,0,34.2,CRITICAL SHORTAGE,SYNTHETIC_DEVELOPMENT
+Mizoram,State,225,84,5.5,Agriculture & Horticulture,construction,4,2,0,33.6,CRITICAL SHORTAGE,SYNTHETIC_DEVELOPMENT
+Nagaland,State,257,95,5.3,Agriculture,electrical technician,5,1,0,33.7,CRITICAL SHORTAGE,SYNTHETIC_DEVELOPMENT
+Odisha,State,1600,605,5.2,Metals,industrial electrical,0,0,0,6.1,BALANCED,SYNTHETIC_DEVELOPMENT
+Punjab,State,1759,666,4.8,Agriculture,cold-chain operations,0,0,1,-2.3,BALANCED,SYNTHETIC_DEVELOPMENT
+Rajasthan,State,2082,789,5.2,Mining & Minerals,solar installation,0,1,1,-0.9,BALANCED,SYNTHETIC_DEVELOPMENT
+Sikkim,State,159,57,7.2,Tourism & Hospitality,pharmaceutical operations,6,0,0,40.0,CRITICAL SHORTAGE,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,State,3281,1243,7.0,Automotive,industrial automation,0,0,1,-6.6,BALANCED,SYNTHETIC_DEVELOPMENT
+Telangana,State,2002,757,8.6,Information Technology,data engineering,0,1,0,4.8,BALANCED,SYNTHETIC_DEVELOPMENT
+Tripura,State,257,95,5.9,Rubber & Polymer Products,construction,3,3,0,32.6,CRITICAL SHORTAGE,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,State,5123,1943,5.6,Agriculture,CNC machining,0,1,0,6.9,BALANCED,SYNTHETIC_DEVELOPMENT
+Uttarakhand,State,718,268,6.9,Pharmaceuticals,pharmaceutical production,0,1,0,7.0,BALANCED,SYNTHETIC_DEVELOPMENT
+West Bengal,State,2881,1091,6.0,Food Processing,software development,0,0,0,0.8,BALANCED,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,UT,83,34,5.9,Tourism & Hospitality,cold-chain operations,6,0,0,42.0,CRITICAL SHORTAGE,SYNTHETIC_DEVELOPMENT
+Chandigarh,UT,287,107,5.5,Public Administration,healthcare support,0,0,5,-19.8,OVERSUPPLY,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,UT,287,107,5.9,Pharmaceuticals,pharmaceutical production,0,3,0,14.2,SHORTAGE,SYNTHETIC_DEVELOPMENT
+Delhi,UT,2721,1029,6.1,Public Administration,data analytics,0,0,3,-10.7,OVERSUPPLY,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,UT,718,268,6.2,Tourism & Hospitality,cold-chain operations,3,3,0,29.6,CRITICAL SHORTAGE,SYNTHETIC_DEVELOPMENT
+Ladakh,UT,112,43,6.6,Tourism & Hospitality,solar installation,6,0,0,46.4,CRITICAL SHORTAGE,SYNTHETIC_DEVELOPMENT
+Lakshadweep,UT,66,30,5.4,Tourism & Hospitality,cold-chain operations,6,0,0,47.0,CRITICAL SHORTAGE,SYNTHETIC_DEVELOPMENT
+Puducherry,UT,399,146,6.7,Tourism & Hospitality,pharmaceutical production,0,1,0,0.0,BALANCED,SYNTHETIC_DEVELOPMENT

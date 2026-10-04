@@ -1,0 +1,217 @@
+geography,skill,training_capacity_units,effective_supply_units,training_ecosystem_factor,placement_conversion_proxy_pct,data_origin
+Andhra Pradesh,food processing,328,289,0.88,77.0,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,logistics,294,259,0.88,77.0,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,industrial maintenance,276,243,0.88,77.0,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,electrical technician,256,226,0.88,77.0,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,pharmaceutical production,222,196,0.88,77.0,SYNTHETIC_DEVELOPMENT
+Andhra Pradesh,welding,238,210,0.88,77.0,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,hydropower technician,81,47,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,civil works,79,46,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,heavy equipment operation,79,46,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,hospitality,81,47,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,horticulture,70,41,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Arunachal Pradesh,electrical maintenance,70,41,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Assam,tea processing,238,167,0.7,72.5,SYNTHETIC_DEVELOPMENT
+Assam,industrial maintenance,215,151,0.7,72.5,SYNTHETIC_DEVELOPMENT
+Assam,food processing,230,161,0.7,72.5,SYNTHETIC_DEVELOPMENT
+Assam,heavy vehicle operation,188,132,0.7,72.5,SYNTHETIC_DEVELOPMENT
+Assam,weaving,215,151,0.7,72.5,SYNTHETIC_DEVELOPMENT
+Assam,hospitality,195,137,0.7,72.5,SYNTHETIC_DEVELOPMENT
+Bihar,food processing,487,341,0.7,72.5,SYNTHETIC_DEVELOPMENT
+Bihar,masonry,424,297,0.7,72.5,SYNTHETIC_DEVELOPMENT
+Bihar,electrician,407,285,0.7,72.5,SYNTHETIC_DEVELOPMENT
+Bihar,welding,384,269,0.7,72.5,SYNTHETIC_DEVELOPMENT
+Bihar,warehouse operations,372,261,0.7,72.5,SYNTHETIC_DEVELOPMENT
+Bihar,farm machinery,354,248,0.7,72.5,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,CNC machining,212,174,0.82,75.5,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,industrial electrical,209,172,0.82,75.5,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,welding,218,179,0.82,75.5,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,heavy equipment,224,184,0.82,75.5,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,plant maintenance,181,149,0.82,75.5,SYNTHETIC_DEVELOPMENT
+Chhattisgarh,mining operations,173,142,0.82,75.5,SYNTHETIC_DEVELOPMENT
+Goa,hospitality,137,99,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Goa,food production,93,67,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Goa,marine technician,83,60,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Goa,pharmaceutical operations,72,52,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Goa,HVAC,75,54,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Goa,electrical maintenance,75,54,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Gujarat,CNC machining,523,539,1.03,80.8,SYNTHETIC_DEVELOPMENT
+Gujarat,process operations,474,489,1.03,80.8,SYNTHETIC_DEVELOPMENT
+Gujarat,chemical plant maintenance,493,508,1.03,80.8,SYNTHETIC_DEVELOPMENT
+Gujarat,quality control,434,448,1.03,80.8,SYNTHETIC_DEVELOPMENT
+Gujarat,industrial automation,349,360,1.03,80.8,SYNTHETIC_DEVELOPMENT
+Gujarat,logistics,380,392,1.03,80.8,SYNTHETIC_DEVELOPMENT
+Haryana,CNC machining,370,370,1.0,80.0,SYNTHETIC_DEVELOPMENT
+Haryana,automotive assembly,374,374,1.0,80.0,SYNTHETIC_DEVELOPMENT
+Haryana,industrial automation,322,322,1.0,80.0,SYNTHETIC_DEVELOPMENT
+Haryana,warehouse operations,346,346,1.0,80.0,SYNTHETIC_DEVELOPMENT
+Haryana,quality inspection,330,330,1.0,80.0,SYNTHETIC_DEVELOPMENT
+Haryana,IT support,308,308,1.0,80.0,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,pharmaceutical production,134,97,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,cold-chain operations,133,96,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,hospitality,154,111,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,electrical maintenance,125,90,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,food processing,131,95,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Himachal Pradesh,hydropower technician,115,83,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Jharkhand,mining operations,248,179,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Jharkhand,heavy equipment,241,174,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Jharkhand,welding,243,175,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Jharkhand,industrial electrical,204,147,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Jharkhand,plant maintenance,201,145,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Jharkhand,safety technician,193,139,0.72,73.0,SYNTHETIC_DEVELOPMENT
+Karnataka,software development,569,581,1.02,80.5,SYNTHETIC_DEVELOPMENT
+Karnataka,cloud operations,449,458,1.02,80.5,SYNTHETIC_DEVELOPMENT
+Karnataka,data engineering,421,430,1.02,80.5,SYNTHETIC_DEVELOPMENT
+Karnataka,electronics testing,404,413,1.02,80.5,SYNTHETIC_DEVELOPMENT
+Karnataka,CNC machining,442,451,1.02,80.5,SYNTHETIC_DEVELOPMENT
+Karnataka,industrial automation,356,364,1.02,80.5,SYNTHETIC_DEVELOPMENT
+Kerala,nursing support,271,261,0.96,79.0,SYNTHETIC_DEVELOPMENT
+Kerala,medical lab operations,270,260,0.96,79.0,SYNTHETIC_DEVELOPMENT
+Kerala,hospitality,343,330,0.96,79.0,SYNTHETIC_DEVELOPMENT
+Kerala,logistics,266,256,0.96,79.0,SYNTHETIC_DEVELOPMENT
+Kerala,IT support,260,250,0.96,79.0,SYNTHETIC_DEVELOPMENT
+Kerala,marine services,225,216,0.96,79.0,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,food processing,458,394,0.86,76.5,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,CNC machining,380,327,0.86,76.5,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,industrial electrical,373,321,0.86,76.5,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,farm machinery,369,318,0.86,76.5,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,warehouse operations,352,303,0.86,76.5,SYNTHETIC_DEVELOPMENT
+Madhya Pradesh,welding,326,281,0.86,76.5,SYNTHETIC_DEVELOPMENT
+Maharashtra,software development,853,896,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Maharashtra,data engineering,677,711,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Maharashtra,CNC machining,755,793,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Maharashtra,industrial automation,607,638,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Maharashtra,pharmaceutical production,601,632,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Maharashtra,logistics,626,658,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Manipur,food processing,96,56,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Manipur,weaving,100,58,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Manipur,hospitality,93,54,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Manipur,retail operations,87,51,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Manipur,electrical technician,77,45,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Manipur,construction,74,43,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Meghalaya,hospitality,91,55,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Meghalaya,food processing,88,53,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Meghalaya,heavy equipment,115,69,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Meghalaya,construction trades,85,51,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Meghalaya,logistics,73,44,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Meghalaya,electrical technician,71,43,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Mizoram,food processing,78,47,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Mizoram,bamboo processing,78,47,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Mizoram,hospitality,78,47,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Mizoram,construction,63,38,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Mizoram,electrical technician,65,39,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Mizoram,retail operations,71,43,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Nagaland,food processing,83,50,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Nagaland,hospitality,85,51,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Nagaland,weaving,88,53,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Nagaland,warehouse operations,73,44,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Nagaland,electrical technician,68,41,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Nagaland,construction,66,40,0.6,70.0,SYNTHETIC_DEVELOPMENT
+Odisha,industrial electrical,288,265,0.92,78.0,SYNTHETIC_DEVELOPMENT
+Odisha,welding,300,276,0.92,78.0,SYNTHETIC_DEVELOPMENT
+Odisha,CNC machining,261,241,0.92,78.0,SYNTHETIC_DEVELOPMENT
+Odisha,mining operations,248,229,0.92,78.0,SYNTHETIC_DEVELOPMENT
+Odisha,port logistics,238,219,0.92,78.0,SYNTHETIC_DEVELOPMENT
+Odisha,plant maintenance,227,209,0.92,78.0,SYNTHETIC_DEVELOPMENT
+Punjab,food processing,401,385,0.96,79.0,SYNTHETIC_DEVELOPMENT
+Punjab,farm machinery,332,319,0.96,79.0,SYNTHETIC_DEVELOPMENT
+Punjab,CNC machining,285,274,0.96,79.0,SYNTHETIC_DEVELOPMENT
+Punjab,cold-chain operations,257,247,0.96,79.0,SYNTHETIC_DEVELOPMENT
+Punjab,warehouse operations,276,265,0.96,79.0,SYNTHETIC_DEVELOPMENT
+Punjab,textile machinery,234,225,0.96,79.0,SYNTHETIC_DEVELOPMENT
+Rajasthan,mining operations,375,342,0.91,77.8,SYNTHETIC_DEVELOPMENT
+Rajasthan,solar installation,303,276,0.91,77.8,SYNTHETIC_DEVELOPMENT
+Rajasthan,stone cutting,381,347,0.91,77.8,SYNTHETIC_DEVELOPMENT
+Rajasthan,jewellery production,343,313,0.91,77.8,SYNTHETIC_DEVELOPMENT
+Rajasthan,hospitality,383,349,0.91,77.8,SYNTHETIC_DEVELOPMENT
+Rajasthan,construction trades,329,300,0.91,77.8,SYNTHETIC_DEVELOPMENT
+Sikkim,hospitality,68,40,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Sikkim,pharmaceutical operations,55,32,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Sikkim,hydropower technician,58,34,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Sikkim,food processing,62,36,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Sikkim,electrical maintenance,56,33,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Sikkim,cold-chain operations,53,31,0.58,69.5,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,CNC machining,594,624,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,electronics assembly,524,551,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,industrial automation,473,497,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,textile machinery,452,475,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,software development,460,484,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Tamil Nadu,quality inspection,456,479,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Telangana,software development,328,328,1.0,80.0,SYNTHETIC_DEVELOPMENT
+Telangana,cloud operations,306,306,1.0,80.0,SYNTHETIC_DEVELOPMENT
+Telangana,pharmaceutical production,314,314,1.0,80.0,SYNTHETIC_DEVELOPMENT
+Telangana,data engineering,260,260,1.0,80.0,SYNTHETIC_DEVELOPMENT
+Telangana,electronics testing,265,265,1.0,80.0,SYNTHETIC_DEVELOPMENT
+Telangana,warehouse operations,293,293,1.0,80.0,SYNTHETIC_DEVELOPMENT
+Tripura,rubber processing,77,48,0.62,70.5,SYNTHETIC_DEVELOPMENT
+Tripura,food processing,83,52,0.62,70.5,SYNTHETIC_DEVELOPMENT
+Tripura,bamboo processing,82,51,0.62,70.5,SYNTHETIC_DEVELOPMENT
+Tripura,construction,69,43,0.62,70.5,SYNTHETIC_DEVELOPMENT
+Tripura,hospitality,75,47,0.62,70.5,SYNTHETIC_DEVELOPMENT
+Tripura,electrical technician,67,42,0.62,70.5,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,food processing,965,830,0.86,76.5,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,CNC machining,800,688,0.86,76.5,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,leather processing,827,712,0.86,76.5,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,warehouse operations,769,662,0.86,76.5,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,electrician,686,590,0.86,76.5,SYNTHETIC_DEVELOPMENT
+Uttar Pradesh,construction trades,752,647,0.86,76.5,SYNTHETIC_DEVELOPMENT
+Uttarakhand,pharmaceutical production,142,125,0.88,77.0,SYNTHETIC_DEVELOPMENT
+Uttarakhand,hospitality,165,146,0.88,77.0,SYNTHETIC_DEVELOPMENT
+Uttarakhand,hydropower technician,143,126,0.88,77.0,SYNTHETIC_DEVELOPMENT
+Uttarakhand,food processing,144,127,0.88,77.0,SYNTHETIC_DEVELOPMENT
+Uttarakhand,industrial maintenance,126,111,0.88,77.0,SYNTHETIC_DEVELOPMENT
+Uttarakhand,logistics,125,110,0.88,77.0,SYNTHETIC_DEVELOPMENT
+West Bengal,food processing,560,532,0.95,78.8,SYNTHETIC_DEVELOPMENT
+West Bengal,textile machinery,464,441,0.95,78.8,SYNTHETIC_DEVELOPMENT
+West Bengal,warehouse operations,498,474,0.95,78.8,SYNTHETIC_DEVELOPMENT
+West Bengal,steel fabrication,421,400,0.95,78.8,SYNTHETIC_DEVELOPMENT
+West Bengal,software development,362,344,0.95,78.8,SYNTHETIC_DEVELOPMENT
+West Bengal,tea processing,405,385,0.95,78.8,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,hospitality,61,34,0.55,68.8,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,marine technician,56,31,0.55,68.8,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,cold-chain operations,54,30,0.55,68.8,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,fisheries,96,53,0.55,68.8,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,logistics,58,32,0.55,68.8,SYNTHETIC_DEVELOPMENT
+Andaman & Nicobar Islands,electrical technician,58,32,0.55,68.8,SYNTHETIC_DEVELOPMENT
+Chandigarh,healthcare support,79,84,1.06,81.5,SYNTHETIC_DEVELOPMENT
+Chandigarh,IT support,83,89,1.06,81.5,SYNTHETIC_DEVELOPMENT
+Chandigarh,administration,90,96,1.06,81.5,SYNTHETIC_DEVELOPMENT
+Chandigarh,retail operations,83,89,1.06,81.5,SYNTHETIC_DEVELOPMENT
+Chandigarh,data entry,84,90,1.06,81.5,SYNTHETIC_DEVELOPMENT
+Chandigarh,hospitality,78,83,1.06,81.5,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,machine operation,86,73,0.84,76.0,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,pharmaceutical production,73,62,0.84,76.0,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,plastics processing,80,68,0.84,76.0,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,quality inspection,77,65,0.84,76.0,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,industrial electrical,69,58,0.84,76.0,SYNTHETIC_DEVELOPMENT
+Dadra & Nagar Haveli and Daman & Diu,CNC machining,66,56,0.84,76.0,SYNTHETIC_DEVELOPMENT
+Delhi,IT support,499,524,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Delhi,data analytics,405,426,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Delhi,logistics,456,479,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Delhi,healthcare support,388,408,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Delhi,retail operations,434,456,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Delhi,customer operations,395,415,1.05,81.2,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,hospitality,170,111,0.65,71.2,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,food processing,163,106,0.65,71.2,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,cold-chain operations,136,89,0.65,71.2,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,handicraft production,149,97,0.65,71.2,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,construction,126,82,0.65,71.2,SYNTHETIC_DEVELOPMENT
+Jammu & Kashmir,logistics,124,81,0.65,71.2,SYNTHETIC_DEVELOPMENT
+Ladakh,hospitality,61,32,0.52,68.0,SYNTHETIC_DEVELOPMENT
+Ladakh,solar installation,46,24,0.52,68.0,SYNTHETIC_DEVELOPMENT
+Ladakh,construction trades,65,34,0.52,68.0,SYNTHETIC_DEVELOPMENT
+Ladakh,cold-chain operations,51,27,0.52,68.0,SYNTHETIC_DEVELOPMENT
+Ladakh,electrical technician,57,30,0.52,68.0,SYNTHETIC_DEVELOPMENT
+Ladakh,logistics,57,30,0.52,68.0,SYNTHETIC_DEVELOPMENT
+Lakshadweep,hospitality,62,31,0.5,67.5,SYNTHETIC_DEVELOPMENT
+Lakshadweep,fisheries,98,49,0.5,67.5,SYNTHETIC_DEVELOPMENT
+Lakshadweep,marine technician,56,28,0.5,67.5,SYNTHETIC_DEVELOPMENT
+Lakshadweep,cold-chain operations,52,26,0.5,67.5,SYNTHETIC_DEVELOPMENT
+Lakshadweep,food processing,62,31,0.5,67.5,SYNTHETIC_DEVELOPMENT
+Lakshadweep,electrical technician,58,29,0.5,67.5,SYNTHETIC_DEVELOPMENT
+Puducherry,pharmaceutical production,93,88,0.94,78.5,SYNTHETIC_DEVELOPMENT
+Puducherry,CNC machining,93,88,0.94,78.5,SYNTHETIC_DEVELOPMENT
+Puducherry,hospitality,108,102,0.94,78.5,SYNTHETIC_DEVELOPMENT
+Puducherry,food processing,97,92,0.94,78.5,SYNTHETIC_DEVELOPMENT
+Puducherry,quality inspection,91,86,0.94,78.5,SYNTHETIC_DEVELOPMENT
+Puducherry,IT support,87,82,0.94,78.5,SYNTHETIC_DEVELOPMENT
