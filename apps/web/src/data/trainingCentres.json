@@ -286,5 +286,65 @@
     "placementRate": 0.82,
     "source": "SIH Development Dataset",
     "dataOrigin": "SYNTHETIC"
+  },
+  {
+    "centreId": "CTR0025",
+    "centreName": "Nashik Satpur MIDC Advanced Technology ITI",
+    "state": "Maharashtra",
+    "district": "Nashik",
+    "centreType": "Government ITI",
+    "annualCapacity": 480,
+    "utilizationRate": 0.94,
+    "placementRate": 0.88,
+    "source": "DGET Maharashtra",
+    "dataOrigin": "SYNTHETIC"
+  },
+  {
+    "centreId": "CTR0026",
+    "centreName": "Ambad Precision Engineering & Robotics Training Academy",
+    "state": "Maharashtra",
+    "district": "Nashik",
+    "centreType": "Industry PPP Hub",
+    "annualCapacity": 360,
+    "utilizationRate": 0.91,
+    "placementRate": 0.86,
+    "source": "Maharashtra State Skill Development Mission",
+    "dataOrigin": "SYNTHETIC"
+  },
+  {
+    "centreId": "CTR0027",
+    "centreName": "Sinnar Agro-Industrial & Cold Chain Training Centre",
+    "state": "Maharashtra",
+    "district": "Nashik",
+    "centreType": "Pradhan Mantri Kaushal Kendra (PMKK)",
+    "annualCapacity": 300,
+    "utilizationRate": 0.88,
+    "placementRate": 0.82,
+    "source": "NSDC Partner Registry",
+    "dataOrigin": "SYNTHETIC"
+  },
+  {
+    "centreId": "CTR0028",
+    "centreName": "Aurangabad Auto Cluster Skill Centre",
+    "state": "Maharashtra",
+    "district": "Chhatrapati Sambhaji Nagar",
+    "centreType": "Industry PPP Hub",
+    "annualCapacity": 400,
+    "utilizationRate": 0.89,
+    "placementRate": 0.84,
+    "source": "Maharashtra State Skill Development Mission",
+    "dataOrigin": "SYNTHETIC"
+  },
+  {
+    "centreId": "CTR0029",
+    "centreName": "Nagpur Multi-Modal Logistics & IT Skills Hub",
+    "state": "Maharashtra",
+    "district": "Nagpur",
+    "centreType": "Government ITI",
+    "annualCapacity": 450,
+    "utilizationRate": 0.87,
+    "placementRate": 0.81,
+    "source": "DGET Maharashtra",
+    "dataOrigin": "SYNTHETIC"
   }
 ]

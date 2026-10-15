@@ -96,6 +96,114 @@ const INITIAL_ALERTS: EarlyWarningAlert[] = [
     evidence: 'Pithampur Pharma SEZ expansion demands 340 sterile manufacturing operators; local training supply accounts for only 85 certified candidates annually.',
     detectedDate: '2026-05-22',
     recommendedAction: 'Establish dual-training system pairing regional pharmacy institutes directly with Pithampur pharma manufacturers.'
+  },
+  {
+    id: 'ALT-2026-009',
+    type: 'CRITICAL_SHORTAGE',
+    severity: 'CRITICAL',
+    state: 'Maharashtra',
+    district: 'Nashik',
+    entityName: 'Electric Vehicle Powertrain Assembly',
+    entityType: 'SKILL',
+    evidence: 'Active hiring requisitions surged 45% MoM across Nashik EV OEMs and Tier-1 wiring harness makers; only 80 annual certified seats available across local ITIs.',
+    detectedDate: '2026-06-25',
+    recommendedAction: 'Deploy 60 sponsored EV powertrain seats at Satpur MIDC Advanced Technology ITI with industry testing benches.'
+  },
+  {
+    id: 'ALT-2026-010',
+    type: 'DEMAND_ACCELERATION',
+    severity: 'HIGH',
+    state: 'Maharashtra',
+    district: 'Nashik',
+    entityName: 'Tool & Die Maintenance Specialist',
+    entityType: 'OCCUPATION',
+    evidence: 'Sheet-metal and press tooling plants in Ambad MIDC report 48 open toolmaker roles with average time-to-hire exceeding 52 days.',
+    detectedDate: '2026-06-22',
+    recommendedAction: 'Partner with Ambad Industries & Manufacturers Association (AIMA) to start a 12-week Tool & Die dual-apprenticeship batch.'
+  },
+  {
+    id: 'ALT-2026-011',
+    type: 'EMERGING_SKILL',
+    severity: 'HIGH',
+    state: 'Maharashtra',
+    district: 'Nashik',
+    entityName: 'Cold-Chain Logistics & Temperature Monitoring',
+    entityType: 'SKILL',
+    evidence: 'Horticulture export clusters and Sinnar pharma units added 38 reefer fleet controller roles over 60 days following new packhouse investments.',
+    detectedDate: '2026-06-19',
+    recommendedAction: 'Introduce cold-chain IoT temperature tracking module in PMKK Sinnar logistics curriculum.'
+  },
+  {
+    id: 'ALT-2026-012',
+    type: 'EMERGING_SKILL',
+    severity: 'MEDIUM',
+    state: 'Maharashtra',
+    district: 'Nashik',
+    entityName: 'Food & Wine Processing Machinery Operation',
+    entityType: 'SKILL',
+    evidence: 'Nashik Valley viticulture and fruit processing units report demand growth of +16% MoM ahead of upcoming harvest processing cycle.',
+    detectedDate: '2026-06-14',
+    recommendedAction: 'Coordinate with Food Industry Capacity & Skill Initiative (FICSI) for specialized winery machine operator micro-credentials.'
+  },
+  {
+    id: 'ALT-2026-013',
+    type: 'OVERSUPPLY_RISK',
+    severity: 'MEDIUM',
+    state: 'Maharashtra',
+    district: 'Nashik',
+    entityName: 'Basic Desktop Publishing & Office Data',
+    entityType: 'SKILL',
+    evidence: 'Local private training centres graduated 410 basic computer trainees against only 65 entry-level administrative vacancies.',
+    detectedDate: '2026-06-08',
+    recommendedAction: 'Repurpose 50% of subsidized data entry lab capacity to ERP Inventory Tracking and Quality Inspection Metrology.'
+  },
+  {
+    id: 'ALT-2026-014',
+    type: 'CRITICAL_SHORTAGE',
+    severity: 'CRITICAL',
+    state: 'Maharashtra',
+    district: 'Pune',
+    entityName: 'Industrial Robotics & AMR Programming',
+    entityType: 'SKILL',
+    evidence: 'Automotive and electronics plants in Chakan and Talegaon posted 160 robotic programmer requisitions with under 35 certified local technicians available.',
+    detectedDate: '2026-06-23',
+    recommendedAction: 'Sanction an advanced robotics cobot lab at Pune Government ITI under MSSDS state innovation funding.'
+  },
+  {
+    id: 'ALT-2026-015',
+    type: 'DEMAND_ACCELERATION',
+    severity: 'HIGH',
+    state: 'Maharashtra',
+    district: 'Chhatrapati Sambhaji Nagar',
+    entityName: 'Heavy Vehicle Electric Axle Specialist',
+    entityType: 'OCCUPATION',
+    evidence: 'Shendra and Waluj auto cluster expansions registered a 32% increase in electric axle manufacturing and assembly positions.',
+    detectedDate: '2026-06-17',
+    recommendedAction: 'Mandate Automotive Skills Development Council (ASDC) electric drivetrain conversion cohort for regional diploma holders.'
+  },
+  {
+    id: 'ALT-2026-016',
+    type: 'EMERGING_SKILL',
+    severity: 'HIGH',
+    state: 'Maharashtra',
+    district: 'Mumbai',
+    entityName: 'Cloud Data Pipeline & Kubernetes DevOps',
+    entityType: 'SKILL',
+    evidence: 'BFSI and enterprise IT centres in BKC and Airoli posted 520 cloud orchestration roles, up 28% quarter-on-quarter.',
+    detectedDate: '2026-06-21',
+    recommendedAction: 'Empanel cloud hyper-scaler training partners to run subsidized bridge certifications for public university CS/IT graduates.'
+  },
+  {
+    id: 'ALT-2026-017',
+    type: 'EMERGING_SKILL',
+    severity: 'MEDIUM',
+    state: 'Maharashtra',
+    district: 'Nagpur',
+    entityName: 'Multi-Modal Logistics & Reefer Operations',
+    entityType: 'SKILL',
+    evidence: 'MIHAN Multi-Modal Cargo Hub operational expansion created 140 air-rail-road freight coordinator vacancies.',
+    detectedDate: '2026-06-12',
+    recommendedAction: 'Launch PMKVY 4.0 logistics coordinator cohorts aligned with Logistics Sector Skill Council (LSC) standards.'
   }
 ];
 

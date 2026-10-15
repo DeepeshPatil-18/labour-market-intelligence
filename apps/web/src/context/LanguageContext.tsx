@@ -36,6 +36,7 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.trainingAllocation': 'Training Allocation',
     'nav.skillFinder': 'Skill Finder',
     'nav.myRoadmap': 'My Roadmap',
+    'nav.copilot': 'Planning Copilot',
     'nav.exit': 'Exit',
 
     // Landing Page
@@ -328,6 +329,7 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.trainingAllocation': 'प्रशिक्षण आवंटन',
     'nav.skillFinder': 'कौशल खोजक',
     'nav.myRoadmap': 'मेरा रोडमैप',
+    'nav.copilot': 'योजना सहायक',
     'nav.exit': 'बाहर निकलें',
 
     // Landing Page

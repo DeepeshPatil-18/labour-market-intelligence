@@ -205,10 +205,10 @@ export const mapDataService = {
       const topShortage = sorted[0]?.skill || null;
 
       const distSupply = stateSupply.filter(s => s.district.toLowerCase() === distName.toLowerCase());
-      const totalGap = distSupply.reduce((sum, item) => sum + (item.supplyGap || 0), 0);
+      const totalGap = distSupply.reduce((sum, item) => sum + (item.supplyGap ?? item.gap ?? 0), 0);
 
-      const isCritical = dList.some(item => item.severitySeed === 'Critical') || totalGap < -100;
-      const isShortage = dList.some(item => item.severitySeed === 'Shortage') || totalGap < 0;
+      const isCritical = dList.some(item => item.severitySeed === 'Critical') || totalGap > 100 || totalGap < -100;
+      const isShortage = dList.some(item => item.severitySeed === 'Shortage') || totalGap > 0;
 
       const status: 'Critical Shortage' | 'Shortage' | 'Balanced' | 'Oversupply' | 'Critical Oversupply' | 'Insufficient Data' = 
         isCritical ? 'Critical Shortage' : isShortage ? 'Shortage' : 'Balanced';

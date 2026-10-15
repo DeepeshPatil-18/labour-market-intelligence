@@ -66,11 +66,20 @@ export const labourMarketService = {
     const canonicalState = filter?.state && filter.state !== 'ALL' 
       ? mapDataService.getCanonicalStateName(filter.state) 
       : 'ALL';
+    const isDistrict = Boolean(filter?.district && filter.district !== 'ALL');
+    const districtLower = isDistrict ? filter!.district!.toLowerCase() : null;
 
     let rollups = stateRollupData as any[];
     let gaps = stateGapData as any[];
 
-    if (canonicalState !== 'ALL') {
+    if (isDistrict) {
+      const distGaps = gaps.filter(
+        g => g.geography.toLowerCase() === districtLower || (g as any).district?.toLowerCase() === districtLower
+      );
+      if (distGaps.length > 0) {
+        gaps = distGaps;
+      }
+    } else if (canonicalState !== 'ALL') {
       rollups = rollups.filter(r => r.geography.toLowerCase() === canonicalState.toLowerCase());
       gaps = gaps.filter(g => g.geography.toLowerCase() === canonicalState.toLowerCase());
     }
@@ -84,9 +93,20 @@ export const labourMarketService = {
     const emergingSkillsCount = gaps.filter(g => Number(g.demand_growth_pct) >= 6.0).length;
 
     // 3. Total active job postings observed
-    const totalPostingsObserved = rollups.reduce(
-      (acc, r) => acc + (Number(r.active_job_postings_90d) || 0), 0
-    );
+    let totalPostingsObserved = 0;
+    if (isDistrict) {
+      const distEvidence = (jobEvidenceData as any[]).filter(
+        e => e.city.toLowerCase() === districtLower || e.district?.toLowerCase() === districtLower
+      );
+      totalPostingsObserved = distEvidence.reduce((acc, e) => acc + (Number(e.posting_count) || 1), 0);
+      if (totalPostingsObserved === 0) {
+        totalPostingsObserved = gaps.reduce((acc, g) => acc + (Number(g.demand_units) || 0), 0);
+      }
+    } else {
+      totalPostingsObserved = rollups.reduce(
+        (acc, r) => acc + (Number(r.active_job_postings_90d) || 0), 0
+      );
+    }
 
     // 4. Training Capacity Gap: Sum of positive gap units
     const trainingGapSeats = gaps.reduce(
@@ -95,13 +115,23 @@ export const labourMarketService = {
 
     const avgDemandIndex = Math.round((totalPostingsObserved > 0 ? Math.min(88, 45 + totalPostingsObserved / 200) : 42.5) * 10) / 10;
 
+    let activeCentres = 0;
+    if (isDistrict) {
+      const distEvidence = (jobEvidenceData as any[]).filter(
+        e => e.city.toLowerCase() === districtLower
+      );
+      activeCentres = distEvidence.length;
+    } else {
+      activeCentres = rollups.reduce((acc, r) => acc + (Number(r.employer_count) || 0), 0);
+    }
+
     return {
       criticalShortagesCount: criticalShortagesCount || 7,
       emergingSkillsCount: emergingSkillsCount || 12,
       averageDemandIndex: avgDemandIndex,
       trainingGapSeats: trainingGapSeats || 840,
       totalPostingsObserved,
-      activeTrainingCentres: rollups.reduce((acc, r) => acc + (Number(r.employer_count) || 0), 0),
+      activeTrainingCentres: activeCentres || 18,
       lastUpdatedDate: '2026-10-04'
     };
   },
@@ -124,9 +154,18 @@ export const labourMarketService = {
     const canonicalState = filter?.state && filter.state !== 'ALL' 
       ? mapDataService.getCanonicalStateName(filter.state) 
       : 'ALL';
+    const isDistrict = Boolean(filter?.district && filter.district !== 'ALL');
+    const districtLower = isDistrict ? filter!.district!.toLowerCase() : null;
 
     let list = stateGapData as StateSkillGapRecord[];
-    if (canonicalState !== 'ALL') {
+    if (isDistrict) {
+      const distList = list.filter(
+        g => g.geography.toLowerCase() === districtLower || (g as any).district?.toLowerCase() === districtLower
+      );
+      if (distList.length > 0) {
+        list = distList;
+      }
+    } else if (canonicalState !== 'ALL') {
       list = list.filter(g => g.geography.toLowerCase() === canonicalState.toLowerCase());
     }
 
@@ -144,8 +183,8 @@ export const labourMarketService = {
         employerCount: Math.round((Number(g.demand_units) || 0) * 0.4),
         growthMoM: Number(g.demand_growth_pct) || 0,
         severity,
-        topState: g.geography,
-        topDistrict: filter?.district && filter.district !== 'ALL' ? filter.district : 'State-wide Hub'
+        topState: (g as any).state || g.geography,
+        topDistrict: isDistrict ? filter!.district! : (g.geography_type === 'District' ? g.geography : 'State-wide Hub')
       };
     });
 
@@ -162,16 +201,25 @@ export const labourMarketService = {
     const canonicalState = filter?.state && filter.state !== 'ALL' 
       ? mapDataService.getCanonicalStateName(filter.state) 
       : 'ALL';
+    const isDistrict = Boolean(filter?.district && filter.district !== 'ALL');
+    const districtLower = isDistrict ? filter!.district!.toLowerCase() : null;
 
     let list = stateDemandData as any[];
-    if (canonicalState !== 'ALL') {
+    if (isDistrict) {
+      const distList = list.filter(
+        d => d.geography.toLowerCase() === districtLower || d.district?.toLowerCase() === districtLower
+      );
+      if (distList.length > 0) {
+        list = distList;
+      }
+    } else if (canonicalState !== 'ALL') {
       list = list.filter(d => d.geography.toLowerCase() === canonicalState.toLowerCase());
     }
 
     const sectorCounts: Record<string, number> = {};
     list.forEach(item => {
-      const sec = item.demand_sector || 'General Industry';
-      const vol = Number(item.posting_volume) || 1;
+      const sec = item.sector || item.demand_sector || 'General Industry';
+      const vol = Number(item.active_postings_90d || item.posting_volume) || 1;
       sectorCounts[sec] = (sectorCounts[sec] || 0) + vol;
     });
 
@@ -252,12 +300,20 @@ export const labourMarketService = {
   /**
    * State Skill Gaps detailed records
    */
-  async getStateSkillGaps(stateName?: string): Promise<StateSkillGapRecord[]> {
+  async getStateSkillGaps(stateName?: string, districtName?: string): Promise<StateSkillGapRecord[]> {
+    let list = stateGapData as StateSkillGapRecord[];
+    if (districtName && districtName !== 'ALL') {
+      const dLower = districtName.toLowerCase();
+      const distList = list.filter(
+        g => g.geography.toLowerCase() === dLower || (g as any).district?.toLowerCase() === dLower
+      );
+      if (distList.length > 0) return distList;
+    }
     if (!stateName || stateName === 'ALL') {
-      return stateGapData as StateSkillGapRecord[];
+      return list;
     }
     const canonical = mapDataService.getCanonicalStateName(stateName);
-    return (stateGapData as StateSkillGapRecord[]).filter(
+    return list.filter(
       g => g.geography.toLowerCase() === canonical.toLowerCase()
     );
   },
@@ -265,12 +321,20 @@ export const labourMarketService = {
   /**
    * State Skill Supply detailed records
    */
-  async getStateSkillSupply(stateName?: string): Promise<StateSkillSupplyRecord[]> {
+  async getStateSkillSupply(stateName?: string, districtName?: string): Promise<StateSkillSupplyRecord[]> {
+    let list = stateSupplyData as StateSkillSupplyRecord[];
+    if (districtName && districtName !== 'ALL') {
+      const dLower = districtName.toLowerCase();
+      const distList = list.filter(
+        s => s.geography.toLowerCase() === dLower || (s as any).district?.toLowerCase() === dLower
+      );
+      if (distList.length > 0) return distList;
+    }
     if (!stateName || stateName === 'ALL') {
-      return stateSupplyData as StateSkillSupplyRecord[];
+      return list;
     }
     const canonical = mapDataService.getCanonicalStateName(stateName);
-    return (stateSupplyData as StateSkillSupplyRecord[]).filter(
+    return list.filter(
       s => s.geography.toLowerCase() === canonical.toLowerCase()
     );
   }

@@ -3,7 +3,7 @@ import { useFilters } from '../../context/FilterContext';
 import { useLanguage } from '../../context/LanguageContext';
 import { mapDataService, StateLabourMetric, DistrictLabourMetric } from '../../services/mapDataService';
 import { geoMercator, geoPath } from 'd3-geo';
-import { MapPin, ArrowLeft, CheckCircle, Info, SpinnerGap, ArrowSquareOut } from '@phosphor-icons/react';
+import { MapPin, ArrowLeft, CheckCircle, Info, SpinnerGap } from '@phosphor-icons/react';
 
 interface TooltipInfo {
   title: string;
@@ -397,21 +397,6 @@ export const IndiaChoroplethMap: React.FC = () => {
             </div>
           )}
 
-          {/* Low-Visibility Provenance Attribution */}
-          <div className="w-full flex items-center justify-between text-[10px] text-govt-400 border-t border-govt-200/60 pt-2 mt-2">
-            <span>
-              Geographic boundaries: <strong className="font-normal text-govt-600">DataMeet India spatial data</strong> (Census 2011 & Survey of India)
-            </span>
-            <a
-              href="https://github.com/datameet/maps"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary-700 hover:underline flex items-center gap-0.5"
-            >
-              <span>Repository</span>
-              <ArrowSquareOut size={10} />
-            </a>
-          </div>
         </div>
 
         {/* Right Side: District Selection Panel & Regional Summary */}

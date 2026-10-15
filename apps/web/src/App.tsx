@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { FilterProvider } from './context/FilterContext';
 import { LanguageProvider } from './context/LanguageContext';
+import { UserProfileProvider } from './context/UserProfileContext';
 import { Layout } from './components/layout/Layout';
 
 // Public Pages
@@ -17,38 +18,42 @@ import { ForecastPage } from './pages/government/ForecastPage';
 import { EarlyWarningsPage } from './pages/government/EarlyWarningsPage';
 import { SkillTransitionsPage } from './pages/government/SkillTransitionsPage';
 import { TrainingAllocationPage } from './pages/government/TrainingAllocationPage';
+import { CopilotPage } from './pages/government/CopilotPage';
 
 export const App: React.FC = () => {
   return (
     <LanguageProvider>
-      <FilterProvider>
-        <BrowserRouter>
-          <Routes>
-            {/* Public Landing Page */}
-            <Route path="/" element={<LandingPage />} />
+      <UserProfileProvider>
+        <FilterProvider>
+          <BrowserRouter>
+            <Routes>
+              {/* Public Landing Page */}
+              <Route path="/" element={<LandingPage />} />
 
-            {/* Government Sign In */}
-            <Route path="/sign-in" element={<SignInPage />} />
+              {/* Government Sign In */}
+              <Route path="/sign-in" element={<SignInPage />} />
 
-            {/* Authenticated Dashboard Shell */}
-            <Route element={<Layout />}>
-              <Route path="/overview" element={<OverviewPage />} />
-              <Route path="/labour-market" element={<LabourMarketPage />} />
-              <Route path="/forecasts" element={<ForecastPage />} />
-              <Route path="/early-warnings" element={<EarlyWarningsPage />} />
-              <Route path="/skill-transitions" element={<SkillTransitionsPage />} />
-              <Route path="/training-allocation" element={<TrainingAllocationPage />} />
-              
-              {/* Public Tools in Navigation */}
-              <Route path="/skill-finder" element={<SkillFinderPage />} />
-              <Route path="/my-roadmap" element={<MyRoadmapPage />} />
-            </Route>
+              {/* Authenticated Dashboard Shell */}
+              <Route element={<Layout />}>
+                <Route path="/overview" element={<OverviewPage />} />
+                <Route path="/labour-market" element={<LabourMarketPage />} />
+                <Route path="/forecasts" element={<ForecastPage />} />
+                <Route path="/early-warnings" element={<EarlyWarningsPage />} />
+                <Route path="/skill-transitions" element={<SkillTransitionsPage />} />
+                <Route path="/training-allocation" element={<TrainingAllocationPage />} />
+                <Route path="/copilot" element={<CopilotPage />} />
+                
+                {/* Public Tools in Navigation */}
+                <Route path="/skill-finder" element={<SkillFinderPage />} />
+                <Route path="/my-roadmap" element={<MyRoadmapPage />} />
+              </Route>
 
-            {/* Fallback */}
-            <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
-        </BrowserRouter>
-      </FilterProvider>
+              {/* Fallback */}
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </BrowserRouter>
+        </FilterProvider>
+      </UserProfileProvider>
     </LanguageProvider>
   );
 };

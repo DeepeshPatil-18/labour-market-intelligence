@@ -1,15 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { useFilters } from '../../context/FilterContext';
 import { useLanguage } from '../../context/LanguageContext';
+import { useUserProfile } from '../../context/UserProfileContext';
 import { trainingService } from '../../services/trainingService';
 import { labourMarketService, StateSkillGapRecord } from '../../services/labourMarketService';
 import { TrainingRecommendationItem } from '../../types';
 import { LoadingState } from '../../components/common/LoadingState';
 import { ProvenanceBadge } from '../../components/common/ProvenanceBadge';
+import { Lock } from '@phosphor-icons/react';
+
 
 export const TrainingAllocationPage: React.FC = () => {
   const { filters, setGeography, availableStates } = useFilters();
   const { t } = useLanguage();
+  const { canChangeGeography } = useUserProfile();
+  const geoLocked = !canChangeGeography();
   const [recommendations, setRecommendations] = useState<TrainingRecommendationItem[]>([]);
   const [skillGaps, setSkillGaps] = useState<StateSkillGapRecord[]>([]);
   const [skillSector, setSkillSector] = useState('ALL');
@@ -27,7 +32,7 @@ export const TrainingAllocationPage: React.FC = () => {
             targetSkill: skillSector !== 'ALL' ? skillSector : undefined,
             budgetMultiplier: parseFloat(budgetScenario)
           }),
-          labourMarketService.getStateSkillGaps(filters.state)
+          labourMarketService.getStateSkillGaps(filters.state, filters.district)
         ]);
         setRecommendations(recRes);
         setSkillGaps(gapRes);
@@ -78,14 +83,21 @@ export const TrainingAllocationPage: React.FC = () => {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 p-4 bg-white border border-govt-200 rounded-card shadow-subtle text-xs">
         <div>
           <label className="text-govt-500 font-semibold block mb-1">{t('training.stateFilter')}</label>
-          <select
-            value={filters.state}
-            onChange={(e) => setGeography(e.target.value, 'ALL')}
-            className="w-full bg-govt-50 border border-govt-300 rounded px-3 py-1.5 text-xs text-govt-900 focus:outline-none focus:border-primary-600"
-          >
-            <option value="ALL">{t('training.allStates')}</option>
-            {availableStates.map(s => <option key={s} value={s}>{s}</option>)}
-          </select>
+          {geoLocked ? (
+            <div className="w-full flex items-center gap-2 bg-amber-50 border border-amber-200 rounded px-3 py-1.5 text-xs text-amber-800">
+              <Lock size={11} className="shrink-0 text-amber-600" />
+              <span className="font-medium">{filters.state === 'ALL' ? t('training.allStates') : filters.state}</span>
+            </div>
+          ) : (
+            <select
+              value={filters.state}
+              onChange={(e) => setGeography(e.target.value, 'ALL')}
+              className="w-full bg-govt-50 border border-govt-300 rounded px-3 py-1.5 text-xs text-govt-900 focus:outline-none focus:border-primary-600"
+            >
+              <option value="ALL">{t('training.allStates')}</option>
+              {availableStates.map(s => <option key={s} value={s}>{s}</option>)}
+            </select>
+          )}
         </div>
 
         <div>
